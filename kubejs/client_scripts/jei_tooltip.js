@@ -8,7 +8,7 @@ JEIEvents.information((event) => {
       "aether_redux:raw_veridium",
       "aether_redux:veridium_ingot",
     ],
-    ["Found at the top of the Aether (generate above y=155)"],
+    ["在天境頂部生成（y=155以上）"],
   );
   //// NPC items
   // Arms Dealer
@@ -23,7 +23,7 @@ JEIEvents.information((event) => {
       "gwrexpansions:netherite_gatling",
       "sweet_charm_o_mine:gunpowder_bag",
     ],
-    ["Sold by the Arms Dealer NPC"],
+    ["由軍火商NPC販售"],
   );
 
   // Merchant
@@ -35,7 +35,7 @@ JEIEvents.information((event) => {
       "minecraft:phantom_membrane",
       "prodigium_reforged:compass_of_time",
     ],
-    ["Sold by the Merchant NPC"],
+    ["由商人NPC販售"],
   );
 
   // Tavernkeep
@@ -51,7 +51,7 @@ JEIEvents.information((event) => {
       "simplyskills:malevolent_manuscript",
       "drinkbeer:recipe_board_package",
     ],
-    ["Sold by the Tavernkeep NPC"],
+    ["由酒館老闆NPC販售"],
   );
 
   // Nurse
@@ -61,7 +61,7 @@ JEIEvents.information((event) => {
       "confluence:band_of_regeneration",
       "confluence:cross_necklace",
     ],
-    ["Sold by the Nurse NPC"],
+    ["由護士NPC販售"],
   );
 
   // Zoologist
@@ -78,7 +78,7 @@ JEIEvents.information((event) => {
       "companions:book_black_hole",
       "companions:book_naginata",
     ],
-    ["Sold by the Zoologist NPC"],
+    ["由動物學家NPC販售"],
   );
 
   // Goblin
@@ -91,7 +91,7 @@ JEIEvents.information((event) => {
       "confluence:dps_meter",
       "minecraft:firework_rocket",
     ],
-    ["Sold by the Goblin Tinkerer NPC"],
+    ["由哥布林工匠NPC販售"],
   );
 
   // Wizard
@@ -106,7 +106,7 @@ JEIEvents.information((event) => {
       "irons_spellbooks:rare_ink",
       "irons_spellbooks:epic_ink",
     ],
-    ["Sold by the Wizard NPC"],
+    ["由巫師NPC販售"],
   );
 
   // Steampunker
@@ -130,6 +130,6 @@ JEIEvents.information((event) => {
       "sophisticatedstorage:stack_upgrade_tier_4",
       "sophisticatedbackpacks:stack_upgrade_tier_4",
     ],
-    ["Sold by Steampunker NPC"],
+    ["由蒸汽龐克人NPC販售"],
   );
 });

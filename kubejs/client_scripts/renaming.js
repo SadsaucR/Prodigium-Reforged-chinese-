@@ -1,57 +1,57 @@
 ClientEvents.lang("en_us", (event) => {
   //Misc
-  event.renameItem("sweet_charm_o_mine:copper_pocket", "Iron Bullet Pocket");
-  event.renameItem("sweet_charm_o_mine:iron_pocket", "Cobalt Bullet Pocket");
-  event.renameItem("sweet_charm_o_mine:gold_pocket", "Palladium Bullet Pocket");
-  event.renameItem("companions:netherite_chains", "Ignitium Chains");
-  event.renameItem("companions:netherite_dagger", "Onyx Dagger");
+  event.renameItem("sweet_charm_o_mine:copper_pocket", "鐵彈袋");
+  event.renameItem("sweet_charm_o_mine:iron_pocket", "鈷彈袋");
+  event.renameItem("sweet_charm_o_mine:gold_pocket", "鈀彈袋");
+  event.renameItem("companions:netherite_chains", "烈火石鏈");
+  event.renameItem("companions:netherite_dagger", "玄玉短劍");
 
-  event.renameItem("gwrexpansions:netherite_sniper", "Phoenix Sniper");
-  event.renameItem("gwrexpansions:netherite_shotgun", "Phoenix Shotgun");
-  event.renameItem("gwrexpansions:netherite_gatling", "Phoenix Gatling");
+  event.renameItem("gwrexpansions:netherite_sniper", "鳳凰狙擊槍");
+  event.renameItem("gwrexpansions:netherite_shotgun", "鳳凰散彈槍");
+  event.renameItem("gwrexpansions:netherite_gatling", "鳳凰加特林");
 
-  event.renameItem("wizards:arcane_robe_head", "Aether Wizard Hat");
-  event.renameItem("wizards:arcane_robe_chest", "Aether Wizard Robe Top");
-  event.renameItem("wizards:arcane_robe_legs", "Aether Wizard Robe Bottom");
-  event.renameItem("wizards:arcane_robe_feet", "Aether Wizard Boots");
+  event.renameItem("wizards:arcane_robe_head", "天境巫師帽");
+  event.renameItem("wizards:arcane_robe_chest", "天境巫師袍（上）");
+  event.renameItem("wizards:arcane_robe_legs", "天境巫師袍（下）");
+  event.renameItem("wizards:arcane_robe_feet", "天境巫師靴");
 
-  event.renameItem("wizards:fire_robe_head", "Nether Wizard Hat");
-  event.renameItem("wizards:fire_robe_chest", "Nether Wizard Robe Top");
-  event.renameItem("wizards:fire_robe_legs", "Nether Wizard Robe Bottom");
-  event.renameItem("wizards:fire_robe_feet", "Nether Wizard Boots");
+  event.renameItem("wizards:fire_robe_head", "下界巫師帽");
+  event.renameItem("wizards:fire_robe_chest", "下界巫師袍（上）");
+  event.renameItem("wizards:fire_robe_legs", "下界巫師袍（下）");
+  event.renameItem("wizards:fire_robe_feet", "下界巫師靴");
 
   //// Simple Weapons
   // Corinthium -> Adamantium
-  event.renameItem("simple_weapons:corinthium_scimitar", "Adamantium Scimitar");
-  event.renameItem("simple_weapons:corinthium_scythe", "Adamantium Scythe");
-  event.renameItem("simple_weapons:corinthium_dagger", "Adamantium Dagger");
+  event.renameItem("simple_weapons:corinthium_scimitar", "精鋼彎刀");
+  event.renameItem("simple_weapons:corinthium_scythe", "精鋼大鐮");
+  event.renameItem("simple_weapons:corinthium_dagger", "精鋼短劍");
   event.renameItem(
     "simple_weapons:corinthium_greatsword",
-    "Adamantium Greatsword"
+    "精鋼巨劍"
   );
-  event.renameItem("simple_weapons:corinthium_spear", "Adamantium Spear");
-  event.renameItem("simple_weapons:corinthium_fist", "Adamantium Katar");
-  event.renameItem("simple_weapons:corinthium_sickle", "Adamantium Crowbill");
-  event.renameItem("simple_weapons:corinthium_katana", "Adamantium Katana");
+  event.renameItem("simple_weapons:corinthium_spear", "精鋼長矛");
+  event.renameItem("simple_weapons:corinthium_fist", "精鋼虎爪刃");
+  event.renameItem("simple_weapons:corinthium_sickle", "精鋼鴉嘴錐");
+  event.renameItem("simple_weapons:corinthium_katana", "精鋼武士刀");
 
   // Netherite -> Onyx
-  event.renameItem("simple_weapons:netherite_scimitar", "Onyx Scimitar");
-  event.renameItem("simple_weapons:netherite_scythe", "Onyx Scythe");
-  event.renameItem("simple_weapons:netherite_dagger", "Onyx Dagger");
-  event.renameItem("simple_weapons:netherite_greatsword", "Onyx Greatsword");
-  event.renameItem("simple_weapons:netherite_spear", "Onyx Spear");
-  event.renameItem("simple_weapons:netherite_fist", "Onyx Katar");
-  event.renameItem("simple_weapons:netherite_sickle", "Onyx Crowbill");
-  event.renameItem("simple_weapons:netherite_katana", "Onyx Katana");
-  event.renameItem("gwrexpansions:netherite_bullet", "Onyx Bullet");
+  event.renameItem("simple_weapons:netherite_scimitar", "玄玉彎刀");
+  event.renameItem("simple_weapons:netherite_scythe", "玄玉大鐮");
+  event.renameItem("simple_weapons:netherite_dagger", "玄玉短劍");
+  event.renameItem("simple_weapons:netherite_greatsword", "玄玉巨劍");
+  event.renameItem("simple_weapons:netherite_spear", "玄玉長矛");
+  event.renameItem("simple_weapons:netherite_fist", "玄玉虎爪刃");
+  event.renameItem("simple_weapons:netherite_sickle", "玄玉鴉嘴錐");
+  event.renameItem("simple_weapons:netherite_katana", "玄玉武士刀");
+  event.renameItem("gwrexpansions:netherite_bullet", "玄玉子彈");
 
   // Fiery -> Ignitium
-  event.renameItem("simple_weapons:fiery_scimitar", "Ignitium Scimitar");
-  event.renameItem("simple_weapons:fiery_scythe", "Ignitium Scythe");
-  event.renameItem("simple_weapons:fiery_dagger", "Ignitium Dagger");
-  event.renameItem("simple_weapons:fiery_greatsword", "Ignitium Greatsword");
-  event.renameItem("simple_weapons:fiery_spear", "Ignitium Spear");
-  event.renameItem("simple_weapons:fiery_fist", "Ignitium Katar");
-  event.renameItem("simple_weapons:fiery_sickle", "Ignitium Crowbill");
-  event.renameItem("simple_weapons:fiery_katana", "Ignitium Katana");
+  event.renameItem("simple_weapons:fiery_scimitar", "烈火石彎刀");
+  event.renameItem("simple_weapons:fiery_scythe", "烈火石大鐮");
+  event.renameItem("simple_weapons:fiery_dagger", "烈火石短劍");
+  event.renameItem("simple_weapons:fiery_greatsword", "烈火石巨劍");
+  event.renameItem("simple_weapons:fiery_spear", "烈火石長矛");
+  event.renameItem("simple_weapons:fiery_fist", "烈火石虎爪刃");
+  event.renameItem("simple_weapons:fiery_sickle", "烈火石鴉嘴錐");
+  event.renameItem("simple_weapons:fiery_katana", "烈火石武士刀");
 });
