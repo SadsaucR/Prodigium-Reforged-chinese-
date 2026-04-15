@@ -36,7 +36,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["When the &6furnitures&r are placed, you can place a &bGunpower Sack&r nearby."]
+			description: ["當&6家具&r擺放完成後，你可以在附近放置一個 &b火藥袋 (Gunpower Sack)&r。"]
 			hide_dependency_lines: true
 			icon: "archers_paradox:blaze_arrow"
 			id: "418F4DA11631D188"
@@ -49,15 +49,15 @@
 			tasks: [{
 				icon: "quark:gunpowder_sack"
 				id: "1775200C7A70CD7E"
-				title: "Arms Dealer's block"
+				title: "軍火商的方塊"
 				type: "custom"
 			}]
-			title: "The Arms Dealer"
+			title: "軍火商 (The Arms Dealer)"
 			x: -1.0d
 			y: 6.5d
 		}
 		{
-			description: ["When the &6furnitures&r are placed, you can place a &bShop&r nearby."]
+			description: ["當&6家具&r擺放完成後，你可以在附近放置一個 &b商店 (Shop)&r。"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -76,17 +76,17 @@
 			tasks: [{
 				icon: "numismatic-overhaul:shop"
 				id: "59E9072E7D9FCB02"
-				title: "Merchant's Block"
+				title: "商人的方塊"
 				type: "custom"
 			}]
-			title: "The Merchant"
+			title: "商人 (The Merchant)"
 			x: -3.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["774BCB593AAFAA33"]
 			dependency_requirement: "one_completed"
-			description: ["When the &6furnitures&r are placed, you can place a &bCrafter&r nearby."]
+			description: ["當&6家具&r擺放完成後，你可以在附近放置一個 &b合成器 (Crafter)&r。"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			icon: "confluence:goblin_tech"
@@ -100,15 +100,15 @@
 			tasks: [{
 				icon: "quark:crafter"
 				id: "57002871DA02FC72"
-				title: "Goblin's Block"
+				title: "哥布林工匠的方塊"
 				type: "custom"
 			}]
-			title: "The Goblin Tinkerer"
+			title: "哥布林工匠 (The Goblin Tinkerer)"
 			x: 3.5d
 			y: 8.5d
 		}
 		{
-			description: ["When the &6furnitures&r are placed, you can place a &bRed Bed&r nearby."]
+			description: ["當&6家具&r擺放完成後，你可以在附近放置一張 &b紅床 (Red Bed)&r。"]
 			hide_dependency_lines: true
 			icon: "runes:healing_stone"
 			id: "473A1C167CB0BBA2"
@@ -121,17 +121,17 @@
 			tasks: [{
 				icon: "minecraft:red_bed"
 				id: "17977EFFC2672EBA"
-				title: "Nurse's Block"
+				title: "護士的方塊"
 				type: "custom"
 			}]
-			title: "The Nurse"
+			title: "護士 (The Nurse)"
 			x: 0.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["774BCB593AAFAA33"]
 			dependency_requirement: "one_completed"
-			description: ["When the &6furnitures&r are placed, you can place a &bCommand Drum&r nearby."]
+			description: ["當&6家具&r擺放完成後，你可以在附近放置一個 &b指令鼓 (Command Drum)&r。"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			icon: "domesticationinnovation:collar_tag"
@@ -145,16 +145,16 @@
 			tasks: [{
 				icon: "domesticationinnovation:drum"
 				id: "70ABE0C1C74091F0"
-				title: "Zoologist's Block"
+				title: "動物學家的方塊"
 				type: "custom"
 			}]
-			title: "The Zoologist"
+			title: "動物學家 (The Zoologist)"
 			x: 2.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["774BCB593AAFAA33"]
-			description: ["When the &6furnitures&r are placed, you can place an &bAlchemist Cauldron&r nearby."]
+			description: ["當&6家具&r擺放完成後，你可以在附近放置一個 &b煉金釜 (Alchemist Cauldron)&r。"]
 			icon: {
 				Count: 1
 				id: "wizards:arcane_robe_head"
@@ -172,15 +172,15 @@
 			tasks: [{
 				icon: "irons_spellbooks:alchemist_cauldron"
 				id: "47E990C188715ECC"
-				title: "Wizard's Block"
+				title: "巫師的方塊"
 				type: "custom"
 			}]
-			title: "The Wizard"
+			title: "巫師 (The Wizard)"
 			x: 1.5d
 			y: 7.5d
 		}
 		{
-			description: ["After the &6furnitures&r are placed, you can place a &bFlower Pot&r nearby."]
+			description: ["當&6家具&r擺放完成後，你可以在附近放置一個 &b花盆 (Flower Pot)&r。"]
 			hide_dependency_lines: true
 			id: "65192517B6EF65B3"
 			rewards: [{
@@ -192,18 +192,18 @@
 			tasks: [{
 				icon: "minecraft:flower_pot"
 				id: "4F808E1A98977B6C"
-				title: "Dryad's Block"
+				title: "樹妖的方塊"
 				type: "custom"
 			}]
-			title: "The Dryad"
+			title: "樹妖 (The Dryad)"
 			x: -2.0d
 			y: 6.5d
 		}
 		{
 			description: [
-				"The first NPC, you will need inside a room a &6Chair&r, a &6Table&r, a &6Door&r and a &6Light&r. Read the \"NPC System\" quest to learn more."
+				"這是第一位 NPC，你的房間內需要有一張&6椅子&r、一張&6桌子&r、一個&6門&r以及一個&6光源&r。閱讀「NPC 系統」任務以了解更多。"
 				""
-				"When the &6furnitures&r are placed, you can place a &bLoom&r close by."
+				"當&6家具&r擺放完成後，你可以在附近放置一個 &b織布機 (Loom)&r。"
 			]
 			icon: "solcarrot:food_book"
 			id: "05CD079B659C9887"
@@ -216,15 +216,15 @@
 			tasks: [{
 				icon: "minecraft:loom"
 				id: "384F487E612876CC"
-				title: "The Guide's Block"
+				title: "嚮導的方塊"
 				type: "custom"
 			}]
-			title: "First NPC, The Guide."
+			title: "第一位 NPC：嚮導 (The Guide)"
 			x: -3.0d
 			y: 5.0d
 		}
 		{
-			description: ["When the &6furnitures&r are placed, you can place a &bBartending Table&r nearby."]
+			description: ["當&6家具&r擺放完成後，你可以在附近放置一個 &b調酒檯 (Bartending Table)&r。"]
 			hide_dependency_lines: true
 			icon: "drinkbeer:bartending_table_normal"
 			id: "3EDAF52890A4A330"
@@ -247,41 +247,41 @@
 			tasks: [{
 				icon: "drinkbeer:bartending_table_normal"
 				id: "6F79F027D77C3DAD"
-				title: "Taverkeep's Block"
+				title: "酒館老闆的方塊"
 				type: "custom"
 			}]
-			title: "Tavernkeep"
+			title: "酒館老闆 (Tavernkeep)"
 			x: 0.0d
 			y: 5.0d
 		}
 		{
 			description: [
-				"&lThe NPC system has recently been fully reworked and will improve with time!&r"
+				"&lNPC 系統最近經過全面重製，並會隨著時間不斷改進！&r"
 				""
-				"To have an NPC spawn it is now really simple, inside the room for the NPC, you will need a&6 Chair&r, a &6Table&r, a &6Door&r and a &6Light&r."
+				"現在要讓 NPC 生成非常簡單，在 NPC 的房間內，你需要一張&6椅子&r、一張&6桌子&r、一個&6門&r以及一個&6光源&r。"
 				""
-				"After placing the needed furnitures, you will then need to place the &6specific block that correspond to the specific npc&r inside the room."
-				"To know which block coresspond to which NPC, check the other NPC's quests!"
+				"放置好必要的家具後，你需要在房間內放置&6對應該 NPC 的特定方塊&r。"
+				"若要了解哪個方塊對應哪位 NPC，請查看其他 NPC 的任務！"
 				""
-				"&nFor the moment, for the Chairs and Tables, only furnitures from the &6valhelsia_furniture&r &nmod are accepted&r ;)"
+				"&n目前椅子與桌子部分，僅接受來自 &6valhelsia_furniture&r &n模組的家具&r ;)"
 			]
 			icon: "valhelsia_furniture:oak_chair"
 			id: "403FB403014A738D"
 			optional: true
 			size: 2.0d
-			subtitle: "Read Me!"
+			subtitle: "必讀事項！"
 			tasks: [{
 				id: "6514DF78AF64C8CF"
-				title: "Click after reading!"
+				title: "閱讀後請勾選！"
 				type: "checkmark"
 			}]
-			title: "NPC System"
+			title: "NPC 系統"
 			x: 3.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["774BCB593AAFAA33"]
-			description: ["When the &6furnitures&r are placed, you can place a &bDecoration Table&r nearby."]
+			description: ["當&6家具&r擺放完成後，你可以在附近放置一個 &b裝飾工作檯 (Decoration Table)&r。"]
 			id: "4B9E6EE81541F8EC"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -292,15 +292,15 @@
 			tasks: [{
 				icon: "sophisticatedstorage:decoration_table"
 				id: "40FF13E4F5C0D544"
-				title: "Steampunker's Block"
+				title: "蒸汽龐克人的方塊"
 				type: "custom"
 			}]
-			title: "Steampunker"
+			title: "蒸汽龐克人 (Steampunker)"
 			x: 4.5d
 			y: 7.5d
 		}
 		{
-			description: ["When the &6furnitures&r are placed, you can place a &bTackle Box&r nearby."]
+			description: ["當&6家具&r擺放完成後，你可以在附近放置一個 &b釣魚箱 (Tackle Box)&r。"]
 			id: "2852FDE880275E65"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -311,10 +311,10 @@
 			tasks: [{
 				icon: "aquaculture:tackle_box"
 				id: "6EED8FB36CADB75B"
-				title: "Angler's Block"
+				title: "漁夫的方塊"
 				type: "custom"
 			}]
-			title: "Angler"
+			title: "漁夫 (Angler)"
 			x: -1.0d
 			y: 4.5d
 		}

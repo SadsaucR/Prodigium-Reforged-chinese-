@@ -45,7 +45,7 @@
 				}
 				type: "item"
 			}]
-			title: "Craft an iron fishing rod"
+			title: "製作一根鐵製釣竿"
 			x: 2.0d
 			y: 0.0d
 		}
@@ -77,7 +77,7 @@
 				item: "aquaculture:worm_farm"
 				type: "item"
 			}]
-			title: "Craft a worm farm"
+			title: "製作一個蠕蟲農場"
 			x: 2.0d
 			y: -1.5d
 		}
@@ -117,7 +117,7 @@
 					type: "item"
 				}
 			]
-			title: "Customize your fishing rod!"
+			title: "自訂你的釣竿！"
 			x: 3.0d
 			y: 1.0d
 		}
@@ -155,7 +155,7 @@
 				criterion: ""
 				icon: "aquaculture:blackfish"
 				id: "401AE69B086678FE"
-				title: "Catch your first fish"
+				title: "釣到你的第一條魚"
 				type: "advancement"
 			}]
 			x: 3.5d
@@ -195,7 +195,7 @@
 				item: "aquaculture:neptunes_bounty"
 				type: "item"
 			}]
-			title: "Catch your first neptune bounty"
+			title: "獲取你的第一個海神恩賜"
 			x: 6.5d
 			y: 0.0d
 		}
@@ -287,7 +287,7 @@
 					type: "item"
 				}
 			]
-			title: "Craft a full Neptunium set"
+			title: "製作完整的海神套裝"
 			x: 8.0d
 			y: 0.0d
 		}
@@ -305,7 +305,7 @@
 				item: "aquaculture:fish_fillet_cooked"
 				type: "item"
 			}]
-			title: "Cook some fish fillet"
+			title: "烹飪一些魚排"
 			x: 5.0d
 			y: 0.0d
 		}
@@ -337,7 +337,7 @@
 				item: "majruszsdifficulty:angler_treasure_bag"
 				type: "item"
 			}]
-			title: "Obtain an angler treasure bag"
+			title: "獲取一個釣魚者寶藏袋"
 			x: 5.5d
 			y: 1.5d
 		}
@@ -383,7 +383,7 @@
 				type: "stat"
 				value: 10
 			}]
-			title: "Fishing with a stick"
+			title: "用棍子釣魚"
 			x: 4.5d
 			y: 1.5d
 		}
@@ -423,7 +423,7 @@
 				type: "stat"
 				value: 25
 			}]
-			title: "Real fisherman"
+			title: "真正的漁夫"
 			x: 5.5d
 			y: 2.5d
 		}
@@ -470,10 +470,10 @@
 				type: "stat"
 				value: 100
 			}]
-			title: "Angler's best friend"
+			title: "釣魚者的最佳夥伴"
 			x: 6.5d
 			y: 1.5d
 		}
 	]
-	title: "Fishing"
+	title: "釣魚"
 }

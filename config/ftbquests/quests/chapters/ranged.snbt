@@ -17,7 +17,7 @@
 		{
 			dependency: "686B5BA848725480"
 			height: 0.75d
-			hover: ["Not all Weapons are listed here !"]
+			hover: ["並非所有武器都列在這裡！"]
 			image: "prodigium_reforged:textures/gui/weapons.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -63,7 +63,7 @@
 		{
 			dependency: "686B5BA848725480"
 			height: 0.75d
-			hover: ["Not all Curios are listed here !"]
+			hover: ["並非所有飾品都列在這裡！"]
 			image: "prodigium_reforged:textures/gui/curios.png"
 			rotation: 0.0d
 			width: 2.73d
@@ -94,7 +94,7 @@
 	quests: [
 		{
 			dependencies: ["686B5BA848725480"]
-			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
+			description: ["你需要在&6技能樹&r中解鎖護甲，並在主要任務線中推進進度。"]
 			id: "0EEBAEA6C5EE0454"
 			min_required_tasks: 1
 			rewards: [
@@ -129,7 +129,7 @@
 							Damage: 0
 						}
 					}
-					title: "Archer Armor"
+					title: "弓箭手護甲"
 					type: "item"
 				}
 				{
@@ -144,7 +144,7 @@
 					type: "item"
 				}
 			]
-			title: "Archer's armors for the Normal Mode"
+			title: "普通模式的弓箭手護甲"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -161,7 +161,7 @@
 				xp_levels: 1
 			}]
 			size: 1.0d
-			subtitle: "&6Post Bellringer&r"
+			subtitle: "&6擊敗敲鐘人後&r"
 			tasks: [{
 				id: "6CB78B448DF82681"
 				item: {
@@ -173,7 +173,7 @@
 				}
 				type: "item"
 			}]
-			title: "Traditional arsenal"
+			title: "傳統武器庫"
 			x: 4.5d
 			y: 4.0d
 		}
@@ -230,7 +230,7 @@
 				xp_levels: 1
 			}]
 			shape: "octagon"
-			subtitle: "&6Post Frostmaw&r"
+			subtitle: "&6擊敗霜凍巨獸後&r"
 			tasks: [{
 				id: "556CBB5D99D95AE2"
 				item: "archers_paradox:diamond_arrow"
@@ -315,7 +315,7 @@
 				xp_levels: 1
 			}]
 			shape: "octagon"
-			subtitle: "&6Post Bellringer&r"
+			subtitle: "&6擊敗敲鐘人後&r"
 			tasks: [{
 				id: "03077CE0FE10E7A3"
 				item: "archers_paradox:phantasmal_arrow"
@@ -468,7 +468,7 @@
 				"774BCB593AAFAA33"
 			]
 			dependency_requirement: "all_started"
-			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
+			description: ["你需要在&6技能樹&r中解鎖護甲，並在主要任務線中推進進度。"]
 			hide_until_deps_visible: true
 			id: "4A96E3EADCF0C191"
 			rewards: [
@@ -497,7 +497,7 @@
 							Damage: 0
 						}
 					}
-					title: "Orichalcum Armor"
+					title: "秘銀護甲"
 					type: "item"
 				}
 				{
@@ -520,7 +520,7 @@
 							Damage: 0
 						}
 					}
-					title: "Neptune Armor"
+					title: "海王護甲"
 					type: "item"
 				}
 				{
@@ -532,11 +532,11 @@
 							Damage: 0
 						}
 					}
-					title: "Phoenix Ranger Armor"
+					title: "鳳凰遊俠護甲"
 					type: "item"
 				}
 			]
-			title: "Archer's Armor for the Expert Mode"
+			title: "專家模式的弓箭手護甲"
 			x: 4.5d
 			y: 0.0d
 		}
@@ -546,7 +546,7 @@
 				"78E025D30CD1E607"
 			]
 			dependency_requirement: "one_started"
-			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
+			description: ["你需要在&6技能樹&r中解鎖護甲，並在主要任務線中推進進度。"]
 			hide_until_deps_visible: true
 			id: "5F83D1C077915E7E"
 			rewards: [
@@ -574,10 +574,10 @@
 						Damage: 0
 					}
 				}
-				title: "Shroomite Armor"
+				title: "蘑菇護甲"
 				type: "item"
 			}]
-			title: "Archer's Armor for the Master Mode"
+			title: "大師模式的弓箭手護甲"
 			x: 7.5d
 			y: 0.0d
 		}
@@ -593,7 +593,7 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			subtitle: "&6Post Bellringer&r"
+			subtitle: "&6擊敗敲鐘人後&r"
 			tasks: [{
 				id: "7C8C2198071AD44F"
 				item: {
@@ -619,7 +619,7 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			subtitle: "&6Post Bellringer&r"
+			subtitle: "&6擊敗敲鐘人後&r"
 			tasks: [{
 				id: "6CE9D2D491F40319"
 				item: {
@@ -645,7 +645,7 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			subtitle: "&6Post Bellringer&r"
+			subtitle: "&6擊敗敲鐘人後&r"
 			tasks: [{
 				id: "0D4CCEA10C8F8F5F"
 				item: {
@@ -671,7 +671,7 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			subtitle: "&6Post Frostmaw&r"
+			subtitle: "&6擊敗霜凍巨獸後&r"
 			tasks: [{
 				id: "51A39758DD373530"
 				item: {
@@ -688,7 +688,7 @@
 		}
 		{
 			dependencies: ["686B5BA848725480"]
-			description: ["Has a chance to be dropped when taming a mob."]
+			description: ["馴服生物時有機率掉落。"]
 			id: "48A6FCA50C63BE67"
 			rewards: [{
 				auto: "invisible"
@@ -708,7 +708,7 @@
 						}
 					}
 				}
-				title: "Obtain a Certificate of Taming"
+				title: "獲得馴服認證"
 				type: "item"
 			}]
 			x: 11.0d
@@ -717,11 +717,11 @@
 		{
 			dependencies: ["686B5BA848725480"]
 			description: [
-				"Spawns on Stony Shores, Frozen Oceans, Snowy Beaches, frozen peaks and beaches."
+				"出現在岩石海岸、冰封海洋、雪白海灘、冰封山峰和海灘。"
 				""
-				"Can be tamed with &6Raw Fish&r."
+				"可用&6生魚&r馴服。"
 				""
-				"Bred with Raw Fish."
+				"用生魚繁殖。"
 			]
 			id: "6C1573E379555B58"
 			rewards: [{
@@ -735,7 +735,7 @@
 				id: "135F0CB52C453389"
 				observe_type: 5
 				timer: 2L
-				title: "Find a Penguin"
+				title: "尋找企鵝"
 				to_observe: "tameablebeasts:tameable_penguin"
 				type: "observation"
 			}]
@@ -744,7 +744,7 @@
 		}
 		{
 			dependencies: ["6C1573E379555B58"]
-			description: ["Give it to your Penguin!"]
+			description: ["把它給你的企鵝！"]
 			hide_until_deps_complete: true
 			id: "7641EF002CAF57C9"
 			rewards: [{
@@ -763,7 +763,7 @@
 		}
 		{
 			dependencies: ["6C1573E379555B58"]
-			description: ["Give it to your Penguin!"]
+			description: ["把它給你的企鵝！"]
 			hide_until_deps_complete: true
 			id: "696C5F90C37AB30C"
 			rewards: [{
@@ -782,7 +782,7 @@
 		}
 		{
 			dependencies: ["6C1573E379555B58"]
-			description: ["Give it to your Penguin!"]
+			description: ["把它給你的企鵝！"]
 			hide_until_deps_complete: true
 			id: "549F31AD1F60E596"
 			rewards: [{
@@ -802,9 +802,9 @@
 		{
 			dependencies: ["686B5BA848725480"]
 			description: [
-				"Dropped from &6Illagers&r."
+				"從&6掠奪者&r身上掉落。"
 				""
-				"Use it on a &6Scarecrow Block&r to create a &6Scarecrow Allay&r."
+				"在&6稻草人方塊&r上使用，可創造&6稻草人小精靈&r。"
 			]
 			id: "7AD8D3D8DA8E2A0B"
 			rewards: [{
@@ -818,16 +818,16 @@
 				item: "tameablebeasts:purple_allay"
 				type: "item"
 			}]
-			title: "A small friend"
+			title: "小夥伴"
 			x: 14.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["7AD8D3D8DA8E2A0B"]
 			description: [
-				"Use the &6Puprle Allay&r on the &6Scarecrow Block&r. You can then tame the Scarecrow Allay with &6Wheat&r."
+				"在&6稻草人方塊&r上使用&6紫色小精靈&r。之後可用&6小麥&r馴服稻草人小精靈。"
 				""
-				"You can also give a &6Big Iron hoe&r to it and even brush it!"
+				"你還可以給它一把&6大鐵鋤&r，甚至幫它梳理！"
 			]
 			hide_until_deps_complete: true
 			id: "3710A6744759CC55"
@@ -842,19 +842,19 @@
 				item: "tameablebeasts:scarecrow_block"
 				type: "item"
 			}]
-			title: "Get ready for the Scarecrow"
+			title: "準備迎接稻草人"
 			x: 14.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["686B5BA848725480"]
 			description: [
-				"Spawns in Mountainous biomes with heights of &6over 120 blocks&r."
+				"出現在高度&6超過120格&r的山地生態域。"
 				""
-				"Can be tamed by shooting &6Bird Bait Arrow&r at it."
-				"Be careful to not kill it, one of the strongest mount in Prodigium."
+				"可向其射出&6誘鳥箭&r來馴服。"
+				"小心別殺死它，這是Prodigium中最強的座騎之一。"
 				""
-				"Bred with &6Quetzal Meat&r."
+				"用&6鳳尾綠咬鵑肉&r繁殖。"
 			]
 			id: "58DF190D7E91C373"
 			rewards: [
@@ -875,7 +875,7 @@
 				id: "47D0CC05041EDAB4"
 				observe_type: 5
 				timer: 2L
-				title: "Find an Argentavis"
+				title: "尋找阿根廷鳥"
 				to_observe: "tameablebeasts:argentavis"
 				type: "observation"
 			}]
@@ -884,7 +884,7 @@
 		}
 		{
 			dependencies: ["58DF190D7E91C373"]
-			description: ["Aim well!"]
+			description: ["瞄準！"]
 			hide_until_deps_complete: true
 			id: "6A5300CB3E409951"
 			rewards: [{
@@ -904,9 +904,9 @@
 		{
 			dependencies: ["686B5BA848725480"]
 			description: [
-				"Spawn in Savannas and Swamp type briomes."
+				"出現在熱帶草原和沼澤類型的生態域。"
 				""
-				"Can be tamed with &6Honeycomb&r and bred with &6Honey Bottle&r."
+				"可用&6蜂蠟&r馴服，用&6蜂蜜瓶&r繁殖。"
 			]
 			id: "487152DB257F393E"
 			rewards: [{
@@ -926,7 +926,7 @@
 				id: "24B05A1CAE9FF46D"
 				observe_type: 5
 				timer: 2L
-				title: "Find a Ground Beetle"
+				title: "尋找地面甲蟲"
 				to_observe: "tameablebeasts:ground_beetle"
 				type: "observation"
 			}]
@@ -941,7 +941,7 @@
 				"58DF190D7E91C373"
 			]
 			dependency_requirement: "one_completed"
-			description: ["More information on how to tame every mobs can be found on the official wiki : &nhttps://codderg.com/tb_lore.html&r"]
+			description: ["更多關於馴服各種生物的資訊可在官方Wiki中找到：&nhttps://codderg.com/tb_lore.html&r"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "tameablebeasts:argentavis_saddle"
@@ -951,21 +951,21 @@
 				id: "5FC356323C206441"
 				type: "checkmark"
 			}]
-			title: "Tameable Beast's wiki"
+			title: "可馴服生物Wiki"
 			x: 14.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["686B5BA848725480"]
 			description: [
-				"The &6Collar Tag&r is an important item for the Archer class if you intend to play with pets."
+				"如果你想和寵物一起玩，&6項圈標籤&r對弓箭手職業來說是很重要的物品。"
 				""
-				"It's used to name the pet but more importantly, you can &6Enchant this Collar Tag&r and place it on a tamed pet of yours by interacting with it."
-				"It will grant the enchants to your pet."
+				"它用來給寵物命名，但更重要的是，你可以&6附魔這個項圈標籤&r，然後透過與你的馴服寵物互動將其佩戴。"
+				"它會將附魔效果賦予你的寵物。"
 				""
-				"To remove the collar tag, swap it with another collar, you can also view your pet's enchants by sneaking and looking at them."
+				"要移除項圈標籤，用另一個項圈替換它。你也可以透過蹲下並看著寵物來查看寵物的附魔。"
 				""
-				"&n&9Sold by the Zookeeper NPC&r&r."
+				"&n&9由動物園管理員NPC出售&r&r。"
 			]
 			id: "028AC1833D128666"
 			rewards: [{
@@ -981,16 +981,16 @@
 				item: "domesticationinnovation:collar_tag"
 				type: "item"
 			}]
-			title: "An important item, the &6Collar Tag&r"
+			title: "重要物品：&6項圈標籤&r"
 			x: 14.25d
 			y: 0.0d
 		}
 		{
 			dependencies: ["686B5BA848725480"]
 			description: [
-				"If you are ever so far away from your pets in 'follow' mode that they are unloaded from the world, they will be &6teleported&r to the closest &6Wayward Lantern&r to you. "
+				"如果你在「跟隨」模式下距離寵物太遠，以至於牠們從世界中卸載，牠們將&6傳送&r到離你最近的&6迷途提燈&r。"
 				""
-				"This makes it perfectly fine to die far from home and not loose both your pets and your loot."
+				"這使你即使在遠離家的地方死亡也完全沒問題，不會同時失去寵物和戰利品。"
 			]
 			id: "49BD94E2389BAEB0"
 			rewards: [{
@@ -1010,13 +1010,13 @@
 		{
 			dependencies: ["686B5BA848725480"]
 			description: [
-				"By moving one of your tamed mobs &6onto a pet bed&r, you enable it to respawn there the &6next morning&r if it somehow dies."
+				"將你的馴服生物&6移上寵物床&r，使其在不幸死亡時能在&6次日清晨&r於那裡重生。"
 				""
-				"The visual indication for this is if you see a bunch of ZZZ particles appear above your pet's head: this means it has set its respawn point."
+				"視覺指示是看到ZZZ粒子出現在寵物頭頂：這意味著它已設定重生點。"
 				""
-				"&6Mobs can only respawn at dawn.&r"
+				"&6生物只能在黎明時重生。&r"
 				""
-				"To move the tamed mobs into the bed more easily you can use a &6Feather on a Stick&r (it will make mobs move where you send the feather)."
+				"為了更輕鬆地將馴服生物移入床中，你可以使用&6棍上的羽毛&r（它會讓生物移向你發射羽毛的地方）。"
 			]
 			id: "2AB6AE4C6D60C315"
 			rewards: [{
@@ -1034,17 +1034,17 @@
 						value: "domesticationinnovation:pet_beds"
 					}
 				}
-				title: "Pet beds"
+				title: "寵物床"
 				type: "item"
 			}]
-			title: "To respawn your pets"
+			title: "讓你的寵物重生"
 			x: 13.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["686B5BA848725480"]
 			id: "55833B75FF5E34CB"
-			subtitle: "&6Post Frostmaw&r"
+			subtitle: "&6擊敗霜凍巨獸後&r"
 			tasks: [{
 				id: "5664CA9C051B9CAA"
 				item: {
@@ -1062,11 +1062,11 @@
 		{
 			dependencies: ["686B5BA848725480"]
 			description: [
-				"Spawns in desert biomes, will burrows into the sand to shoot at you."
+				"出現在沙漠生態域，會鑽入沙中向你射擊。"
 				""
-				"To tame it, approach it &6slow&r (sneak) and feed it &6Crystalized Blood&r."
+				"要馴服它，請&6緩慢靠近&r（蹲行）並餵食&6結晶之血&r。"
 				""
-				"It has 4 different stages, you can also shave his fur."
+				"它有4個不同的階段，你也可以剃掉它的毛。"
 			]
 			id: "0D90C35DD8471295"
 			tasks: [{
@@ -1074,7 +1074,7 @@
 				id: "6C54774E70E7AA3E"
 				observe_type: 5
 				timer: 2L
-				title: "Find a Wild Antlion"
+				title: "尋找野生螻蛄獅"
 				to_observe: "companions:wild_antlion"
 				type: "observation"
 			}]
@@ -1084,9 +1084,9 @@
 		{
 			dependencies: ["686B5BA848725480"]
 			description: [
-				"You can find a &6Broken Dinamo&r after defeating a Dinamo in a Illager Raid or by finding it in the &2Companion Factory&r structure."
+				"你可以在擊敗劫掠者突擊中的Dinamo後找到&6損壞的Dinamo&r，或在&2同伴工廠&r結構中找到它。"
 				""
-				"You will need to interact on the Broken Dinamo with &629 Planks&r, &61 Homunculus&r then right click with a &6Wrench&r. "
+				"你需要在損壞的Dinamo上互動，需要&629塊木板&r、&61個人形物&r，然後右鍵點擊&6扳手&r。"
 			]
 			id: "1B30E18E1D9E81B6"
 			rewards: [{
@@ -1100,17 +1100,17 @@
 				id: "4317497BE865ED35"
 				observe_type: 5
 				timer: 2L
-				title: "Is it alive?"
+				title: "它還活著嗎？"
 				to_observe: "companions:broken_dinamo"
 				type: "observation"
 			}]
-			title: "Is it alive?"
+			title: "它還活著嗎？"
 			x: 17.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["1B30E18E1D9E81B6"]
-			description: ["You can &6upgrade your Dinamo&r. To do so, use &629 Iron ingots&r and &61 Tesla Coil&r, then use the &6Wrench&r again."]
+			description: ["你可以&6升級你的Dinamo&r。方法是使用&629塊鐵錠&r和&61個特斯拉線圈&r，然後再次使用&6扳手&r。"]
 			hide_until_deps_complete: true
 			id: "12AB50692FC2F5C2"
 			tasks: [{
@@ -1118,16 +1118,16 @@
 				item: "companions:tesla_coil_block"
 				type: "item"
 			}]
-			title: "Time for an upgrade"
+			title: "是時候升級了"
 			x: 18.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["686B5BA848725480"]
 			description: [
-				"You can craft a &6Big Brea&rd to make a &6Croissant Egg&r."
+				"你可以製作&6大麵包&r來製作&6可頌蛋&r。"
 				""
-				"Put the Big Bread in a &6Soul Furnace&r and it will create a Croissant Egg"
+				"把大麵包放進&6靈魂熔爐&r，它就會創造一個可頌蛋。"
 			]
 			id: "0892A14265946E3E"
 			rewards: [
@@ -1149,18 +1149,18 @@
 				item: "companions:big_bread"
 				type: "item"
 			}]
-			title: "Time to cook a Dragon"
+			title: "是時候煮條龍了"
 			x: 17.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["0892A14265946E3E"]
 			description: [
-				"Congrats, your Croissant Dragon has hatched and you now have a new Companion!"
+				"恭喜，你的可頌龍孵化了，你現在有了新的同伴！"
 				""
-				"Feed it some &6Bucket of Milk&r to &6help it grow&r."
+				"餵給它&6桶裝牛奶&r來&6幫助它成長&r。"
 				""
-				"You can give it different Armors to change it's effects."
+				"你可以給它不同的護甲來改變效果。"
 			]
 			hide_until_deps_complete: true
 			id: "04346729019A133A"
@@ -1175,7 +1175,7 @@
 				id: "59BC4CE07033F6DE"
 				observe_type: 5
 				timer: 0L
-				title: "Hatch your Croissant Dragon"
+				title: "孵化你的可頌龍"
 				to_observe: "companions:croissant_dragon"
 				type: "observation"
 			}]
@@ -1184,7 +1184,7 @@
 		}
 		{
 			dependencies: ["04346729019A133A"]
-			description: ["Gives you the &bSpeed&r effect when walking on the cream."]
+			description: ["踩在奶油上時給予你&b速度&r效果。"]
 			id: "6DDF910E27621A27"
 			rewards: [{
 				id: "2CB40B7FC92AF6C5"
@@ -1201,7 +1201,7 @@
 		}
 		{
 			dependencies: ["04346729019A133A"]
-			description: ["Gives you the &8Resitance&r effect when walking on the cream."]
+			description: ["踩在奶油上時給予你&8抵抗&r效果。"]
 			id: "439D231D61F4BE24"
 			tasks: [{
 				id: "06E687F14EFBD8D6"
@@ -1213,7 +1213,7 @@
 		}
 		{
 			dependencies: ["04346729019A133A"]
-			description: ["Gives you the &dRegeneration&r effect when walking on the cream."]
+			description: ["踩在奶油上時給予你&d生命恢復&r效果。"]
 			id: "11A7A689A3DE9523"
 			rewards: [{
 				auto: "invisible"
@@ -1232,10 +1232,10 @@
 		{
 			dependencies: ["686B5BA848725480"]
 			description: [
-				"Imps can be found in the &6Nether&r in the &2Companions Tent&r structure."
-				"Use a &6Nether Coin&r to try to tame them. (they might not be happy about it)"
+				"小惡魔可以在&6下界&r的&2同伴帳篷&r結構中找到。"
+				"使用&6下界硬幣&r嘗試馴服牠們。（牠們可能不會太高興）"
 				""
-				"Imps form will change depending on the dimension it's in."
+				"小惡魔的形態會根據所在維度而改變。"
 			]
 			id: "09CEA104108A1C62"
 			rewards: [{
@@ -1249,7 +1249,7 @@
 				id: "7611A2C23B1EA737"
 				observe_type: 5
 				timer: 0L
-				title: "A Nether Imp!"
+				title: "下界小惡魔！"
 				to_observe: "companions:hostile_imp"
 				type: "observation"
 			}]
@@ -1258,7 +1258,7 @@
 		}
 		{
 			dependencies: ["09CEA104108A1C62"]
-			description: ["You can use it on an Imp to lock it in it's current form."]
+			description: ["你可以在小惡魔上使用它，將其鎖定在當前形態。"]
 			hide_until_deps_complete: true
 			id: "60EA2B4F4ED2A1B0"
 			rewards: [{
@@ -1272,13 +1272,13 @@
 				item: "companions:netherite_chains"
 				type: "item"
 			}]
-			title: "Lock its phase"
+			title: "鎖定其形態"
 			x: 17.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["686B5BA848725480"]
-			description: ["Inside the &2Companions TeddyTower&r (swamp biomes) you will be able to find a &6Teddy&r, use a &2Needle&r on it to tame it."]
+			description: ["在&2同伴泰迪塔&r（沼澤生態域）內你可以找到&6泰迪熊&r，用&2縫衣針&r對其使用來馴服它。"]
 			id: "391E4178D2423310"
 			rewards: [{
 				auto: "invisible"
@@ -1290,7 +1290,7 @@
 				icon: "alexsmobs:bear_fur"
 				id: "089F204FE6E17BC1"
 				structure: "companions:companions_teddytower"
-				title: "Discover a Teddy Tower"
+				title: "發現泰迪塔"
 				type: "structure"
 			}]
 			x: 13.5d
@@ -1298,7 +1298,7 @@
 		}
 		{
 			dependencies: ["391E4178D2423310"]
-			description: ["You can use the &6Eternal Lighter&r to &6mutate&r your Teddy."]
+			description: ["你可以使用&6永恆打火機&r來&6變異&r你的泰迪熊。"]
 			hide_until_deps_complete: true
 			id: "61DD8FBD9D41B3E1"
 			rewards: [{
@@ -1323,7 +1323,7 @@
 		}
 		{
 			dependencies: ["61DD8FBD9D41B3E1"]
-			description: ["To obtain a &6Mutant Flesh&r you will need to feed a &6Lava Bucket&r to your Teddt."]
+			description: ["要獲得&6變異肉&r，你需要給你的泰迪熊餵食&6岩漿桶&r。"]
 			id: "74C6BF3D331E644F"
 			rewards: [{
 				auto: "invisible"
@@ -1336,19 +1336,19 @@
 				item: "companions:mutant_flesh"
 				type: "item"
 			}]
-			title: "Don't ask how to get it..."
+			title: "別問怎麼獲得的..."
 			x: 13.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["686B5BA848725480"]
 			description: [
-				"You can find a &6Puppet Glove&r inside a &2Babayaga&r structure."
+				"你可以在&2巫婆小屋&r結構中找到&6木偶手套&r。"
 				""
-				"To tame it you will need to play the &6Rock - Paper - Scissors game&r with it."
-				"Right click with an item to start the game, you need to win three rounds in a raw."
+				"要馴服它，你需要和它玩&6剪刀石頭布遊戲&r。"
+				"右鍵點擊物品開始遊戲，你需要連贏三局。"
 				""
-				"&o&7(rock = cobblestone, paper = paper, scissors = shears)&r&r"
+				"&o&7（石頭=鵝卵石，布=紙，剪刀=剪羊毛剪）&r&r"
 			]
 			id: "268733A04939C59B"
 			rewards: [{
@@ -1362,7 +1362,7 @@
 				id: "79BB2FB393F1A09E"
 				observe_type: 5
 				timer: 0L
-				title: "Find a Puppet Glove"
+				title: "尋找木偶手套"
 				to_observe: "companions:hostile_puppet_glove"
 				type: "observation"
 			}]
@@ -1371,7 +1371,7 @@
 		}
 		{
 			dependencies: ["268733A04939C59B"]
-			description: ["You can craft and give an &6Empty Puppet&r to your Glove companion."]
+			description: ["你可以製作&6空木偶&r並給你的手套同伴。"]
 			hide_until_deps_complete: true
 			id: "0C54160419C2FA00"
 			rewards: [{
@@ -1385,13 +1385,13 @@
 				item: "companions:empty_puppet_block"
 				type: "item"
 			}]
-			title: "Craft an Empty Puppet"
+			title: "製作空木偶"
 			x: 12.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["0C54160419C2FA00"]
-			description: ["You can add it to your Puppet."]
+			description: ["你可以將它添加到你的木偶上。"]
 			id: "4C3B2A613152355C"
 			rewards: [{
 				auto: "invisible"
@@ -1409,7 +1409,7 @@
 		}
 		{
 			dependencies: ["0C54160419C2FA00"]
-			description: ["You can add it to your Puppet."]
+			description: ["你可以將它添加到你的木偶上。"]
 			id: "7CCBA0E55577F54D"
 			rewards: [{
 				auto: "invisible"
@@ -1427,7 +1427,7 @@
 		}
 		{
 			dependencies: ["0C54160419C2FA00"]
-			description: ["You can add it to your Puppet."]
+			description: ["你可以將它添加到你的木偶上。"]
 			id: "10C96444994A11DB"
 			rewards: [{
 				auto: "invisible"
@@ -1446,9 +1446,9 @@
 		{
 			dependencies: ["686B5BA848725480"]
 			description: [
-				"Spawns in Swamp biomes."
+				"出現在沼澤生態域。"
 				""
-				"To tame it, give it a &6Mage Hat&r, &6Mage Coat&r and a &6Magic Staff&r."
+				"要馴服它，給它一頂&6法師帽&r、一件&6法師外套&r和一根&6魔法杖&r。"
 			]
 			id: "4FBFBB06627F0D30"
 			rewards: [{
@@ -1462,20 +1462,20 @@
 				id: "2CA6AE8D474040BD"
 				observe_type: 5
 				timer: 0L
-				title: "Observe a Golden Allay"
+				title: "觀察黃金小精靈"
 				to_observe: "companions:golden_allay"
 				type: "observation"
 			}]
-			title: "Find a Golden Allay"
+			title: "尋找黃金小精靈"
 			x: 17.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4FBFBB06627F0D30"]
 			description: [
-				"Now that your Golden Allay became a &6Soul Mage&r, you can give it some &6Spell Books&r it can use."
+				"現在你的黃金小精靈成為了&6靈魂法師&r，你可以給它一些&6法術書&r供它使用。"
 				""
-				"&n&9All of them are sold by the Zookeeper&r&r."
+				"&n&9所有法術書均由動物園管理員出售&r&r。"
 			]
 			hide_until_deps_complete: true
 			id: "4478EC9E3F21D3C5"
@@ -1502,16 +1502,16 @@
 						value: "prodigium_reforged:soul_mage_books"
 					}
 				}
-				title: "Books for the Soul Mage"
+				title: "靈魂法師的法術書"
 				type: "item"
 			}]
-			title: "Give it some spells!"
+			title: "給它一些法術！"
 			x: 18.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["686B5BA848725480"]
-			description: ["&6Shade Sword&r is a temporary companion summoned using the &6Shade Sword altar&r and a &6Shadow Bell&r."]
+			description: ["&6影刃&r是使用&6影刃祭壇&r和&6暗影鐘&r召喚的臨時同伴。"]
 			id: "639828FF57238E0A"
 			rewards: [{
 				auto: "invisible"
@@ -1529,7 +1529,7 @@
 		}
 		{
 			dependencies: ["686B5BA848725480"]
-			description: ["&6Shade Maw&r is a temporary companion summoned using the &6Shade Maw altar&r and a &6Shadow Bell&r."]
+			description: ["&6暗影巨獸&r是使用&6暗影巨獸祭壇&r和&6暗影鐘&r召喚的臨時同伴。"]
 			id: "50C24E7A7A52F27B"
 			rewards: [{
 				auto: "invisible"
@@ -1554,7 +1554,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "2D5F7196D965A9C9"
-			subtitle: "&6Post Sun Spirit&r"
+			subtitle: "&6擊敗太陽之魂後&r"
 			tasks: [{
 				id: "4B54AC14373FCFB8"
 				item: {
@@ -1667,7 +1667,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "7DA6A2139D246465"
-			subtitle: "&6Post Underworld Knigt&r"
+			subtitle: "&6擊敗冥界騎士後&r"
 			tasks: [{
 				id: "3F90FFAC32683644"
 				item: {
@@ -1691,7 +1691,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "35D7760BABF13D2A"
-			subtitle: "&6Post Leviathan&r"
+			subtitle: "&6擊敗利維坦後&r"
 			tasks: [{
 				id: "3DCC0B7094F8A1CF"
 				item: {
@@ -1715,7 +1715,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "4C3BE3F0BF63237D"
-			subtitle: "&6Post Ignis&r"
+			subtitle: "&6擊敗火焰之主後&r"
 			tasks: [{
 				id: "42CC134592C5BAB3"
 				item: {
@@ -1733,7 +1733,7 @@
 		{
 			dependencies: ["686B5BA848725480"]
 			id: "7981D6DC4327D855"
-			subtitle: "&6Post Frostmaw&r"
+			subtitle: "&6擊敗霜凍巨獸後&r"
 			tasks: [{
 				id: "40609A920B376610"
 				item: {
@@ -1866,7 +1866,7 @@
 			hide_dependent_lines: true
 			hide_until_deps_complete: true
 			id: "59BD32C5B6F0FE5E"
-			subtitle: "&6Post Void Blossom&r"
+			subtitle: "&6擊敗虛空之花後&r"
 			tasks: [{
 				id: "244C4C3D64267AF0"
 				item: {
@@ -1882,5 +1882,5 @@
 			y: 9.0d
 		}
 	]
-	title: "Archer"
+	title: "弓箭手"
 }

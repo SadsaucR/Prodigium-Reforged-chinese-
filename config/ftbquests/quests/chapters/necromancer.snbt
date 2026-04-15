@@ -13,9 +13,9 @@
 		{
 			dependencies: ["004D49788CC0D5FC"]
 			description: [
-				"Use it to &ebind spells to spell books&r."
+				"用它來&e將法術綁定到法術書&r。"
 				""
-				"To add a spell to your spell book you need &ea scroll&r and your spellbook."
+				"要將法術加入法術書，你需要&e卷軸&r和法術書。"
 			]
 			id: "5D0510B00777D444"
 			rewards: [
@@ -45,7 +45,7 @@
 				item: "irons_spellbooks:inscription_table"
 				type: "item"
 			}]
-			title: "Craft an Inscription Table"
+			title: "製作銘刻台"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -88,13 +88,13 @@
 				}
 				type: "item"
 			}]
-			title: "Craft your first Spell Book!"
+			title: "製作你的第一本法術書！"
 			x: 1.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["5D0510B00777D444"]
-			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
+			description: ["你需要在&6技能樹&r中解鎖護甲，並在主線任務中推進進度。"]
 			id: "3B238A48B76B39DF"
 			min_required_tasks: 1
 			rewards: [
@@ -135,7 +135,7 @@
 							Damage: 0
 						}
 					}
-					title: "Wandering Magician Armor"
+					title: "流浪法師護甲"
 					type: "item"
 				}
 				{
@@ -147,11 +147,11 @@
 							Damage: 0
 						}
 					}
-					title: "Tattered Armor"
+					title: "破爛護甲"
 					type: "item"
 				}
 			]
-			title: "Necromancer armors for the Normal Mode"
+			title: "普通模式的死靈法師護甲"
 			x: 3.0d
 			y: 0.0d
 		}
@@ -161,7 +161,7 @@
 				"78E025D30CD1E607"
 			]
 			dependency_requirement: "one_started"
-			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
+			description: ["你需要在&6技能樹&r中解鎖護甲，並在主線任務中推進進度。"]
 			hide_until_deps_visible: true
 			id: "0E705333D6CD256A"
 			min_required_tasks: 1
@@ -196,10 +196,10 @@
 						Damage: 0
 					}
 				}
-				title: "Cultist Armor"
+				title: "狂信者護甲"
 				type: "item"
 			}]
-			title: "Necromancer armor for the Expert Mode"
+			title: "專家模式的死靈法師護甲"
 			x: 6.25d
 			y: 0.0d
 		}
@@ -241,7 +241,7 @@
 				}
 				type: "item"
 			}]
-			title: "Bigger Faster Stronger"
+			title: "更大、更快、更強"
 			x: 2.0d
 			y: 2.0d
 		}
@@ -277,7 +277,7 @@
 				}
 				type: "item"
 			}]
-			title: "New book, new mage"
+			title: "新書，新法師"
 			x: 3.0d
 			y: 2.5d
 		}
@@ -312,7 +312,7 @@
 				}
 				type: "item"
 			}]
-			title: "Ultimate Wizard weapon"
+			title: "巫師的終極武器"
 			x: 4.0d
 			y: 2.5d
 		}
@@ -341,7 +341,7 @@
 				}
 				type: "item"
 			}]
-			title: "From the depth"
+			title: "來自深淵"
 			x: 5.5d
 			y: 2.0d
 		}
@@ -370,7 +370,7 @@
 				}
 				type: "item"
 			}]
-			title: "From the dragon itself"
+			title: "來自巨龍本身"
 			x: 5.5d
 			y: 3.0d
 		}
@@ -379,7 +379,7 @@
 				"1A1D4191D9A098E9"
 				"745FE062B66D6927"
 			]
-			description: ["Use the Scroll Forge to create new scrolls."]
+			description: ["使用卷軸熔爐來製作新卷軸。"]
 			hide_until_deps_visible: true
 			id: "472C005D9443A532"
 			rewards: [
@@ -402,7 +402,7 @@
 				item: "irons_spellbooks:scroll_forge"
 				type: "item"
 			}]
-			title: "Scroll making"
+			title: "製作卷軸"
 			x: 1.5d
 			y: -2.0d
 		}
@@ -421,13 +421,13 @@
 				item: "irons_spellbooks:arcane_anvil"
 				type: "item"
 			}]
-			title: "Imbue your weapons with magic!"
+			title: "為你的武器灌注魔力！"
 			x: 3.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["3B238A48B76B39DF"]
-			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
+			description: ["你需要在&6技能樹&r中解鎖護甲，並在主線任務中推進進度。"]
 			hide_until_deps_visible: true
 			id: "3A04AB7E1B7075F3"
 			rewards: [
@@ -461,10 +461,10 @@
 						Damage: 0
 					}
 				}
-				title: "Phantasm Armor"
+				title: "幻影護甲"
 				type: "item"
 			}]
-			title: "Necromancer armors for the Expert Mode"
+			title: "專家模式的死靈法師護甲（進階）"
 			x: 4.5d
 			y: 0.0d
 		}
@@ -493,7 +493,7 @@
 				}
 				type: "item"
 			}]
-			title: "Nature book"
+			title: "自然之書"
 			x: 4.5d
 			y: 3.5d
 		}
@@ -522,13 +522,13 @@
 				}
 				type: "item"
 			}]
-			title: "Fire book"
+			title: "火焰之書"
 			x: 4.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["5D0510B00777D444"]
-			description: ["You can obtain it by completing an Undead Army"]
+			description: ["可透過完成不死大軍挑戰來獲取。"]
 			hide_dependency_lines: true
 			id: "1D701FC4D12E7293"
 			rewards: [{
@@ -542,10 +542,10 @@
 				item: "majruszsdifficulty:soul_jar"
 				type: "item"
 			}]
-			title: "Obtian a Soul Jar"
+			title: "獲取靈魂罐"
 			x: 4.5d
 			y: -1.5d
 		}
 	]
-	title: "Necromancer"
+	title: "死靈法師"
 }

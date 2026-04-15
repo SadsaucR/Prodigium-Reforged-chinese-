@@ -16,7 +16,7 @@
 	quests: [
 		{
 			dependencies: ["1A1D4191D9A098E9"]
-			description: ["You can create custom golems, really helpfull to defend your base and/or gateways gates."]
+			description: ["你可以創造自訂魔像，對於防守你的基地和/或傳送門非常有幫助。"]
 			hide_dependency_lines: true
 			id: "74C4032C291E75E3"
 			rewards: [
@@ -50,7 +50,7 @@
 				item: "golems:golem_head"
 				type: "item"
 			}]
-			title: "Is it alive ?!"
+			title: "它是活的嗎？！"
 			x: 4.0d
 			y: -0.5d
 		}
@@ -89,7 +89,7 @@
 				type: "stat"
 				value: 100
 			}]
-			title: "Mob hunter"
+			title: "怪物獵人"
 			x: 2.5d
 			y: 3.0d
 		}
@@ -116,7 +116,7 @@
 				type: "stat"
 				value: 500
 			}]
-			title: "It's starting to be a lot"
+			title: "數量開始變得很多了"
 			x: 1.5d
 			y: 4.5d
 		}
@@ -155,7 +155,7 @@
 				type: "stat"
 				value: 1050
 			}]
-			title: "Monster eradication"
+			title: "怪物殲滅"
 			x: 2.5d
 			y: 6.0d
 		}
@@ -194,7 +194,7 @@
 				type: "stat"
 				value: 2100
 			}]
-			title: "Unstoppable "
+			title: "勢不可擋 "
 			x: 3.5d
 			y: 7.5d
 		}
@@ -233,7 +233,7 @@
 				type: "stat"
 				value: 250
 			}]
-			title: "Close one"
+			title: "好險"
 			x: 4.0d
 			y: 3.0d
 		}
@@ -272,7 +272,7 @@
 				type: "stat"
 				value: 1000
 			}]
-			title: "Does it hurt ?"
+			title: "很痛嗎？"
 			x: 5.5d
 			y: 3.0d
 		}
@@ -306,7 +306,7 @@
 				type: "stat"
 				value: 10000
 			}]
-			title: "You might want to dodge more"
+			title: "你可能需要多閃一點"
 			x: 6.5d
 			y: 4.5d
 		}
@@ -359,7 +359,7 @@
 				type: "stat"
 				value: 75000
 			}]
-			title: "Are you alright?"
+			title: "你還好嗎？"
 			x: 5.5d
 			y: 6.0d
 		}
@@ -409,7 +409,7 @@
 				type: "stat"
 				value: 150000
 			}]
-			title: "Are you a masochist ?"
+			title: "你是受虐狂嗎？"
 			x: 4.5d
 			y: 7.5d
 		}
@@ -460,7 +460,7 @@
 				type: "stat"
 				value: 2500
 			}]
-			title: "You're not killed so easily"
+			title: "你不是那麼容易被殺死的"
 			x: 4.0d
 			y: 4.5d
 		}
@@ -506,7 +506,7 @@
 				type: "stat"
 				value: 50000
 			}]
-			title: "Stronger than a wall"
+			title: "比牆壁更堅固"
 			x: 4.0d
 			y: 6.0d
 		}
@@ -524,7 +524,7 @@
 				id: "2EE58AF23A1ECE36"
 				type: "advancement"
 			}]
-			title: "Tame a pet"
+			title: "馴養一隻寵物"
 			x: 3.0d
 			y: -1.5d
 		}
@@ -541,7 +541,7 @@
 					entity: "friendsandfoes:mauler"
 					icon: "alexsmobs:shark_tooth"
 					id: "4CC9504C0E8DEB38"
-					title: "Kill a Mauler"
+					title: "擊殺一隻撕裂者"
 					type: "kill"
 					value: 1L
 				}
@@ -549,7 +549,7 @@
 					entity: "friendsandfoes:iceologer"
 					icon: "projectvibrantjourneys:ice_chunks"
 					id: "7F82A2D47AE487FB"
-					title: "Kill an Iceologer"
+					title: "擊殺一個冰法師"
 					type: "kill"
 					value: 1L
 				}
@@ -563,7 +563,7 @@
 						}
 					}
 					id: "3FB32584FEEE72A8"
-					title: "Kill an Illusioner"
+					title: "擊殺一個幻術師"
 					type: "kill"
 					value: 1L
 				}
@@ -577,12 +577,12 @@
 						}
 					}
 					id: "483CC567A59BA80D"
-					title: "Kill a Wildfire"
+					title: "擊殺一個野火"
 					type: "kill"
 					value: 1L
 				}
 			]
-			title: "Kill all hostile mobs from &6Friends and Foes&r"
+			title: "擊殺 &6Friends and Foes&r 的所有敵對生物"
 			x: 1.5d
 			y: 0.5d
 		}
@@ -605,7 +605,7 @@
 						}
 					}
 					id: "0A016FF34122B636"
-					title: "Kill a Reinforced Blaze"
+					title: "擊殺一個強化烈焰人"
 					type: "kill"
 					value: 1L
 				}
@@ -613,7 +613,7 @@
 					entity: "stalwart_dungeons:incomplete_wither"
 					icon: "wstweaks:fragment"
 					id: "0C88F9AB77699C08"
-					title: "Kill an Incomplete Wither"
+					title: "擊殺一個不完整凋靈"
 					type: "kill"
 					value: 1L
 				}
@@ -621,7 +621,7 @@
 					entity: "stalwart_dungeons:giddy_blaze"
 					icon: "minecraft:blaze_rod"
 					id: "3B3B040B87C4206C"
-					title: "Kill a Giddy Blaze"
+					title: "擊殺一個歡樂烈焰人"
 					type: "kill"
 					value: 1L
 				}
@@ -629,12 +629,12 @@
 					entity: "stalwart_dungeons:propulk"
 					icon: "minecraft:shulker_shell"
 					id: "42F5E5E1C3F6BDC9"
-					title: "Kill a Propulk"
+					title: "擊殺一個推進魔"
 					type: "kill"
 					value: 1L
 				}
 			]
-			title: "Kill all hostile mobs from &6Stalwart's dungeons&r"
+			title: "擊殺 &6Stalwart's dungeons&r 的所有敵對生物"
 			x: 6.5d
 			y: 1.5d
 		}
@@ -651,7 +651,7 @@
 					entity: "bygonenether:piglin_hunter"
 					icon: "minecraft:gold_nugget"
 					id: "6378ABF199129626"
-					title: "Kill a Piglin Hunter"
+					title: "擊殺一個豬靈獵手"
 					type: "kill"
 					value: 1L
 				}
@@ -659,7 +659,7 @@
 					entity: "bygonenether:piglin_prisoner"
 					icon: "minecraft:gold_ingot"
 					id: "336D4D27B4C32BD2"
-					title: "Kill a Piglin Prisoner"
+					title: "擊殺一個豬靈囚徒"
 					type: "kill"
 					value: 1L
 				}
@@ -667,7 +667,7 @@
 					entity: "bygonenether:warped_enderman"
 					icon: "bygonenether:warped_ender_pearl"
 					id: "49E958FB4EE5086F"
-					title: "Kill a Warped Enderman"
+					title: "擊殺一個扭曲末影人"
 					type: "kill"
 					value: 1L
 				}
@@ -675,7 +675,7 @@
 					entity: "bygonenether:wex"
 					icon: "born_in_chaos_v1:ethereal_spirit"
 					id: "578045D467CC5FC8"
-					title: "Defeat a Wex"
+					title: "擊敗一個魂靈惡魔"
 					type: "kill"
 					value: 1L
 				}
@@ -683,7 +683,7 @@
 					entity: "bygonenether:wraither"
 					icon: "wstweaks:fragment"
 					id: "1E0A3DF3C331A858"
-					title: "Kill a Wraither"
+					title: "擊殺一個幽靈遊蕩者"
 					type: "kill"
 					value: 1L
 				}
@@ -697,12 +697,12 @@
 						}
 					}
 					id: "5EFAF1559A41B347"
-					title: "Kill a Wither Skeleton Knight"
+					title: "擊殺一個凋靈骷髏騎士"
 					type: "kill"
 					value: 1L
 				}
 			]
-			title: "Kill all hostile mobs from &6Bygone nether&r"
+			title: "擊殺 &6Bygone nether&r 的所有敵對生物"
 			x: 1.5d
 			y: 1.5d
 		}
@@ -718,16 +718,16 @@
 				entity: "artifacts:mimic"
 				icon: "minecraft:chest"
 				id: "48DE389B46519E26"
-				title: "Kill a Mimic"
+				title: "擊殺一個擬態箱"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Watch your hands while opening it"
+			title: "開箱時小心你的手"
 			x: 3.0d
 			y: 1.0d
 		}
 		{
-			description: ["The only way to get your armor destroyed is by dying."]
+			description: ["護甲損毀的唯一方式是死亡。"]
 			disable_toast: true
 			id: "19FEA09C5D7A9F47"
 			invisible: true
@@ -754,7 +754,7 @@
 				type: "stat"
 				value: 1
 			}]
-			title: "Your first death"
+			title: "你的第一次死亡"
 			x: 4.0d
 			y: -2.5d
 		}
@@ -770,19 +770,19 @@
 				entity: "majruszsdifficulty:cursed_armor"
 				icon: "quark:oak_chest"
 				id: "5C34BD08F52CB1CE"
-				title: "Kill a Cursed Armor"
+				title: "擊殺一個詛咒護甲"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Another chest, another surprise"
+			title: "又一個箱子，又一個驚喜"
 			x: 5.0d
 			y: 1.0d
 		}
 		{
 			description: [
-				"Prodigium Reforged has a &llot&r of different accessories."
+				"Prodigium Reforged 有 &l非常多&r 種不同的飾品。"
 				""
-				"You can combine (the ones from the Terra curio) them in a &6Workshop&r which is sold by the &aGoblin npc&r (Expert Mode)"
+				"你可以在 &6工作坊&r 中合成它們（Terra curio 中的飾品），&aGoblin NPC&r（專家模式）會販售工作坊。"
 			]
 			id: "74255C6153975B59"
 			rewards: [{
@@ -800,10 +800,10 @@
 						value: "curios:accessory"
 					}
 				}
-				title: "Any #curios:accessory"
+				title: "任意 #curios:accessory"
 				type: "item"
 			}]
-			title: "Obtain an accessory"
+			title: "獲取一件飾品"
 			x: 6.5d
 			y: 0.5d
 		}
@@ -819,5 +819,5 @@
 			y: -1.5d
 		}
 	]
-	title: "PVE"
+	title: "PvE"
 }

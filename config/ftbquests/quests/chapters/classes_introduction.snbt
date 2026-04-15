@@ -7,7 +7,7 @@
 	id: "59B899949D512C6D"
 	images: [{
 		height: 1.0d
-		hover: ["Just some good early game acessories. A lot more are available"]
+		hover: ["一些不錯的前期飾品，還有更多可以使用"]
 		image: "prodigium_reforged:textures/gui/curios.png"
 		rotation: 0.0d
 		width: 4.0d
@@ -19,53 +19,53 @@
 	quests: [
 		{
 			description: [
-				"Prodigium Reforged has three main branches, &6mage&r, &6ranged&r and &6melee&r."
+				"Prodigium Reforged 有三個主要分支：&6法師&r、&6遠程&r 和 &6近戰&r。"
 				""
-				"To &6open the Skill Tree&r, &6press \"i\"&r, you will then need &eSkill Points&r."
+				"按下 &6\"i\"&r 開啟 &6技能樹&r，你將需要 &e技能點數&r。"
 				""
-				"To obtain &eSkill Points&r, you can kill mobs (this will give a little bit of experience) and/or you can defeat bosses which will give you &e2&r Skill Points."
+				"獲得 &e技能點數&r 的方式：擊殺怪物（獲得少量經驗值），或擊敗 Boss（每個 Boss 給予 &e2&r 點技能點數）。"
 				""
-				"After selecting &6a branch&r, you will be able to &6select a class&r, you can &conly chose one per branch&r."
+				"選擇 &6一個分支&r 後，你可以 &6選擇一個職業&r，每個分支 &c只能選一個&r。"
 				""
-				"Selecting a class will give &6a new Skill Tree&r, in this Skill Tree you have &6three sub-classes available&r, you can &conly pick one&r as well."
+				"選擇職業後會獲得 &6新的技能樹&r，其中有 &6三個子職業可選&r，同樣 &c只能選一個&r。"
 				""
-				"Learn more about classes ->"
-				""
-				"{@pagebreak}"
-				"&l&d&nMelee&r&r&r"
-				""
-				"Two classes are available in &dMelee&r :"
-				""
-				"&l&eCrusader&r&r"
-				"This class is the tankiest class in the pack, it's aimed at tanking and helping others by healing, buffing and crowdcontrol."
-				""
-				"&l&3Berserker&r&r"
-				"Aimed at having a lot of dmg while having less resistance, the Berserker is here to defeat ennemies."
+				"了解更多職業資訊 ->"
 				""
 				"{@pagebreak}"
-				"&l&9&nMage&r&r&r"
+				"&l&d&n近戰&r&r&r"
 				""
-				"Three classes are available in &9Mage&r :"
+				"&d近戰&r 有兩個職業："
 				""
-				"&l&1Wizard&r&r"
-				"Your typical mage, aimed at dealing damage and to specialize in the school of your chosing."
+				"&l&e十字軍&r&r"
+				"本包中最能抗打的職業，擅長承傷並透過治療、增益與控場來協助隊伍。"
 				""
-				"&e&lCleric&r&r"
-				"Healing centered class, heal and buff your friends and yourself, specialized in Holy school."
-				""
-				"&l&8Necromancer&r&r - Removed ATM -"
-				"Armor focused magic class, use summoning spells to help you fight."
+				"&l&3狂戰士&r&r"
+				"以高傷害為代價犧牲部分抗性，專門用來快速消滅敵人。"
 				""
 				"{@pagebreak}"
-				"&l&a&nRanged&r&r&r"
+				"&l&9&n法師&r&r&r"
 				""
-				"Two classes are available :"
+				"&9法師&r 有三個職業："
 				""
-				"&2&lArcher&r&r"
-				"Made to deal with enemies from a safe distance with bows and his multiple pets!"
+				"&l&1巫師&r&r"
+				"標準的攻擊型法師，可專精於你選擇的魔法學派。"
 				""
-				"&l&dGunner&r&r"
-				"High DPS class that uses guns as main weapons"
+				"&e&l牧師&r&r"
+				"以治療為核心的職業，治療並強化你的隊友與自己，專精於神聖學派。"
+				""
+				"&l&8死靈法師&r&r - 目前已移除 -"
+				"以護甲為重的魔法職業，使用召喚法術輔助戰鬥。"
+				""
+				"{@pagebreak}"
+				"&l&a&n遠程&r&r&r"
+				""
+				"遠程有兩個職業："
+				""
+				"&2&l弓箭手&r&r"
+				"使用弓箭與多隻寵物從安全距離對付敵人！"
+				""
+				"&l&d槍手&r&r"
+				"以槍為主武器的高 DPS 職業。"
 			]
 			id: "25D1B37A73FB9F53"
 			rewards: [
@@ -87,26 +87,26 @@
 					icon: "minecraft:book"
 					id: "2E6141BC5B872808"
 					silent: true
-					title: "Mage guide"
+					title: "法師指南"
 					type: "command"
 				}
 			]
 			size: 1.5d
-			subtitle: "Read me!"
+			subtitle: "請閱讀！"
 			tasks: [{
 				id: "35CE5084B54682B4"
-				title: "Click on me when understood!"
+				title: "理解後點擊我！"
 				type: "checkmark"
 			}]
-			title: "Classes introduction"
+			title: "職業介紹"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			description: [
-				"You now have unlocked the &6Berserker quest chapter&r. Check it out in the quest book!"
+				"你已解鎖 &6狂戰士任務章節&r，請在任務書中查閱！"
 				""
-				"It will help you know which armors and more to craft!"
+				"它將協助你了解應該製作哪些護甲與裝備！"
 			]
 			id: "78DE64EE0773BEF4"
 			rewards: [{
@@ -127,7 +127,7 @@
 					}
 				}
 				id: "3668223101538AEE"
-				title: "You've chosen the Berserker class!"
+				title: "你選擇了狂戰士職業！"
 				type: "custom"
 			}]
 			x: -6.5d
@@ -135,9 +135,9 @@
 		}
 		{
 			description: [
-				"You now have unlocked &6the Crusader quest chapter&r. Check it out in the quest book!"
+				"你已解鎖 &6十字軍任務章節&r，請在任務書中查閱！"
 				""
-				"It will help you know which armors and more to craft next!"
+				"它將協助你了解接下來應該製作哪些護甲與裝備！"
 			]
 			id: "44FCF260737D0785"
 			rewards: [{
@@ -158,7 +158,7 @@
 					}
 				}
 				id: "5875FE1DE2AE640D"
-				title: "You've chosen the Crusader class!"
+				title: "你選擇了十字軍職業！"
 				type: "custom"
 			}]
 			x: -6.0d
@@ -166,9 +166,9 @@
 		}
 		{
 			description: [
-				"You now have unlocked &6the Archer quest chapter&r. Check it out in the quest book!"
+				"你已解鎖 &6弓箭手任務章節&r，請在任務書中查閱！"
 				""
-				"It will help you know which armors and more to craft next!"
+				"它將協助你了解接下來應該製作哪些護甲與裝備！"
 			]
 			id: "686B5BA848725480"
 			rewards: [{
@@ -189,7 +189,7 @@
 					}
 				}
 				id: "41F70500E273E37C"
-				title: "You've chosen the Archer class!"
+				title: "你選擇了弓箭手職業！"
 				type: "custom"
 			}]
 			x: 2.0d
@@ -197,9 +197,9 @@
 		}
 		{
 			description: [
-				"You now have unlocked &6the Wizard quest chapter&r. Check it out in the quest book!"
+				"你已解鎖 &6巫師任務章節&r，請在任務書中查閱！"
 				""
-				"It will help you know which armors and more to craft next!"
+				"它將協助你了解接下來應該製作哪些護甲與裝備！"
 			]
 			id: "745FE062B66D6927"
 			rewards: [
@@ -228,7 +228,7 @@
 					}
 				}
 				id: "1038F0CA80FBD1CA"
-				title: "You've chosen the Wizard class!"
+				title: "你選擇了巫師職業！"
 				type: "custom"
 			}]
 			x: 5.0d
@@ -236,9 +236,9 @@
 		}
 		{
 			description: [
-				"You now have unlocked &6the Cleric quest chapter&r. Check it out in the quest book!"
+				"你已解鎖 &6牧師任務章節&r，請在任務書中查閱！"
 				""
-				"It will help you know which armors and more to craft next!"
+				"它將協助你了解接下來應該製作哪些護甲與裝備！"
 			]
 			id: "525D3BC989CF49D9"
 			rewards: [
@@ -261,7 +261,7 @@
 			tasks: [{
 				icon: "runes:healing_stone"
 				id: "27BB11301CE03400"
-				title: "You've chosen the Cleric class!"
+				title: "你選擇了牧師職業！"
 				type: "custom"
 			}]
 			x: 6.0d
@@ -270,12 +270,12 @@
 		{
 			dependencies: ["25D1B37A73FB9F53"]
 			description: [
-				"Used for Mage (Wizard and Cleric)"
+				"適用於法師（巫師與牧師）"
 				""
-				"You will drop&7 Scrolls&r in chests, those are a one time use spells unless you put them in a spellbook."
+				"你會在寶箱中找到 &7卷軸&r，這些是一次性法術，除非將它們放入法術書。"
 				""
-				"To do that, you will need to craft an &3Inscription Table&r and have a &6Spell Book&r. "
-				"Put the &6Spell Book&r and the &7Scroll&r in the &3Inscription table&r, you will then be able to use the spells as much as you have enough mana."
+				"製作一個 &3刻印台&r 並準備一本 &6法術書&r，"
+				"將 &6法術書&r 和 &7卷軸&r 一起放入 &3刻印台&r，之後只要有足夠魔力便可無限使用該法術。"
 			]
 			hide_until_deps_visible: true
 			id: "0613243385C3015B"
@@ -300,7 +300,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Read me!"
+			subtitle: "請閱讀！"
 			tasks: [{
 				id: "7C1794DE4816E2EC"
 				item: {
@@ -310,16 +310,16 @@
 						Damage: 0
 					}
 				}
-				title: "Wandering Magician armor"
+				title: "流浪魔法師護甲"
 				type: "item"
 			}]
-			title: "Early mage armor"
+			title: "前期法師護甲"
 			x: 3.25d
 			y: 0.75d
 		}
 		{
 			dependencies: ["25D1B37A73FB9F53"]
-			description: ["Used for ranged (Archer and Gunner)"]
+			description: ["適用於遠程（弓箭手與槍手）"]
 			hide_until_deps_visible: true
 			id: "412E0ADC86F7DE20"
 			rewards: [
@@ -337,7 +337,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Read me!"
+			subtitle: "請閱讀！"
 			tasks: [{
 				id: "284806BB280CB458"
 				item: {
@@ -347,16 +347,16 @@
 						Damage: 0
 					}
 				}
-				title: "Cobalt armor"
+				title: "鈷護甲"
 				type: "item"
 			}]
-			title: "Early ranged armor"
+			title: "前期遠程護甲"
 			x: 0.0d
 			y: 2.25d
 		}
 		{
 			dependencies: ["25D1B37A73FB9F53"]
-			description: ["Used for melee (Crusader and Berserker)"]
+			description: ["適用於近戰（十字軍與狂戰士）"]
 			hide_until_deps_visible: true
 			id: "525148F80B756AD6"
 			rewards: [
@@ -374,7 +374,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Read me!"
+			subtitle: "請閱讀！"
 			tasks: [{
 				id: "41B052F3415EDC28"
 				item: {
@@ -384,18 +384,18 @@
 						Damage: 0
 					}
 				}
-				title: "Iron armor"
+				title: "鐵護甲"
 				type: "item"
 			}]
-			title: "Early melee armor"
+			title: "前期近戰護甲"
 			x: -3.5d
 			y: 0.75d
 		}
 		{
 			description: [
-				"You now have unlocked &6the Necromancer quest chapter&r. Check it out in the quest book!"
+				"你已解鎖 &6死靈法師任務章節&r，請在任務書中查閱！"
 				""
-				"It will help you know which armors and more to craft next!"
+				"它將協助你了解接下來應該製作哪些護甲與裝備！"
 			]
 			id: "004D49788CC0D5FC"
 			rewards: [
@@ -420,15 +420,15 @@
 				id: "4686B4DE08B2CE31"
 				type: "custom"
 			}]
-			title: "You've chosen the Necromancer class!"
+			title: "你選擇了死靈法師職業！"
 			x: 13.0d
 			y: 3.5d
 		}
 		{
 			description: [
-				"You now have unlocked &6the Gunner quest chapter&r. Check it out in the quest book!"
+				"你已解鎖 &6槍手任務章節&r，請在任務書中查閱！"
 				""
-				"It will help you know which armors and more to craft next!"
+				"它將協助你了解接下來應該製作哪些護甲與裝備！"
 			]
 			id: "51F86D6012A589B2"
 			rewards: [{
@@ -449,7 +449,7 @@
 					}
 				}
 				id: "7290D4A54277F76D"
-				title: "You've chosen the Gunner class!"
+				title: "你選擇了槍手職業！"
 				type: "custom"
 			}]
 			x: -2.0d
@@ -457,7 +457,7 @@
 		}
 		{
 			dependencies: ["0613243385C3015B"]
-			description: ["Put the &6Spell Book&r and the &7Scroll&r in the &3Inscription table&r, you will then be able to use the spells as much as you have enough mana."]
+			description: ["將 &6法術書&r 和 &7卷軸&r 放入 &3刻印台&r，之後只要有足夠魔力便可無限使用該法術。"]
 			id: "7C35851A571E1DAB"
 			tasks: [{
 				id: "661B18D921ACDB98"
@@ -848,5 +848,5 @@
 			y: 11.0d
 		}
 	]
-	title: "Classes introduction"
+	title: "職業介紹"
 }

@@ -17,7 +17,7 @@
 		{
 			dependency: "44FCF260737D0785"
 			height: 0.75d
-			hover: ["Not all Weapons are listed here !"]
+			hover: ["此處未列出所有武器！"]
 			image: "prodigium_reforged:textures/gui/weapons.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -36,7 +36,7 @@
 		{
 			dependency: "44FCF260737D0785"
 			height: 0.75d
-			hover: ["Not all Curios are listed here !"]
+			hover: ["此處未列出所有飾品！"]
 			image: "prodigium_reforged:textures/gui/curios.png"
 			rotation: 0.0d
 			width: 2.73d
@@ -76,7 +76,7 @@
 	quests: [
 		{
 			dependencies: ["44FCF260737D0785"]
-			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
+			description: ["你需要在&6技能樹&r中解鎖護甲，並在主線任務中推進進度。"]
 			hide_dependency_lines: false
 			id: "4295FD014E3D5800"
 			min_required_tasks: 1
@@ -112,7 +112,7 @@
 							Damage: 0
 						}
 					}
-					title: "Mythril Armor"
+					title: "秘銀護甲"
 					type: "item"
 				}
 				{
@@ -124,11 +124,11 @@
 							Damage: 0
 						}
 					}
-					title: "Paladin Armor"
+					title: "聖騎士護甲"
 					type: "item"
 				}
 			]
-			title: "Crusader armors for the Normal Mode"
+			title: "普通模式的十字軍護甲"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -138,7 +138,7 @@
 				"774BCB593AAFAA33"
 			]
 			dependency_requirement: "all_started"
-			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
+			description: ["你需要在&6技能樹&r中解鎖護甲，並在主線任務中推進進度。"]
 			hide_until_deps_visible: true
 			id: "3A908ED8568C4279"
 			rewards: [
@@ -167,7 +167,7 @@
 							Damage: 0
 						}
 					}
-					title: "Crusader Armor"
+					title: "十字軍護甲"
 					type: "item"
 				}
 				{
@@ -186,7 +186,7 @@
 							Reforge: "quality_equipment.quality.masterful"
 						}
 					}
-					title: "Valkyrie Armor"
+					title: "女武神護甲"
 					type: "item"
 				}
 				{
@@ -198,11 +198,11 @@
 							Damage: 0
 						}
 					}
-					title: "Plated Valkyrie Armor"
+					title: "鍍甲女武神護甲"
 					type: "item"
 				}
 			]
-			title: "Crusader armors for the Expert Mode"
+			title: "專家模式的十字軍護甲"
 			x: 4.5d
 			y: 0.0d
 		}
@@ -212,7 +212,7 @@
 				"78E025D30CD1E607"
 			]
 			dependency_requirement: "all_started"
-			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
+			description: ["你需要在&6技能樹&r中解鎖護甲，並在主線任務中推進進度。"]
 			hide_until_deps_visible: true
 			id: "17E89E220CD2DACA"
 			rewards: [
@@ -240,10 +240,10 @@
 						Damage: 0
 					}
 				}
-				title: "Ignitium Armor"
+				title: "烈焰護甲"
 				type: "item"
 			}]
-			title: "Crusader armors for the Master Mode"
+			title: "大師模式的十字軍護甲"
 			x: 7.5d
 			y: 0.0d
 		}
@@ -312,7 +312,7 @@
 		{
 			dependencies: ["44FCF260737D0785"]
 			id: "34C0644DBA585B8A"
-			subtitle: "&6Post Bellringer&r"
+			subtitle: "&6擊敗敲鐘人後&r"
 			tasks: [{
 				id: "2B69CA87991D83F3"
 				item: {
@@ -330,7 +330,7 @@
 		{
 			dependencies: ["44FCF260737D0785"]
 			id: "39DE7FF3F7410FAE"
-			subtitle: "&6Post Frostmaw&r"
+			subtitle: "&6擊敗霜凍巨獸後&r"
 			tasks: [{
 				id: "5446D26ABE38CE6D"
 				item: {
@@ -348,7 +348,7 @@
 		{
 			dependencies: ["44FCF260737D0785"]
 			id: "44E5D75E1F291EE9"
-			subtitle: "&6Post Frostmaw&r"
+			subtitle: "&6擊敗霜凍巨獸後&r"
 			tasks: [{
 				id: "4AA8D96C51F905D6"
 				item: {
@@ -366,7 +366,7 @@
 		{
 			dependencies: ["44FCF260737D0785"]
 			id: "7954444FCBE32E3D"
-			subtitle: "&6Post Frostmaw&r"
+			subtitle: "&6擊敗霜凍巨獸後&r"
 			tasks: [{
 				id: "1F5BE6006199D0D5"
 				item: {
@@ -384,7 +384,7 @@
 		{
 			dependencies: ["44FCF260737D0785"]
 			id: "2658C4FBB90B57B8"
-			subtitle: "&6Post Frostmaw&r"
+			subtitle: "&6擊敗霜凍巨獸後&r"
 			tasks: [{
 				id: "58C269F288A9A338"
 				item: {
@@ -439,7 +439,7 @@
 			dependencies: ["44FCF260737D0785"]
 			id: "0F9B2BC734BFA7C3"
 			shape: "octagon"
-			subtitle: "&6Post Bellringer&r"
+			subtitle: "&6擊敗敲鐘人後&r"
 			tasks: [{
 				id: "2048BD773E23FDED"
 				item: "confluence:worm_scarf"
@@ -452,7 +452,7 @@
 			dependencies: ["44FCF260737D0785"]
 			id: "4F733A2A34A0EFF7"
 			shape: "octagon"
-			subtitle: "&6Post Bellringer&r"
+			subtitle: "&6擊敗敲鐘人後&r"
 			tasks: [{
 				id: "05F3809A9634B616"
 				item: "confluence:brain_of_confusion"
@@ -477,7 +477,7 @@
 			dependencies: ["44FCF260737D0785"]
 			id: "0D5EF10EBF01086F"
 			shape: "octagon"
-			subtitle: "&6Post Bellringer&r"
+			subtitle: "&6擊敗敲鐘人後&r"
 			tasks: [{
 				id: "19E847F7D4E2983C"
 				item: "confluence:honey_comb"
@@ -514,7 +514,7 @@
 			dependencies: ["44FCF260737D0785"]
 			id: "14FA2FDFF9672D7F"
 			shape: "octagon"
-			subtitle: "&6Post Frostmaw&r"
+			subtitle: "&6擊敗霜凍巨獸後&r"
 			tasks: [{
 				id: "152919E4979B62A2"
 				item: "confluence:frozen_turtle_shell"
@@ -593,7 +593,7 @@
 			hide_until_deps_complete: true
 			id: "695B0040AF5B379F"
 			shape: "octagon"
-			subtitle: "&6Post Dame Fortuna&r"
+			subtitle: "&6擊敗命運女神後&r"
 			tasks: [{
 				id: "3460C1022A689FEB"
 				item: "meetyourfight:ace_of_iron"
@@ -611,7 +611,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "327E3E18C467A8DC"
-			subtitle: "&6Post Nether Gauntlet&r"
+			subtitle: "&6擊敗地獄之手後&r"
 			tasks: [{
 				id: "6DCE5BE1FB529D35"
 				item: {
@@ -635,7 +635,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "28DEA13C0745FE23"
-			subtitle: "&6Post Nether Gauntlet&r"
+			subtitle: "&6擊敗地獄之手後&r"
 			tasks: [{
 				id: "4D607CC574AE3D32"
 				item: {
@@ -659,7 +659,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "6AA58E77DF9B734F"
-			subtitle: "&6Post Underworld Knight&r"
+			subtitle: "&6擊敗冥界騎士後&r"
 			tasks: [{
 				id: "148E1334B47056D6"
 				item: {
@@ -683,7 +683,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "1202CED8C1B47A67"
-			subtitle: "&6Post Underworld Knight&r"
+			subtitle: "&6擊敗冥界騎士後&r"
 			tasks: [{
 				id: "0DFAB4CEFE184313"
 				item: {
@@ -707,7 +707,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "7E45440B495DB5C1"
-			subtitle: "&6Post Underworld Knight&r"
+			subtitle: "&6擊敗冥界騎士後&r"
 			tasks: [{
 				id: "70A23653CDE99A70"
 				item: {
@@ -731,7 +731,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "1DCD713FC0F3E3B6"
-			subtitle: "&6Post Netherite Monstrosity&r"
+			subtitle: "&6擊敗獄髓魔像後&r"
 			tasks: [{
 				id: "2CC463361676C01A"
 				item: {
@@ -754,7 +754,7 @@
 			dependency_requirement: "one_started"
 			hide_dependency_lines: true
 			id: "3C039F5FCF441451"
-			subtitle: "&6Post Netherite Monstrosity&r"
+			subtitle: "&6擊敗獄髓魔像後&r"
 			tasks: [{
 				id: "235C07117DEFB739"
 				item: {
@@ -778,7 +778,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "5DA0156177FA8DDD"
-			subtitle: "&6Post Slider&r"
+			subtitle: "&6擊敗滑行者後&r"
 			tasks: [{
 				id: "386D9DA6F0F6ADC9"
 				item: {
@@ -802,7 +802,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "7DA6443883086123"
-			subtitle: "&6Post Void Blossom&r"
+			subtitle: "&6擊敗虛空之花後&r"
 			tasks: [{
 				id: "75552363607B8FBE"
 				item: {
@@ -826,7 +826,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "69BB3611C0B5D15C"
-			subtitle: "&6Post Leviathan&r"
+			subtitle: "&6擊敗利維坦後&r"
 			tasks: [{
 				id: "27FFB241FFA01E60"
 				item: {
@@ -850,7 +850,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0F331378A3799B6D"
-			subtitle: "&6Post Harbinger&r"
+			subtitle: "&6擊敗預示者後&r"
 			tasks: [{
 				id: "22169A1C641ACFA3"
 				item: {
@@ -932,7 +932,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "013EB8B0B53393CE"
-			subtitle: "&6Post Ignis&r"
+			subtitle: "&6擊敗火焰之主後&r"
 			tasks: [{
 				id: "7F3903729C49324E"
 				item: {
@@ -953,5 +953,5 @@
 			y: 9.5d
 		}
 	]
-	title: "Crusader"
+	title: "十字軍"
 }
