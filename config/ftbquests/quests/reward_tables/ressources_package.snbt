@@ -36,6 +36,6 @@
 		{ count: 16, item: "minecraft:flint", random_bonus: 16 }
 		{ count: 16, item: "minecraft:iron_ingot", random_bonus: 16, weight: 2.0f }
 	]
-	title: "Resources Package"
+	title: "素材包"
 	use_title: true
 }
