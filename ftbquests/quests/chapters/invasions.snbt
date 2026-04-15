@@ -60,7 +60,7 @@
 						}
 					}
 					id: "6419CD3A4E52DA5A"
-					title: "Defeat the slime gate"
+					title: "擊敗史萊姆之門"
 					type: "custom"
 				}
 			]
@@ -104,7 +104,7 @@
 						}
 					}
 					id: "2221A3096897D237"
-					title: "Defeat the zombie gate"
+					title: "擊敗殭屍之門"
 					type: "custom"
 				}
 			]
@@ -151,7 +151,7 @@
 						}
 					}
 					id: "15FAE2025D04EB4B"
-					title: "Defeat the spider gate"
+					title: "擊敗蜘蛛之門"
 					type: "custom"
 				}
 			]
@@ -159,7 +159,7 @@
 			y: -4.0d
 		}
 		{
-			description: ["You need this NPC to craft the Gates."]
+			description: ["你需要這個NPC來製作傳送門。"]
 			id: "4B1ABE1A8E60831E"
 			rewards: [{
 				count: 5
@@ -170,7 +170,7 @@
 			tasks: [{
 				icon: "minecraft:barrel"
 				id: "7B2BFEEE8BC988B0"
-				title: "Unlock the Tavernkeep"
+				title: "解鎖酒館老闆"
 				type: "custom"
 			}]
 			x: 1.5d
@@ -224,7 +224,7 @@
 						}
 					}
 					id: "4440E5DD615DD84B"
-					title: "Defeat the gate"
+					title: "擊敗舊日軍團之門"
 					type: "custom"
 				}
 			]
@@ -279,7 +279,7 @@
 						}
 					}
 					id: "37E7DE37AE6E8D6F"
-					title: "Defeat the gate"
+					title: "擊敗二級舊日軍團之門"
 					type: "custom"
 				}
 			]
@@ -328,7 +328,7 @@
 						}
 					}
 					id: "01590DC84238B719"
-					title: "Defeat the gate"
+					title: "擊敗三級舊日軍團之門"
 					type: "custom"
 				}
 			]
@@ -336,18 +336,18 @@
 			y: -2.5d
 		}
 		{
-			description: ["All The Gates needs to be reworked for the 1.20 update so more will come in the future!"]
+			description: ["所有門都需要為1.20版本更新重新設計，未來將會加入更多！"]
 			id: "462E69FDAE8B2997"
 			optional: true
 			tasks: [{
 				icon: "minecraft:red_banner"
 				id: "40C55EE58B543530"
-				title: "Coming in the future"
+				title: "即將推出"
 				type: "custom"
 			}]
 			x: -3.0d
 			y: -0.5d
 		}
 	]
-	title: "Gates"
+	title: "傳送門"
 }

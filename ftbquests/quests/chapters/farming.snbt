@@ -30,13 +30,13 @@
 				item: "farmersdelight:stove"
 				type: "item"
 			}]
-			title: "Don't put your hands on it"
+			title: "別把手放上去"
 			x: 9.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0ED810BEFC86FE35"]
-			description: ["Use it to chop food "]
+			description: ["用它來切食材"]
 			id: "6868F944E8377ED9"
 			rewards: [{
 				auto: "no_toast"
@@ -49,7 +49,7 @@
 				item: "farmersdelight:cutting_board"
 				type: "item"
 			}]
-			title: "Chop chop"
+			title: "切切切"
 			x: 7.0d
 			y: 0.0d
 		}
@@ -72,7 +72,7 @@
 				}
 				type: "item"
 			}]
-			title: "Craft an Iron  Knife"
+			title: "製作一把鐵刀"
 			x: 5.0d
 			y: 0.0d
 		}
@@ -105,7 +105,7 @@
 				type: "stat"
 				value: 10
 			}]
-			title: "New friends"
+			title: "新朋友"
 			x: 5.0d
 			y: 2.0d
 		}
@@ -173,7 +173,7 @@
 				item: "farmersdelight:cooking_pot"
 				type: "item"
 			}]
-			title: "Let's get cookin'"
+			title: "開始烹飪吧"
 			x: 11.0d
 			y: 0.0d
 		}
@@ -208,7 +208,7 @@
 				type: "stat"
 				value: 150
 			}]
-			title: "Don't let them escape"
+			title: "別讓牠們逃跑"
 			x: 6.0d
 			y: 3.0d
 		}
@@ -243,7 +243,7 @@
 				type: "stat"
 				value: 500
 			}]
-			title: "You might need a larger enclosure"
+			title: "你可能需要一個更大的圍欄"
 			x: 5.0d
 			y: 4.0d
 		}
@@ -271,7 +271,7 @@
 					command: "/puffish_skills experience add @p general 125"
 					icon: "minecraft:experience_bottle"
 					id: "01329395B5FDE5E6"
-					title: "&9+General EXP&r"
+					title: "&9+基礎經驗值&r"
 					type: "command"
 				}
 				{
@@ -288,7 +288,7 @@
 				type: "stat"
 				value: 1250
 			}]
-			title: "That's a lot of animals to eat"
+			title: "這麼多動物真夠吃的"
 			x: 6.0d
 			y: 5.0d
 		}
@@ -687,7 +687,7 @@
 			y: -1.25d
 		}
 		{
-			description: ["Let it turn into a Rich Soil"]
+			description: ["讓它轉化為肥沃土壤"]
 			id: "146066A5A3F4970B"
 			rewards: [
 				{
@@ -715,7 +715,7 @@
 				item: "farmersdelight:organic_compost"
 				type: "item"
 			}]
-			title: "Craft an Organic Compost"
+			title: "製作有機堆肥"
 			x: 3.0d
 			y: -2.0d
 		}
@@ -769,7 +769,7 @@
 					type: "item"
 				}
 			]
-			title: "Get every vanilla Minecraft's seed !"
+			title: "收集所有原版 Minecraft 的種子！"
 			x: 2.5d
 			y: -1.0d
 		}
@@ -823,7 +823,7 @@
 					type: "item"
 				}
 			]
-			title: "Get every seed from &6Farmer's delight&r"
+			title: "收集 &6農夫之喜&r 的所有種子"
 			x: 2.5d
 			y: 1.0d
 		}
@@ -875,7 +875,7 @@
 					type: "item"
 				}
 			]
-			title: "Collect every berries"
+			title: "收集所有漿果"
 			x: 3.0d
 			y: 2.0d
 		}
@@ -947,16 +947,16 @@
 					type: "item"
 				}
 			]
-			title: "Get every fruit tree saplings"
+			title: "獲取所有果樹樹苗"
 			x: 2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6E445C7BDD573ACF"]
 			description: [
-				"&9Summer&r is the 2nd season of the year for temperate biomes."
+				"&9夏季&r 是溫帶生物群系一年中的第2個季節。"
 				""
-				"The grass and foliage mellows out to a yellow-ish green tint. Thunderstorms are also more common in &9summer&r."
+				"草地和植被會變成黃綠色調。&9夏季&r 的雷暴也更為頻繁。"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -982,18 +982,18 @@
 				id: "2E93779417FC46F3"
 				type: "questsadditions:days"
 			}]
-			title: "Prepare the sunscreen!"
+			title: "準備防曬乳！"
 			x: 6.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["03E76085134E7062"]
 			description: [
-				"&6Autumn&r is the 3rd season of the year for temperate biomes."
+				"&6秋季&r 是溫帶生物群系一年中的第3個季節。"
 				""
-				"The grass transitions to a yellow-ish color, while foliage gets an orange-ish tint, which is most vibrant at its peak."
+				"草地轉為黃色調，植被則帶有橙色調，在高峰期最為鮮豔。"
 				""
-				"Biome temperatures start to fall towards the end of the season leading to &3Winter&r."
+				"生物群系溫度在季末開始下降，邁向 &3冬季&r。"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1019,18 +1019,18 @@
 				id: "550A79EAA8B002F4"
 				type: "questsadditions:days"
 			}]
-			title: "Falling leaves"
+			title: "落葉紛飛"
 			x: 8.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["7600028B404F631B"]
 			description: [
-				"&3Winter&r is the 4th season of the year for temperate biomes."
+				"&3冬季&r 是溫帶生物群系一年中的第4個季節。"
 				""
-				"Biome temperatures drop, allowing snow to start falling in biomes that normally don't receive any."
+				"生物群系溫度下降，使得原本不降雪的生物群系也開始降雪。"
 				""
-				"Precipitation is also more frequent in &3Winter&r, but thunderstorms cannot occur."
+				"&3冬季&r 的降水也更為頻繁，但不會出現雷暴。"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1056,17 +1056,17 @@
 				id: "5FB1D84FFF148087"
 				type: "questsadditions:days"
 			}]
-			title: "Best time for a hot chocolate!"
+			title: "喝熱巧克力的最佳時機！"
 			x: 9.0d
 			y: -4.0d
 		}
 		{
 			description: [
-				"&5Spring&r is the 1st season of the year for temperate biomes."
+				"&5春季&r 是溫帶生物群系一年中的第1個季節。"
 				""
-				"The grass and foliage transitions to a blue-ish green color, and biome temperatures start warming up from &3Winter&r towards the end of the season."
+				"草地和植被轉為藍綠色調，生物群系溫度從 &3冬季&r 開始在季末逐漸回暖。"
 				""
-				"&3Winter&r snows start to melt, and precipitation is also more frequent in &5Spring&r."
+				"&3冬季&r 的積雪開始融化，&5春季&r 的降水也更為頻繁。"
 			]
 			id: "6E445C7BDD573ACF"
 			rewards: [
@@ -1090,12 +1090,12 @@
 				id: "7ABB2D51AEA24D3D"
 				type: "questsadditions:days"
 			}]
-			title: "A relaxing beginning"
+			title: "悠閒的開始"
 			x: 5.0d
 			y: -4.0d
 		}
 		{
-			description: ["Plant the seed and feed it meat."]
+			description: ["種下種子並餵給它肉。"]
 			id: "30C9C8AD84FAC5D7"
 			rewards: [{
 				auto: "no_toast"
@@ -1108,10 +1108,10 @@
 				item: "mowziesmobs:foliaath_seed"
 				type: "item"
 			}]
-			title: "Don't get too close"
+			title: "別靠太近"
 			x: 10.0d
 			y: -2.0d
 		}
 	]
-	title: "Farming"
+	title: "農業"
 }

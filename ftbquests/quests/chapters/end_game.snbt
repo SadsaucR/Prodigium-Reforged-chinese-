@@ -37,7 +37,7 @@
 	quests: [
 		{
 			dependencies: ["4CAE385F554764AE"]
-			description: ["The final boss of the &2Ruined Citadel&r (lower levels of the structure)"]
+			description: ["&2廢墟城堡&r的最終Boss（建築物的下層）"]
 			hide_until_deps_visible: false
 			icon: "majruszsdifficulty:enderium_shard"
 			id: "499AD4E69B48B516"
@@ -69,7 +69,7 @@
 					id: "7E3DDA423222169B"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -80,7 +80,7 @@
 					id: "2F5A7305FD7F8E56"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -91,7 +91,7 @@
 					id: "6D07CA881297E3FC"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -102,7 +102,7 @@
 					id: "5CB2313CD63C31BF"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -113,7 +113,7 @@
 					id: "206EEF428E60886A"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -124,7 +124,7 @@
 					id: "1D3707E10A0946C5"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 			]
@@ -135,7 +135,7 @@
 					entity: "cataclysm:ender_guardian"
 					icon: "majruszsdifficulty:enderium_shard"
 					id: "04D5EB5486245C39"
-					title: "Kill the &4Ender Guardian&r"
+					title: "擊殺 &4末影守護者&r"
 					type: "kill"
 					value: 1L
 				}
@@ -152,7 +152,7 @@
 		}
 		{
 			dependencies: ["69211BF1D6204C54"]
-			description: ["It can be found in a &2Ruined Citadel&r in the end"]
+			description: ["可以在終界的 &2廢墟城堡&r 中找到"]
 			id: "4CAE385F554764AE"
 			rewards: [
 				{
@@ -181,7 +181,7 @@
 					id: "2F1424B4925C78E7"
 					silent: true
 					team_reward: false
-					title: "&6+1 Skill Points&r"
+					title: "&6+1 技能點數&r"
 					type: "command"
 				}
 				{
@@ -192,7 +192,7 @@
 					id: "1D8302AAA2FC755E"
 					silent: true
 					team_reward: false
-					title: "&6+1 Skill Points&r"
+					title: "&6+1 技能點數&r"
 					type: "command"
 				}
 				{
@@ -203,7 +203,7 @@
 					id: "4393BE5168C5891E"
 					silent: true
 					team_reward: false
-					title: "&6+1 Skill Points&r"
+					title: "&6+1 技能點數&r"
 					type: "command"
 				}
 				{
@@ -214,7 +214,7 @@
 					id: "11579B9DFE67E76F"
 					silent: true
 					team_reward: false
-					title: "&6+1 Skill Points&r"
+					title: "&6+1 技能點數&r"
 					type: "command"
 				}
 				{
@@ -225,7 +225,7 @@
 					id: "32E0090EC329E0FB"
 					silent: true
 					team_reward: false
-					title: "&6+1 Skill Points&r"
+					title: "&6+1 技能點數&r"
 					type: "command"
 				}
 				{
@@ -236,7 +236,7 @@
 					id: "36A90D9057AE3D15"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 			]
@@ -246,7 +246,7 @@
 				entity: "cataclysm:ender_golem"
 				icon: "cataclysm:void_core"
 				id: "28CFCAC0B99706F3"
-				title: "Kill the &4Ender Golem&r"
+				title: "擊殺 &4末影魔像&r"
 				type: "kill"
 				value: 1L
 			}]
@@ -293,13 +293,13 @@
 				item: "majruszsdifficulty:undead_army_treasure_bag"
 				type: "item"
 			}]
-			title: "Defeat the Undead Battle Army in Master mode!"
+			title: "在大師模式中擊敗不死軍團！"
 			x: 17.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["20DC0659957F6560"]
-			description: ["Craft a &9Necklace of the desert&r then find the ancient fossil in the &2Cursed Pyramid&r"]
+			description: ["製作一條 &9沙漠項鍊&r，然後在 &2詛咒金字塔&r 中尋找遠古化石"]
 			icon: "cataclysm:necklace_of_the_desert"
 			id: "69211BF1D6204C54"
 			min_required_tasks: 1
@@ -324,7 +324,7 @@
 					id: "403823BB710E502D"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -335,7 +335,7 @@
 					id: "43F57CC4F92B0700"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -346,7 +346,7 @@
 					id: "5CBBBB635E229018"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -357,7 +357,7 @@
 					id: "18800BC0E3E80A01"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -368,7 +368,7 @@
 					id: "1374CD7B212B7C63"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -379,7 +379,7 @@
 					id: "68F72D473CCABC7C"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 			]
@@ -390,7 +390,7 @@
 					entity: "cataclysm:ancient_remnant"
 					icon: "cataclysm:necklace_of_the_desert"
 					id: "59330083685E8CCA"
-					title: "Defeat the &4Ancient Remnant&r"
+					title: "擊敗 &4遠古殘骸&r"
 					type: "kill"
 					value: 1L
 				}
@@ -408,9 +408,9 @@
 		{
 			dependencies: ["6EB21A5EFC2F6EF2"]
 			description: [
-				"Found at the &2Obsidilith Arena&r."
+				"在 &2黑曜岩石競技場&r 中找到。"
 				""
-				"Use an &9Eye of ender&r on the &9Obsidian Altar&r."
+				"在 &9黑曜岩祭壇&r 上使用 &9末影之眼&r。"
 			]
 			icon: "artifacts:obsidian_skull"
 			id: "2F2E994C5099612A"
@@ -443,7 +443,7 @@
 					id: "5B72F8A78D9737DA"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -454,7 +454,7 @@
 					id: "761987E01EE87961"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -465,7 +465,7 @@
 					id: "48B551EEC0EAED2E"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -476,7 +476,7 @@
 					id: "20C2D551E4FF3550"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -487,7 +487,7 @@
 					id: "323EF3DFD605B1CD"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -498,7 +498,7 @@
 					id: "43409629829EAA87"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 			]
@@ -509,7 +509,7 @@
 					entity: "bosses_of_mass_destruction:obsidilith"
 					icon: "artifacts:obsidian_skull"
 					id: "4EF1F3E2E1EA7513"
-					title: "Defeat &4Obsidilith&r"
+					title: "擊敗 &4黑曜岩石&r"
 					type: "kill"
 					value: 1L
 				}
@@ -535,9 +535,9 @@
 		{
 			dependencies: ["2F2E994C5099612A"]
 			description: [
-				"Summon it by crafting a &9Dusk Key&r."
+				"製作 &9黃昏鑰匙&r 來召喚它。"
 				""
-				"You can find &dChorundum&r in the &2Shelterer Dungeon&r."
+				"可以在 &2庇護者地牢&r 中找到 &dChorundum&r。"
 			]
 			icon: "meetyourfight:dusk_key"
 			id: "20DC0659957F6560"
@@ -570,7 +570,7 @@
 					id: "397A0D8E07A38A08"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -581,7 +581,7 @@
 					id: "41AD951141EB19D1"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -592,7 +592,7 @@
 					id: "146766E1E8F522CD"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -603,7 +603,7 @@
 					id: "0CCD7161288CB583"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -614,7 +614,7 @@
 					id: "2E2404C2E3CE66C2"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -625,7 +625,7 @@
 					id: "1E39767E44C6B97E"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 			]
@@ -636,7 +636,7 @@
 					entity: "meetyourfight:rosalyne"
 					icon: "meetyourfight:dusk_key"
 					id: "7731EA48F2CD6DD2"
-					title: "Kill &4Rosalyne&r"
+					title: "擊殺 &4蘿莎琳&r"
 					type: "kill"
 					value: 1L
 				}
@@ -653,21 +653,21 @@
 		}
 		{
 			description: [
-				"The Master Mode is the stage with the less work put on. "
+				"大師模式是目前完成度最低的階段。"
 				""
-				"It's currently really not finished and is actually the next main Update!"
+				"它目前尚未完成，實際上是下一個主要更新的內容！"
 			]
 			id: "08B20B08D55DD0D5"
 			optional: true
 			tasks: [{
 				icon: "minecraft:red_banner"
 				id: "34671BCE39393A6E"
-				title: "The Master Mode full rework is next"
+				title: "大師模式的完整改版即將到來"
 				type: "custom"
 			}]
 			x: 13.0d
 			y: -1.0d
 		}
 	]
-	title: "Master Mode"
+	title: "大師模式"
 }

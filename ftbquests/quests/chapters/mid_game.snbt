@@ -469,7 +469,7 @@
 	quests: [
 		{
 			dependencies: ["64DECE60E0B6FB6D"]
-			description: ["Found in the &2Ocean monument&r."]
+			description: ["在&2海洋神殿&r中找到。"]
 			icon: "majruszsdifficulty:elder_guardian_treasure_bag"
 			id: "3B3B33E6A70E1CAF"
 			min_required_tasks: 1
@@ -500,7 +500,7 @@
 					id: "066F9BFA5EFA0D8F"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -511,7 +511,7 @@
 					id: "12E4E5ABD730E762"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -522,7 +522,7 @@
 					id: "07B9F377F16CB245"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -533,7 +533,7 @@
 					id: "1030816785F5A673"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -544,7 +544,7 @@
 					id: "09F93EA3A88C1440"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -555,7 +555,7 @@
 					id: "4CDCD61665E8C011"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 			]
@@ -566,7 +566,7 @@
 					entity: "minecraft:elder_guardian"
 					icon: "majruszsdifficulty:elder_guardian_treasure_bag"
 					id: "7E8040F0998CD20A"
-					title: "Kill the &5Elder Guardian&r"
+					title: "擊殺&5遠古守衛者&r"
 					type: "kill"
 					value: 1L
 				}
@@ -592,10 +592,10 @@
 		{
 			dependencies: ["774BCB593AAFAA33"]
 			description: [
-				"You summon it like in vanilla Minecraft."
+				"召喚方式與原版Minecraft相同。"
 				""
-				"Sometimes it might not work, don't worry just break the blocks and wither skulls and replace it in"
-				"a different place (just a few block away is enough), I'm trying to find a fix :)"
+				"有時可能無法正常運作，不要擔心，只需拆掉方塊和凋靈骷髏頭，並在"
+				"不同位置重新放置（離原來幾格就夠了），我正在尋找修復方法 :)"
 			]
 			icon: "minecraft:wither_skeleton_skull"
 			id: "78E025D30CD1E607"
@@ -621,7 +621,7 @@
 					id: "52767CE2AD9485AF"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -632,7 +632,7 @@
 					id: "20CA619C24B388CB"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -643,7 +643,7 @@
 					id: "2008CD9DB00EB6F4"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -654,7 +654,7 @@
 					id: "36546CD06D8F355A"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -665,7 +665,7 @@
 					id: "229FACA0A2294084"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -676,7 +676,7 @@
 					id: "6BB410D5C63CE6A6"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 			]
@@ -687,7 +687,7 @@
 					entity: "minecraft:wither"
 					icon: "minecraft:wither_skeleton_skull"
 					id: "1787DFC6FDBED8FB"
-					title: "Kill the &5Wither&r"
+					title: "擊殺&5凋靈&r"
 					type: "kill"
 					value: 1L
 				}
@@ -713,10 +713,10 @@
 		{
 			dependencies: ["3FDEF8CE2822DEFB"]
 			description: [
-				"To find the &2Stronghold&r you can use one of the &e12 eyes you need&r."
+				"要找到&2要塞&r，你可以使用你所需的&e12個眼睛&r之一。"
 				""
 				""
-				"As long as you have 12 different unique eyes you will be able to open the portal to &5The End&r and fight the &4Ender Dragon&r."
+				"只要你擁有12個不同的獨特眼睛，你就能打開通往&5終界&r的傳送門並與&4終界龍&r戰鬥。"
 			]
 			icon: "minecraft:dragon_head"
 			id: "6EB21A5EFC2F6EF2"
@@ -760,7 +760,7 @@
 					id: "32CBBFBA3DC5415C"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -771,7 +771,7 @@
 					id: "4B7163682807E538"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -782,7 +782,7 @@
 					id: "0C495DB55391615D"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -793,7 +793,7 @@
 					id: "731F7159E9A88F80"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -804,7 +804,7 @@
 					id: "5BF35ED27B2B149A"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -815,7 +815,7 @@
 					id: "6DCECA196284BEF4"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 			]
@@ -826,7 +826,7 @@
 					entity: "minecraft:ender_dragon"
 					icon: "minecraft:dragon_head"
 					id: "2F5E3A53F186F4F3"
-					title: "Kill the &5Ender Dragon&r and unlock the &9Master Mode&r"
+					title: "擊殺&5終界龍&r並解鎖&9大師模式&r"
 					type: "kill"
 					value: 1L
 				}
@@ -890,7 +890,7 @@
 				item: "majruszsdifficulty:undead_army_treasure_bag"
 				type: "item"
 			}]
-			title: "Defeat the Undead Army in Expert Mode!"
+			title: "在專家模式中擊敗不死軍隊！"
 			x: 14.5d
 			y: 0.5d
 		}
@@ -923,7 +923,7 @@
 					id: "4DA27660174E44DD"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -933,7 +933,7 @@
 					id: "6057A1F638DBCCD1"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -943,7 +943,7 @@
 					id: "1E231A6D24C91038"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -953,7 +953,7 @@
 					id: "2B7FDC7D0A178A72"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -963,7 +963,7 @@
 					id: "4A9E008F17B99F7E"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -974,7 +974,7 @@
 					id: "7569AAC4E035FECE"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 			]
@@ -983,7 +983,7 @@
 				entity: "minecraft:wither"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "2C91F2E4CF182B42"
-				title: "Kill the &5Wither&r 15 times"
+				title: "擊殺&5凋靈&r 15次"
 				type: "kill"
 				value: 15L
 			}]
@@ -1005,13 +1005,13 @@
 				item: "minecraft:netherite_scrap"
 				type: "item"
 			}]
-			title: "You now have unlocked &8netherite&r"
+			title: "你現在已解鎖&8下界合金&r"
 			x: 19.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["476DC0D49480853F"]
-			description: ["Find it in the nether"]
+			description: ["在下界中找到它"]
 			hide_until_deps_visible: true
 			id: "099477E4F8EED634"
 			rewards: [{
@@ -1025,13 +1025,13 @@
 				item: "simpleores:onyx_gem"
 				type: "item"
 			}]
-			title: "You now have unlocked &8Onyx&r and &2Tungsten&r"
+			title: "你現在已解鎖&8黑曜玉&r和&2鎢&r"
 			x: 3.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["4C893D987E24A8AF"]
-			description: ["Found in his &2Soul Blacksmith&r structure"]
+			description: ["在其&2靈魂鐵匠&r結構中找到"]
 			icon: {
 				Count: 1
 				id: "stalwart_dungeons:nether_hammer"
@@ -1081,7 +1081,7 @@
 					id: "6A0F63D341B5DFE9"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1092,7 +1092,7 @@
 					id: "4C097F83CBFBC3A8"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1103,7 +1103,7 @@
 					id: "6C1B077866FB7111"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1114,7 +1114,7 @@
 					id: "3FA2DCC2A49AA751"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1125,7 +1125,7 @@
 					id: "7355933B138B35D2"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1136,7 +1136,7 @@
 					id: "1790D16F8A0C0B41"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 			]
@@ -1153,7 +1153,7 @@
 						}
 					}
 					id: "49BFF0417C3C70C2"
-					title: "Kill the &5Netherite Monstrosity&r"
+					title: "擊殺&5下界合金怪物&r"
 					type: "kill"
 					value: 1L
 				}
@@ -1170,7 +1170,7 @@
 		}
 		{
 			dependencies: ["14CA102BAD4F6A38"]
-			description: ["Found at the last floor of the &2Burning Arena&r. Use &9burning ashes&r dropped from Ignited Revenant onto the Altar of Fire"]
+			description: ["在&2燃燒競技場&r的最後一層找到。將從點燃亡靈身上掉落的&9燃燒灰燼&r使用在烈火祭壇上"]
 			icon: "cataclysm:bulwark_of_the_flame"
 			id: "3FDEF8CE2822DEFB"
 			min_required_tasks: 1
@@ -1205,7 +1205,7 @@
 					id: "7C0EBDD06175C1F3"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1216,7 +1216,7 @@
 					id: "4FEBC74A2BC716DF"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1227,7 +1227,7 @@
 					id: "4F9ED9A5152A3DF0"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1238,7 +1238,7 @@
 					id: "0425EB156EC5E391"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1249,7 +1249,7 @@
 					id: "10509BB3457C058F"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1260,7 +1260,7 @@
 					id: "2F4D807C63127FB6"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 			]
@@ -1271,7 +1271,7 @@
 					entity: "cataclysm:ignis"
 					icon: "cataclysm:bulwark_of_the_flame"
 					id: "469575AC0949000F"
-					title: "Kill &5Ignis&r"
+					title: "擊殺&5火焰之主&r"
 					type: "kill"
 					value: 1L
 				}
@@ -1289,9 +1289,9 @@
 		{
 			dependencies: ["2E4E6F6B59046500"]
 			description: [
-				"Found in the &2Ancient Factory&r deep in the overworld."
+				"在主世界深處的&2古代工廠&r中找到。"
 				""
-				"Use a &9Nether Star&r to wake him up"
+				"使用&9下界之星&r喚醒它"
 			]
 			icon: "cataclysm:emp"
 			id: "14CA102BAD4F6A38"
@@ -1339,7 +1339,7 @@
 					id: "38807C207C580E0C"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1350,7 +1350,7 @@
 					id: "59F041FB226680DB"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1361,7 +1361,7 @@
 					id: "5BCBFA87CD9F3442"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1372,7 +1372,7 @@
 					id: "5EC68DB962A353F9"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1383,7 +1383,7 @@
 					id: "4A5522200CB40F54"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1394,7 +1394,7 @@
 					id: "569BE6B6A55CDAAD"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1413,7 +1413,7 @@
 					entity: "cataclysm:the_harbinger"
 					icon: "cataclysm:emp"
 					id: "1E8C22D71228D269"
-					title: "Kill the &5Harbinger&r"
+					title: "擊殺&5先驅者&r"
 					type: "kill"
 					value: 1L
 				}
@@ -1431,9 +1431,9 @@
 		{
 			dependencies: ["0BE51A7B2CF00CE8"]
 			description: [
-				"&nTip :&r"
+				"&n提示：&r"
 				""
-				"Every bosses in the Aether category can be fought &oin&r the Aether dimension."
+				"所有天境類別的Boss都可以在&o天境&r維度中戰鬥。"
 			]
 			id: "7C742369CC5C8B9E"
 			rewards: [
@@ -1467,7 +1467,7 @@
 					id: "6EE8FF677891D93E"
 					silent: true
 					team_reward: false
-					title: "&6+1 Skill Points&r"
+					title: "&6+1 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1478,7 +1478,7 @@
 					id: "0092BC3F7ADF0F65"
 					silent: true
 					team_reward: false
-					title: "&6+1 Skill Points&r"
+					title: "&6+1 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1489,7 +1489,7 @@
 					id: "473E24337022DAFA"
 					silent: true
 					team_reward: false
-					title: "&6+1 Skill Points&r"
+					title: "&6+1 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1500,7 +1500,7 @@
 					id: "103473237FD14E30"
 					silent: true
 					team_reward: false
-					title: "&6+1 Skill Points&r"
+					title: "&6+1 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1511,7 +1511,7 @@
 					id: "2846E618B167BA8D"
 					silent: true
 					team_reward: false
-					title: "&6+1 Skill Points&r"
+					title: "&6+1 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1522,7 +1522,7 @@
 					id: "2B40A817AD734962"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 			]
@@ -1532,7 +1532,7 @@
 				dimension: "aether:the_aether"
 				icon: "minecraft:glowstone"
 				id: "0DE749290636BCC1"
-				title: "Enter the Aether dimension"
+				title: "進入天境維度"
 				type: "dimension"
 			}]
 			x: 8.0d
@@ -1541,9 +1541,9 @@
 		{
 			dependencies: ["7C742369CC5C8B9E"]
 			description: [
-				"Located in the &2Bronze Dungeon&r."
+				"位於&2青銅地牢&r中。"
 				""
-				"&7(the aether bosses are not balanced yet)&r"
+				"&7（天境Boss的數值尚未平衡）&r"
 			]
 			icon: {
 				Count: 1
@@ -1590,7 +1590,7 @@
 					id: "4C752276FB1E1778"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1601,7 +1601,7 @@
 					id: "08D4164041DCA00B"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1612,7 +1612,7 @@
 					id: "12AB2C1B5366600B"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1623,7 +1623,7 @@
 					id: "51A658AA0DBBAD84"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1634,7 +1634,7 @@
 					id: "081C0FC6F650AB66"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1645,7 +1645,7 @@
 					id: "337FE13A46AAB0ED"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1670,7 +1670,7 @@
 						}
 					}
 					id: "6B4790D825780CDF"
-					title: "Defeat the &5Slider&r"
+					title: "擊敗&5滑行者&r"
 					type: "kill"
 					value: 1L
 				}
@@ -1696,9 +1696,9 @@
 		{
 			dependencies: ["3C652834876CF66B"]
 			description: [
-				"Located in the &2Silver Dungeon&r."
+				"位於&2白銀地牢&r中。"
 				""
-				"&7(the aether bosses are not balanced yet)&r"
+				"&7（天境Boss的數值尚未平衡）&r"
 			]
 			icon: {
 				Count: 1
@@ -1730,7 +1730,7 @@
 					id: "62A8EF396D839A00"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1741,7 +1741,7 @@
 					id: "66F10AFAF492E104"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1752,7 +1752,7 @@
 					id: "7B162AE85189C58C"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1763,7 +1763,7 @@
 					id: "222EF7898B0C70FC"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1774,7 +1774,7 @@
 					id: "11579B69D71F9EBB"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1785,7 +1785,7 @@
 					id: "67CC47C1278790EE"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 			]
@@ -1802,7 +1802,7 @@
 						}
 					}
 					id: "61BB677C2D9111EC"
-					title: "Kill the &5Valkyrie Queen&r"
+					title: "擊殺&5女武神皇后&r"
 					type: "kill"
 					value: 1L
 				}
@@ -1828,9 +1828,9 @@
 		{
 			dependencies: ["6AC131C918D30C93"]
 			description: [
-				"Located in the &2Gold Dungeon&r."
+				"位於&2黃金地牢&r中。"
 				""
-				"&7(the aether bosses are not balanced yet)&r"
+				"&7（天境Boss的數值尚未平衡）&r"
 			]
 			icon: "irons_spellbooks:fire_upgrade_orb"
 			id: "64DECE60E0B6FB6D"
@@ -1856,7 +1856,7 @@
 					id: "1B7E6B3DAC2E166D"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1867,7 +1867,7 @@
 					id: "231264AF0BEBF57D"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1878,7 +1878,7 @@
 					id: "6BF3AC2C32475BA3"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1889,7 +1889,7 @@
 					id: "7D4701DAADDA4581"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1900,7 +1900,7 @@
 					id: "4208F260E857614D"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1911,7 +1911,7 @@
 					id: "0DECC14498EC64FC"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 			]
@@ -1922,7 +1922,7 @@
 					entity: "aether:sun_spirit"
 					icon: "irons_spellbooks:fire_upgrade_orb"
 					id: "13C396BB9CF8F116"
-					title: "Defeat the &5Sun Spirit&r"
+					title: "擊敗&5太陽精靈&r"
 					type: "kill"
 					value: 1L
 				}
@@ -1947,7 +1947,7 @@
 		}
 		{
 			dependencies: ["113BABA4C72BAEBD"]
-			description: ["Found in the &2Blossom Arena&r. (this arena is found in the Aether)"]
+			description: ["在&2花蕾競技場&r中找到。（這個競技場在天境中）"]
 			icon: "minecraft:spore_blossom"
 			id: "6AC131C918D30C93"
 			min_required_tasks: 1
@@ -1972,7 +1972,7 @@
 					id: "40EA9119B1C5D45A"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1983,7 +1983,7 @@
 					id: "3326C789D8452148"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -1994,7 +1994,7 @@
 					id: "0B9C60D4D2819B7B"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2005,7 +2005,7 @@
 					id: "6946B39A844D7F22"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2016,7 +2016,7 @@
 					id: "39B3E78D7606572B"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2027,7 +2027,7 @@
 					id: "104D28EAB5546F66"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 			]
@@ -2038,7 +2038,7 @@
 					entity: "bosses_of_mass_destruction:void_blossom"
 					icon: "minecraft:spore_blossom"
 					id: "5B7ACDD77C09B465"
-					title: "Kill the &5Void Blossom&r"
+					title: "擊殺&5虛空花&r"
 					type: "kill"
 					value: 1L
 				}
@@ -2063,7 +2063,7 @@
 		}
 		{
 			dependencies: ["78E025D30CD1E607"]
-			description: ["Found in the &2Gauntlet Arena&r."]
+			description: ["在&2鐵手套競技場&r中找到。"]
 			icon: "bosses_of_mass_destruction:blazing_eye"
 			id: "476DC0D49480853F"
 			min_required_tasks: 1
@@ -2115,7 +2115,7 @@
 					id: "1DE358B0DEE1D794"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2126,7 +2126,7 @@
 					id: "47F0DB59FB30AEFE"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2137,7 +2137,7 @@
 					id: "1B3A1EA0367EE22B"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2148,7 +2148,7 @@
 					id: "5123121BE7A33AB6"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2159,7 +2159,7 @@
 					id: "2C7150028D46D825"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2170,7 +2170,7 @@
 					id: "698A3D7D9CDDBE89"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2189,7 +2189,7 @@
 					entity: "bosses_of_mass_destruction:gauntlet"
 					icon: "bosses_of_mass_destruction:blazing_eye"
 					id: "461CA47E0065DD97"
-					title: "Defeat the &5Nether Gauntlet&r"
+					title: "擊敗&5下界鐵手套&r"
 					type: "kill"
 					value: 1L
 				}
@@ -2214,7 +2214,7 @@
 		}
 		{
 			dependencies: ["64DECE60E0B6FB6D"]
-			description: ["Found in the &2Sunken City&r, use an &9Abyssal Sacrifice&r on the Abyssal Altar to summon the creature. "]
+			description: ["在&2沉沒城市&r中找到，在深淵祭壇上使用&9深淵犧牲&r來召喚此生物。"]
 			icon: "cataclysm:altar_of_abyss"
 			id: "2E4E6F6B59046500"
 			min_required_tasks: 1
@@ -2239,7 +2239,7 @@
 					id: "0871F67F5B61C74F"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2250,7 +2250,7 @@
 					id: "783C315108BBB7CF"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2261,7 +2261,7 @@
 					id: "05DD50B4D2DF5E65"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2272,7 +2272,7 @@
 					id: "15CD3C6AE6FCF70D"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2283,7 +2283,7 @@
 					id: "4DC104F46EF53094"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2294,7 +2294,7 @@
 					id: "22490A1FAA5187B2"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 			]
@@ -2305,7 +2305,7 @@
 					entity: "cataclysm:the_leviathan"
 					icon: "cataclysm:altar_of_abyss"
 					id: "20108F7B32AB038C"
-					title: "Defeath &5The Leviathan&r"
+					title: "擊敗&5利維坦&r"
 					type: "kill"
 					value: 1L
 				}
@@ -2323,9 +2323,9 @@
 		{
 			dependencies: ["3B3B33E6A70E1CAF"]
 			description: [
-				"To open the portal to &5The End&r you will need at least &612 eyes&r &6from the End Remastered mod&r."
+				"要打開通往&5終界&r的傳送門，你至少需要&6來自終界重製版模組的12個眼睛&r。"
 				""
-				"A majority of them are &eobtained in bosses Treasure Bags&r, you can as well &ecraft some of them&r!"
+				"大多數眼睛&e可從Boss的寶物袋中獲得&r，你也可以&e製作其中一些&r！"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -2504,16 +2504,16 @@
 					type: "item"
 				}
 			]
-			title: "End Eyes"
+			title: "終界之眼"
 			x: 26.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["774BCB593AAFAA33"]
 			description: [
-				"To obtain the Workshop you need to buy it from the &aGoblin npc&r."
+				"要獲得工坊，你需要從&a哥布林NPC&r購買。"
 				""
-				"Use the Workshop to combine accessories (from the Terra Curio mod only, &nfor the moment&r)"
+				"使用工坊來合成飾品（目前&n僅限Terra Curio模組&r中的飾品）"
 			]
 			id: "6556B46344AD4167"
 			rewards: [{
@@ -2527,13 +2527,13 @@
 				item: "confluence:workshop"
 				type: "item"
 			}]
-			title: "Combine your accessories!"
+			title: "合成你的飾品！"
 			x: 2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["777E4D10DDDACAD7"]
-			description: ["Summon it using a &9Devil's Ante&r."]
+			description: ["使用&9魔鬼賭注&r召喚它。"]
 			icon: "meetyourfight:devils_ante"
 			id: "113BABA4C72BAEBD"
 			min_required_tasks: 1
@@ -2558,7 +2558,7 @@
 					id: "0385F7F5A3D2708D"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2569,7 +2569,7 @@
 					id: "4BDC3D79FA392EB4"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2580,7 +2580,7 @@
 					id: "0DB32DC9023F0E1C"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2591,7 +2591,7 @@
 					id: "2FE5BB4519D5D5E3"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2602,7 +2602,7 @@
 					id: "4ADFBF6BDD1F95ED"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2613,7 +2613,7 @@
 					id: "071B25BD7032A07E"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 			]
@@ -2624,7 +2624,7 @@
 					entity: "meetyourfight:dame_fortuna"
 					icon: "meetyourfight:devils_ante"
 					id: "44A45D7F652EA1F2"
-					title: "Kill the &5Dame Fortuna&r"
+					title: "擊殺&5幸運女神&r"
 					type: "kill"
 					value: 1L
 				}
@@ -2642,9 +2642,9 @@
 		{
 			dependencies: ["6AC131C918D30C93"]
 			description: [
-				"Found in &2Platinium Dungeon&r."
+				"在&2白金地牢&r中找到。"
 				""
-				"Right-click the Songstone to activate the fight."
+				"右鍵點擊音石來開始戰鬥。"
 			]
 			id: "28FAB0D6AD1ACA26"
 			rewards: [
@@ -2668,7 +2668,7 @@
 					id: "5F78571EF74A9D3A"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2679,7 +2679,7 @@
 					id: "20B76B3DADD15A99"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2690,7 +2690,7 @@
 					id: "4111F98E56FE125F"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2701,7 +2701,7 @@
 					id: "685D6ACC95BC626D"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2712,7 +2712,7 @@
 					id: "721B438B53AE10ED"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2723,7 +2723,7 @@
 					id: "500F3D04B27250AE"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 			]
@@ -2733,7 +2733,7 @@
 				entity: "lost_aether_content:aerwhale_king"
 				icon: "lost_aether_content:songstone"
 				id: "7A840B459C76DDB9"
-				title: "Defeat the &5Aerwhale King&r"
+				title: "擊敗&5天空鯨王&r"
 				type: "kill"
 				value: 1L
 			}]
@@ -2743,9 +2743,9 @@
 		{
 			dependencies: ["6AC131C918D30C93"]
 			description: [
-				"Found in his &2Monastery&r (in the Aether), challenge it with a &9Sakura Sapling&r."
+				"在其&2修道院&r（天境中）找到，用&9櫻花樹苗&r向它挑戰。"
 				""
-				"&7If you cannot start the Challenge, it means there are blocks above blocking. It can even be blocked by 1 single block high above...&r"
+				"&7如果你無法開始挑戰，意味著上方有方塊阻擋。甚至一個方塊高的障礙就能阻止...&r"
 			]
 			hide_until_deps_complete: true
 			id: "625D1BE78D3262AD"
@@ -2771,7 +2771,7 @@
 					id: "5A0D4BA7F3774821"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2782,7 +2782,7 @@
 					id: "59974BAFE4D03516"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2793,7 +2793,7 @@
 					id: "486B7FF52B266A89"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2804,7 +2804,7 @@
 					id: "433D95085A850735"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2815,7 +2815,7 @@
 					id: "2327B49D63AC7CD4"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2826,7 +2826,7 @@
 					id: "4A29E0AA57902D05"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 			]
@@ -2843,19 +2843,19 @@
 					}
 				}
 				id: "6C8EDFC8469C2256"
-				title: "Complete his challenge"
+				title: "完成他的挑戰"
 				type: "advancement"
 			}]
-			title: "Complete &5The Sculptor's&r challenge"
+			title: "完成&5雕塑師&r的挑戰"
 			x: 16.875d
 			y: -7.5d
 		}
 		{
 			dependencies: ["476DC0D49480853F"]
 			description: [
-				"Found in the &2Keeping Castle&r. Both bosses are waiting for you..."
+				"在&2守衛城堡&r中找到。兩個Boss都在等著你..."
 				""
-				"&oThose bosses have a rework coming, in the meantime they are not very good, sorry...&r"
+				"&o那些Boss即將迎來重做，在此期間表現不是很好，抱歉...&r"
 			]
 			hide_until_deps_complete: true
 			icon: "stalwart_dungeons:keeping_castle_spawner"
@@ -2901,7 +2901,7 @@
 					id: "1B71CE6DA404AFF6"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2912,7 +2912,7 @@
 					id: "1016AC68113E5797"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2923,7 +2923,7 @@
 					id: "3FF589D046FB7A76"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2934,7 +2934,7 @@
 					id: "1DF36578345CF0DD"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2945,7 +2945,7 @@
 					id: "2A1E090D717E9D03"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -2956,7 +2956,7 @@
 					id: "237A7ABA6DC858FC"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 			]
@@ -2967,7 +2967,7 @@
 					entity: "stalwart_dungeons:nether_keeper"
 					icon: "stalwart_dungeons:keeping_castle_spawner"
 					id: "7A851329C3F650DB"
-					title: "Kill the &5Nether Keeper&r"
+					title: "擊殺&5下界守衛者&r"
 					type: "kill"
 					value: 1L
 				}
@@ -2975,7 +2975,7 @@
 					entity: "stalwart_dungeons:awful_ghast"
 					icon: "stalwart_dungeons:awful_dungeon_spawner"
 					id: "5B443EB49F15C3AB"
-					title: "Kill the &5Awful Ghast&r"
+					title: "擊殺&5恐怖惡魂&r"
 					type: "kill"
 					value: 1L
 				}
@@ -2994,7 +2994,7 @@
 					type: "item"
 				}
 			]
-			title: "Kill the &5Nether Keeper&r and &5The Awful Ghast&r"
+			title: "擊殺&5下界守衛者&r和&5恐怖惡魂&r"
 			x: 2.0d
 			y: 1.875d
 		}
@@ -3014,7 +3014,7 @@
 				entity: "bosses_of_mass_destruction:lich"
 				icon: "prodigium:night_lich_treasure_bag"
 				id: "09F7ACD5E19F8A86"
-				title: "Defeat the &3Night Lich&r"
+				title: "擊敗&3夜間巫妖&r"
 				type: "kill"
 				value: 1L
 			}]
@@ -3024,9 +3024,9 @@
 		{
 			dependencies: ["7C742369CC5C8B9E"]
 			description: [
-				"You can use it to remove the enchant of a weapon to then put it in a book."
+				"你可以用它移除武器上的附魔，然後將其放入書中。"
 				""
-				"&8&o(you will need to unlock Veridium by defeating the Slider)&r&r"
+				"&8&o（你需要透過擊敗滑行者來解鎖翠綠礦石）&r&r"
 			]
 			hide_until_deps_visible: true
 			id: "2851394B90D1E773"
@@ -3049,13 +3049,13 @@
 				item: "disenchanting:disenchanter"
 				type: "item"
 			}]
-			title: "Craft a disenchanter"
+			title: "製作解附魔器"
 			x: 6.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["476DC0D49480853F"]
-			description: ["Located in the &2Underworld Arena&r"]
+			description: ["位於&2冥界競技場&r中"]
 			id: "4C893D987E24A8AF"
 			rewards: [
 				{
@@ -3078,7 +3078,7 @@
 					id: "34CE74069813827E"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -3087,7 +3087,7 @@
 					elevate_perms: true
 					icon: "minecraft:experience_bottle"
 					id: "3AE46320570828AD"
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -3098,7 +3098,7 @@
 					id: "0105925823BAB23B"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -3109,7 +3109,7 @@
 					id: "4DE335BD2510A7AC"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -3120,7 +3120,7 @@
 					id: "5FDA3C9274418ACE"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -3131,7 +3131,7 @@
 					id: "4DE5EF8C75AD5FC7"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -3142,7 +3142,7 @@
 					id: "0E78000F3EE296AE"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 				{
@@ -3153,7 +3153,7 @@
 					id: "353AE9471E95D2C9"
 					silent: true
 					team_reward: false
-					title: "&6+2 Skill Points&r"
+					title: "&6+2 技能點數&r"
 					type: "command"
 				}
 			]
@@ -3169,7 +3169,7 @@
 					}
 				}
 				id: "0D557BEB0247D7FC"
-				title: "Defeat the &5Underworld Knight&r"
+				title: "擊敗&5冥界騎士&r"
 				type: "kill"
 				value: 1L
 			}]
@@ -3185,10 +3185,10 @@
 				item: "aether_redux:veridium_ingot"
 				type: "item"
 			}]
-			title: "You have unlocked &9Veridium&r"
+			title: "你已解鎖&9翠綠礦石&r"
 			x: 5.5d
 			y: -6.0d
 		}
 	]
-	title: "Expert Mode"
+	title: "專家模式"
 }

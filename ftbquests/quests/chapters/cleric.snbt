@@ -11,7 +11,7 @@
 		{
 			dependency: "525D3BC989CF49D9"
 			height: 0.75d
-			hover: ["Not all Curios are listed here !"]
+			hover: ["此處未列出所有飾品！"]
 			image: "prodigium_reforged:textures/gui/curios.png"
 			rotation: 0.0d
 			width: 2.73d
@@ -21,7 +21,7 @@
 		{
 			dependency: "525D3BC989CF49D9"
 			height: 0.75d
-			hover: ["Not all Spellbooks are listed here !"]
+			hover: ["此處未列出所有法術書！"]
 			image: "prodigium_reforged:textures/gui/spell_books.png"
 			rotation: 0.0d
 			width: 4.8d
@@ -71,9 +71,9 @@
 		{
 			dependencies: ["525D3BC989CF49D9"]
 			description: [
-				"Use it to &ebind spells to spell books&r."
+				"用它來&e將法術綁定到法術書&r。"
 				""
-				"To add a spell to your spell book you need&e a scroll&r and your spellbook."
+				"要將法術加入法術書，你需要&e卷軸&r和法術書。"
 			]
 			id: "167F636BCCA964EA"
 			rewards: [
@@ -103,7 +103,7 @@
 				item: "irons_spellbooks:inscription_table"
 				type: "item"
 			}]
-			title: "Craft an Inscription Table"
+			title: "製作銘刻台"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -146,13 +146,13 @@
 				}
 				type: "item"
 			}]
-			title: "Craft your first Spell Book!"
+			title: "製作你的第一本法術書！"
 			x: 3.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["167F636BCCA964EA"]
-			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
+			description: ["你需要在&6技能樹&r中解鎖護甲，並在主線任務中推進進度。"]
 			id: "1A9AB70D43851B41"
 			min_required_tasks: 1
 			rewards: [
@@ -193,7 +193,7 @@
 							Damage: 0
 						}
 					}
-					title: "Tunic Priest Armor"
+					title: "長袍牧師護甲"
 					type: "item"
 				}
 				{
@@ -202,7 +202,7 @@
 					type: "item"
 				}
 			]
-			title: "Cleric armors for the Normal Mode"
+			title: "普通模式的牧師護甲"
 			x: 3.0d
 			y: 0.0d
 		}
@@ -212,7 +212,7 @@
 				"78E025D30CD1E607"
 			]
 			dependency_requirement: "one_started"
-			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
+			description: ["你需要在&6技能樹&r中解鎖護甲，並在主線任務中推進進度。"]
 			hide_until_deps_visible: true
 			id: "0F8B2C405921526F"
 			min_required_tasks: 1
@@ -247,10 +247,10 @@
 						Damage: 0
 					}
 				}
-				title: "Holy School Armor"
+				title: "神聖學派護甲"
 				type: "item"
 			}]
-			title: "Cleric armors for the Master Mode"
+			title: "大師模式的牧師護甲"
 			x: 6.25d
 			y: 0.0d
 		}
@@ -277,7 +277,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Post Bellringer&r"
+			subtitle: "&6擊敗敲鐘人後&r"
 			tasks: [{
 				id: "4519CAC4D0393275"
 				item: {
@@ -293,7 +293,7 @@
 				}
 				type: "item"
 			}]
-			title: "Bigger Faster Stronger"
+			title: "更大、更快、更強"
 			x: 4.5d
 			y: 3.0d
 		}
@@ -334,7 +334,7 @@
 				}
 				type: "item"
 			}]
-			title: "New book, new mage"
+			title: "新書，新法師"
 			x: 3.5d
 			y: 6.0d
 		}
@@ -360,7 +360,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Post Ignis&r"
+			subtitle: "&6擊敗火焰之主後&r"
 			tasks: [{
 				id: "4E47A7FA2CD4D761"
 				item: {
@@ -377,7 +377,7 @@
 				}
 				type: "item"
 			}]
-			title: "Ultimate Cleric weapon"
+			title: "牧師的終極武器"
 			x: 4.5d
 			y: 6.0d
 		}
@@ -386,7 +386,7 @@
 				"1A1D4191D9A098E9"
 				"525D3BC989CF49D9"
 			]
-			description: ["Use the Scroll Forge to create new scrolls."]
+			description: ["使用卷軸熔爐來製作新卷軸。"]
 			id: "3E4F3F3F0402D036"
 			rewards: [
 				{
@@ -408,7 +408,7 @@
 				item: "irons_spellbooks:scroll_forge"
 				type: "item"
 			}]
-			title: "Scroll making"
+			title: "製作卷軸"
 			x: 1.5d
 			y: -2.0d
 		}
@@ -418,7 +418,7 @@
 				"774BCB593AAFAA33"
 			]
 			dependency_requirement: "all_started"
-			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
+			description: ["你需要在&6技能樹&r中解鎖護甲，並在主線任務中推進進度。"]
 			hide_until_deps_visible: true
 			id: "2D2E7F73862AF301"
 			rewards: [
@@ -453,7 +453,7 @@
 							Damage: 0
 						}
 					}
-					title: "Prior Armor"
+					title: "修道院長護甲"
 					type: "item"
 				}
 				{
@@ -465,7 +465,7 @@
 							Damage: 0
 						}
 					}
-					title: "Holy Marauder Armor"
+					title: "神聖劫掠者護甲"
 					type: "item"
 				}
 				{
@@ -477,11 +477,11 @@
 							Damage: 0
 						}
 					}
-					title: "Nether Armor"
+					title: "地獄護甲"
 					type: "item"
 				}
 			]
-			title: "Cleric armors for the Expert Mode"
+			title: "專家模式的牧師護甲"
 			x: 4.5d
 			y: 0.0d
 		}
@@ -500,7 +500,7 @@
 				item: "irons_spellbooks:graybeard_staff"
 				type: "item"
 			}]
-			title: "Craft a staff"
+			title: "製作一根法杖"
 			x: 2.5d
 			y: 3.5d
 		}
@@ -520,7 +520,7 @@
 			dependencies: ["525D3BC989CF49D9"]
 			id: "00B41F898D348956"
 			shape: "octagon"
-			subtitle: "&6Post King Slime&r"
+			subtitle: "&6擊敗史萊姆王後&r"
 			tasks: [{
 				id: "452E62FA642BD2C2"
 				item: "prodigium_reforged:slimy_scarf"
@@ -533,7 +533,7 @@
 			dependencies: ["525D3BC989CF49D9"]
 			id: "7531112E7F914689"
 			shape: "octagon"
-			subtitle: "&6Post Umvuthi&r"
+			subtitle: "&6擊敗太陽鳥後&r"
 			tasks: [{
 				id: "5D27AA3B45BAB542"
 				item: "prodigium_reforged:feather_necklace"
@@ -555,5 +555,5 @@
 			y: 4.5d
 		}
 	]
-	title: "Cleric"
+	title: "牧師"
 }

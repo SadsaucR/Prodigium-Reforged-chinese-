@@ -60,7 +60,7 @@
 				type: "stat"
 				value: 50000
 			}]
-			title: "A humble begining"
+			title: "謙遜的開始"
 			x: -3.0d
 			y: -1.0d
 		}
@@ -106,7 +106,7 @@
 				type: "stat"
 				value: 250000
 			}]
-			title: "Be carefull not to trip..."
+			title: "小心別絆倒..."
 			x: -2.0d
 			y: -2.0d
 		}
@@ -141,7 +141,7 @@
 				type: "stat"
 				value: 1357600
 			}]
-			title: "Leg day"
+			title: "練腿日"
 			x: -3.0d
 			y: -3.0d
 		}
@@ -180,7 +180,7 @@
 				type: "stat"
 				value: 2900000
 			}]
-			title: "If only you were doing that outside"
+			title: "要是你在外面這樣做就好了"
 			x: -4.0d
 			y: -2.0d
 		}
@@ -219,7 +219,7 @@
 				type: "stat"
 				value: 300000
 			}]
-			title: "Fast as f*"
+			title: "快如閃電"
 			x: -3.0d
 			y: -2.0d
 		}
@@ -238,7 +238,7 @@
 				criterion: ""
 				icon: "minecraft:nether_bricks"
 				id: "58C5DD2A2386D6FA"
-				title: "Enter a nether fortress"
+				title: "進入下界要塞"
 				type: "advancement"
 			}]
 			x: -0.5d
@@ -259,7 +259,7 @@
 				criterion: ""
 				icon: "minecraft:nether_gold_ore"
 				id: "23B94FF0A2227367"
-				title: "Enter a nether bastion"
+				title: "進入下界堡壘遺跡"
 				type: "advancement"
 			}]
 			x: 2.0d
@@ -281,7 +281,7 @@
 				criterion: ""
 				icon: "minecraft:netherrack"
 				id: "52EA2A28657B7423"
-				title: "Explore all nether biomes"
+				title: "探索所有下界生態域"
 				type: "advancement"
 			}]
 			x: 0.75d
@@ -302,7 +302,7 @@
 				criterion: ""
 				icon: "minecraft:ender_pearl"
 				id: "3C67D1882D620555"
-				title: "Enter an end city"
+				title: "進入末地城市"
 				type: "advancement"
 			}]
 			x: 9.5d
@@ -340,7 +340,7 @@
 				criterion: ""
 				icon: "minecraft:mangrove_roots"
 				id: "712EDC0F4C7EDF29"
-				title: "Discover every vanilla biomes and more"
+				title: "發現所有原版生態域及更多"
 				type: "advancement"
 			}]
 			x: 3.75d
@@ -360,7 +360,7 @@
 				id: "2D9FAFFBF7064D1F"
 				type: "biome"
 			}]
-			title: "Visit a Dark Forest"
+			title: "造訪暗黑森林"
 			x: 3.0d
 			y: 1.0d
 		}
@@ -378,7 +378,7 @@
 				id: "4AA200255933157A"
 				type: "biome"
 			}]
-			title: "Find a Mushroom Island"
+			title: "尋找蘑菇島"
 			x: 2.5d
 			y: 0.0d
 		}
@@ -405,14 +405,14 @@
 				id: "731C2059B19D0FCD"
 				type: "biome"
 			}]
-			title: "Enter The End"
+			title: "進入終界"
 			x: 8.25d
 			y: 0.0d
 		}
 		{
 			description: [
-				"Use it to skip the night without setting your spawnpoint."
-				"Very useful while exploring"
+				"用它跳過夜晚而不設定重生點。"
+				"探索時非常有用。"
 			]
 			id: "05C411967C23076E"
 			rewards: [{
@@ -426,12 +426,12 @@
 				item: "comforts:sleeping_bag_white"
 				type: "item"
 			}]
-			title: "Craft a sleeping bag"
+			title: "製作睡袋"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			description: ["Use it to skip the day"]
+			description: ["用它跳過白天。"]
 			id: "4F8C256146E5A62D"
 			rewards: [{
 				auto: "no_toast"
@@ -451,7 +451,7 @@
 					type: "item"
 				}
 			]
-			title: "Craft an Hammock and a rope and nail"
+			title: "製作吊床、繩子和釘子"
 			x: 1.0d
 			y: 0.0d
 		}
@@ -470,7 +470,7 @@
 				id: "6F6E363F6EB7A42A"
 				type: "advancement"
 			}]
-			title: "Explore end's structures"
+			title: "探索終界結構"
 			x: 7.0d
 			y: 0.0d
 		}
@@ -488,7 +488,7 @@
 				advancement: "dungeons_plus:nether/find_soul_prison"
 				criterion: ""
 				id: "7E16AC7305DE0B00"
-				title: "Find a caged Ghasts dungeon"
+				title: "尋找籠中烈焰人地牢"
 				type: "advancement"
 			}]
 			x: 1.5d
@@ -508,7 +508,7 @@
 				advancement: "bygonenether:catacomb"
 				criterion: ""
 				id: "48CD8F99D4830060"
-				title: "Find a Catacomb"
+				title: "尋找地下墓穴"
 				type: "advancement"
 			}]
 			x: 0.0d
@@ -530,7 +530,7 @@
 				id: "47356BE14BF89354"
 				type: "advancement"
 			}]
-			title: "Find a flying phantom"
+			title: "尋找飛行幻翼"
 			x: 9.0d
 			y: -1.0d
 		}
@@ -558,7 +558,7 @@
 				id: "7B7B3C2FC504186E"
 				type: "dimension"
 			}]
-			title: "Enter the Nether"
+			title: "進入下界"
 			x: 0.75d
 			y: 3.0d
 		}
@@ -576,7 +576,7 @@
 				id: "10BE2AA5A0DE5005"
 				type: "biome"
 			}]
-			title: "Nostalgic isn't it ?"
+			title: "懷念的感覺，不是嗎？"
 			x: 5.0d
 			y: 0.0d
 		}
@@ -594,7 +594,7 @@
 				id: "6AB0CE6464781BA1"
 				type: "biome"
 			}]
-			title: "Climb the emerald peaks"
+			title: "攀登翡翠山峰"
 			x: 4.5d
 			y: -1.0d
 		}
@@ -612,7 +612,7 @@
 				id: "3585FE2CCCA44E39"
 				type: "biome"
 			}]
-			title: "Find the colorful painted moutains"
+			title: "尋找彩色彩繪山脈"
 			x: 3.0d
 			y: -1.0d
 		}
@@ -630,7 +630,7 @@
 				id: "20DE75A81DF1F865"
 				type: "biome"
 			}]
-			title: "Do not get burned!"
+			title: "小心別被燒到！"
 			x: 4.5d
 			y: 1.0d
 		}
@@ -648,7 +648,7 @@
 				icon: "minecraft:nether_brick"
 				id: "1E9499BABC565A07"
 				structure: "bygonenether:citadel"
-				title: "Find a Citadel"
+				title: "尋找城堡"
 				type: "structure"
 			}]
 			x: -1.0d
@@ -676,7 +676,7 @@
 				icon: "piglinproliferation:piglin_alchemist_head"
 				id: "13FF8EEB1FECA869"
 				structure: "bygonenether:piglin_manor"
-				title: "Find a Piglin Manor"
+				title: "尋找豬靈莊園"
 				type: "structure"
 			}]
 			x: 2.5d
@@ -696,7 +696,7 @@
 				biome: "gardens_of_the_dead:soulblight_forest"
 				icon: "gardens_of_the_dead:soulblight_fungus"
 				id: "19E7859D50DCF8A5"
-				title: "Visit a soulblight forest"
+				title: "造訪靈魂枯萎森林"
 				type: "biome"
 			}]
 			x: 1.5d
@@ -716,7 +716,7 @@
 				biome: "gardens_of_the_dead:whistling_woods"
 				icon: "gardens_of_the_dead:whistlecane"
 				id: "401A2FDAB6C26FD5"
-				title: "Visit a whistling biome"
+				title: "造訪哨聲生態域"
 				type: "biome"
 			}]
 			x: 0.0d
@@ -735,7 +735,7 @@
 				dimension: "aether:the_aether"
 				icon: "aether:aether_portal_frame"
 				id: "3334EAE72120B7B1"
-				title: "Enter the Aether"
+				title: "進入天境"
 				type: "dimension"
 			}]
 			x: 3.0d
@@ -770,7 +770,7 @@
 				}
 				type: "item"
 			}]
-			title: "Obtain an Elytra"
+			title: "獲得鞘翅"
 			x: 7.5d
 			y: -1.0d
 		}
@@ -803,13 +803,13 @@
 				}
 				type: "item"
 			}]
-			title: "Upgrade!"
+			title: "升級！"
 			x: 7.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["406879C4C9D7B0FD"]
-			description: ["This item can be used as a reforge material for tools/armors modifier !"]
+			description: ["這個物品可以作為工具/護甲修改器的重鑄材料！"]
 			hide_until_deps_visible: true
 			id: "62D948E2D36892DE"
 			rewards: [{
@@ -823,7 +823,7 @@
 				item: "aether:ambrosium_shard"
 				type: "item"
 			}]
-			title: "Obtain some Ambrosium Shards"
+			title: "獲得一些天境精華碎片"
 			x: 2.0d
 			y: -4.5d
 		}
@@ -843,7 +843,7 @@
 				id: "0EF63C58C8EC1A0A"
 				type: "biome"
 			}]
-			title: "Bit chilly isn't it ?"
+			title: "有點冷，不是嗎？"
 			x: 1.5d
 			y: -3.5d
 		}
@@ -863,16 +863,16 @@
 				id: "6AE4148949CCEBF6"
 				type: "biome"
 			}]
-			title: "Find a Blighted biome"
+			title: "尋找枯萎生態域"
 			x: 4.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["406879C4C9D7B0FD"]
 			description: [
-				"Will be very useful to explore (and will be even more useful in the Aether)"
+				"探索時非常有用（在天境中更是如此）"
 				""
-				"Glide above a campfire to gain more height!"
+				"在篝火上方滑翔可以獲得更多高度！"
 			]
 			id: "62D78C9B289DE586"
 			rewards: [
@@ -892,10 +892,10 @@
 				item: "paraglider:paraglider"
 				type: "item"
 			}]
-			title: "Craft a Paraglider"
+			title: "製作滑翔傘"
 			x: 4.0d
 			y: -4.5d
 		}
 	]
-	title: "Exploration"
+	title: "探索"
 }

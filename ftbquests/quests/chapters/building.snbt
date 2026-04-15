@@ -41,16 +41,16 @@
 						value: "minecraft:doors"
 					}
 				}
-				title: "Build any door"
+				title: "建造任意一扇門"
 				type: "item"
 			}]
-			title: "Craft a door"
+			title: "製作一扇門"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4557E177412C935E"]
-			description: ["Use the &9Window Base&r to craft windows"]
+			description: ["使用 &9窗戶基礎&r 來製作窗戶"]
 			id: "14DA9A8622BCB36F"
 			rewards: [
 				{
@@ -78,13 +78,13 @@
 				item: "mcwwindows:window_base"
 				type: "item"
 			}]
-			title: "Craft a window"
+			title: "製作一扇窗戶"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["41B97054DF4728A4"]
-			description: ["Because why not ?!"]
+			description: ["為什麼不呢？！"]
 			id: "36C28F5BEB3A60A2"
 			rewards: [
 				{
@@ -109,10 +109,10 @@
 						value: "valhelsia_furniture:desks"
 					}
 				}
-				title: "Desks"
+				title: "書桌"
 				type: "item"
 			}]
-			title: "Craft a desk!"
+			title: "製作一張書桌！"
 			x: 10.5d
 			y: 0.0d
 		}
@@ -149,16 +149,16 @@
 						value: "minecraft:wooden_trapdoors"
 					}
 				}
-				title: "Craft any trapdoors"
+				title: "製作任意活板門"
 				type: "item"
 			}]
-			title: "Craft a trapdoor"
+			title: "製作一個活板門"
 			x: 9.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["14DA9A8622BCB36F"]
-			description: ["The oak roof might not be the best suited for your home, you can craft a good amount of different roofs, check through JEI"]
+			description: ["橡木屋頂可能不是最適合你家的，你可以製作多種不同的屋頂，請透過 JEI 查看"]
 			id: "016D857B312FE4A3"
 			min_required_tasks: 1
 			rewards: [
@@ -219,7 +219,7 @@
 					type: "item"
 				}
 			]
-			title: "Start building a roof"
+			title: "開始建造屋頂"
 			x: 7.5d
 			y: 0.0d
 		}
@@ -248,10 +248,10 @@
 						woodType: "oak"
 					}
 				}
-				title: "Upgrade the chest"
+				title: "升級箱子"
 				type: "item"
 			}]
-			title: "Upgrade your storage"
+			title: "升級你的儲存空間"
 			x: 12.0d
 			y: 1.0d
 		}
@@ -273,7 +273,7 @@
 						woodType: "oak"
 					}
 				}
-				title: "Upgrade the chest"
+				title: "升級箱子"
 				type: "item"
 			}]
 			x: 13.0d
@@ -297,7 +297,7 @@
 						woodType: "oak"
 					}
 				}
-				title: "Make the last upgrade"
+				title: "完成最後的升級"
 				type: "item"
 			}]
 			x: 12.0d
@@ -328,10 +328,10 @@
 						woodType: "oak"
 					}
 				}
-				title: "Upgrade the barrel"
+				title: "升級木桶"
 				type: "item"
 			}]
-			title: "Upgrade your storage"
+			title: "升級你的儲存空間"
 			x: 13.0d
 			y: 1.0d
 		}
@@ -353,7 +353,7 @@
 						woodType: "oak"
 					}
 				}
-				title: "Upgrade the barrel"
+				title: "升級木桶"
 				type: "item"
 			}]
 			x: 14.0d
@@ -377,7 +377,7 @@
 						woodType: "oak"
 					}
 				}
-				title: "Make the last barrel's upgrade"
+				title: "完成木桶的最後升級"
 				type: "item"
 			}]
 			x: 13.0d
@@ -420,10 +420,10 @@
 						value: "valhelsia_structures:jars"
 					}
 				}
-				title: "Craft any jar"
+				title: "製作任意罐子"
 				type: "item"
 			}]
-			title: "Craft a jar"
+			title: "製作一個罐子"
 			x: 12.0d
 			y: 0.0d
 		}
@@ -446,7 +446,7 @@
 				}
 				type: "item"
 			}]
-			title: "Craft a bed for your pet"
+			title: "為你的寵物製作一張床"
 			x: 6.5d
 			y: -1.0d
 		}
@@ -492,7 +492,7 @@
 					type: "item"
 				}
 			]
-			title: "Prepare your workstations !"
+			title: "準備好你的工作站！"
 			x: 3.0d
 			y: 0.0d
 		}
@@ -502,7 +502,7 @@
 				"3A309CB9632F7626"
 			]
 			dependency_requirement: "one_completed"
-			description: ["There is a ton of different upgrades for your storage"]
+			description: ["你的儲存容器有大量不同的升級選項"]
 			hide_until_deps_visible: true
 			id: "3279EADE357BB8E4"
 			rewards: [
@@ -524,7 +524,7 @@
 				item: "sophisticatedstorage:upgrade_base"
 				type: "item"
 			}]
-			title: "More upgrades!"
+			title: "更多升級！"
 			x: 12.5d
 			y: -2.0d
 		}
@@ -542,12 +542,12 @@
 				item: "davespotioneering:compound_brewing_stand"
 				type: "item"
 			}]
-			title: "Upgrade your brewing stand!"
+			title: "升級你的釀造台！"
 			x: 9.0d
 			y: -1.0d
 		}
 		{
-			description: ["Sold by the merchant"]
+			description: ["由商人販售"]
 			id: "786BD0E102119A23"
 			rewards: [{
 				auto: "no_toast"
@@ -558,13 +558,13 @@
 			tasks: [{
 				id: "6865DD4D2D658D67"
 				item: "dummmmmmy:target_dummy"
-				title: "Obtain a Target Dummy"
+				title: "獲取一個練習假人"
 				type: "item"
 			}]
-			title: "Test your DPS!"
+			title: "測試你的 DPS！"
 			x: 4.5d
 			y: -1.0d
 		}
 	]
-	title: "Building"
+	title: "建造"
 }

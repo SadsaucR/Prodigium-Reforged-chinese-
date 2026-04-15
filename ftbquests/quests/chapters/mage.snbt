@@ -17,7 +17,7 @@
 		{
 			dependency: "745FE062B66D6927"
 			height: 0.75d
-			hover: ["Not all Spellbooks are listed here !"]
+			hover: ["此處未列出所有法術書！"]
 			image: "prodigium_reforged:textures/gui/spell_books.png"
 			rotation: 0.0d
 			width: 4.8d
@@ -36,7 +36,7 @@
 		{
 			dependency: "745FE062B66D6927"
 			height: 0.75d
-			hover: ["Not all Curios are listed here !"]
+			hover: ["此處未列出所有飾品！"]
 			image: "prodigium_reforged:textures/gui/curios.png"
 			rotation: 0.0d
 			width: 2.73d
@@ -77,9 +77,9 @@
 		{
 			dependencies: ["745FE062B66D6927"]
 			description: [
-				"Use it to &ebind spells to spell books&r."
+				"用它來&e將法術綁定到法術書&r。"
 				""
-				"To add a spell to your spell book you need &ea scroll&r and your spellbook."
+				"要將法術加入法術書，你需要&e卷軸&r和法術書。"
 			]
 			id: "624B188BB0FFB9D9"
 			rewards: [
@@ -109,7 +109,7 @@
 				item: "irons_spellbooks:inscription_table"
 				type: "item"
 			}]
-			title: "Craft an Inscription Table"
+			title: "製作銘刻台"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -152,13 +152,13 @@
 				}
 				type: "item"
 			}]
-			title: "Craft your first Spell Book!"
+			title: "製作你的第一本法術書！"
 			x: 3.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["624B188BB0FFB9D9"]
-			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
+			description: ["你需要在&6技能樹&r中解鎖護甲，並在主線任務中推進進度。"]
 			id: "2C81ED5255847C86"
 			min_required_tasks: 1
 			rewards: [
@@ -199,7 +199,7 @@
 							Damage: 0
 						}
 					}
-					title: "Scarecrow Armor"
+					title: "稻草人護甲"
 					type: "item"
 				}
 				{
@@ -214,7 +214,7 @@
 					type: "item"
 				}
 			]
-			title: "Wizard armors for the Normal Mode"
+			title: "普通模式的巫師護甲"
 			x: 3.0d
 			y: 0.0d
 		}
@@ -224,7 +224,7 @@
 				"78E025D30CD1E607"
 			]
 			dependency_requirement: "one_started"
-			description: ["Pick your Magic School armor!"]
+			description: ["選擇你的魔法學派護甲！"]
 			hide_until_deps_visible: true
 			id: "6AEDFC7887701A98"
 			min_required_tasks: 1
@@ -260,7 +260,7 @@
 							Damage: 0
 						}
 					}
-					title: "Ice School Armor"
+					title: "冰霜學派護甲"
 					type: "item"
 				}
 				{
@@ -272,7 +272,7 @@
 							Damage: 0
 						}
 					}
-					title: "Poison School Armor"
+					title: "毒素學派護甲"
 					type: "item"
 				}
 				{
@@ -284,7 +284,7 @@
 							Damage: 0
 						}
 					}
-					title: "Ender School Armor"
+					title: "終界學派護甲"
 					type: "item"
 				}
 				{
@@ -296,7 +296,7 @@
 							Damage: 0
 						}
 					}
-					title: "Evocation School Armor"
+					title: "喚靈學派護甲"
 					type: "item"
 				}
 				{
@@ -308,7 +308,7 @@
 							Damage: 0
 						}
 					}
-					title: "Lightning School Armor"
+					title: "雷電學派護甲"
 					type: "item"
 				}
 				{
@@ -320,11 +320,11 @@
 							Damage: 0
 						}
 					}
-					title: "Fire School Armor"
+					title: "火焰學派護甲"
 					type: "item"
 				}
 			]
-			title: "Time for an upgrade"
+			title: "是時候升級了"
 			x: 6.25d
 			y: 0.0d
 		}
@@ -351,7 +351,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Post Bellringer&r"
+			subtitle: "&6擊敗敲鐘人後&r"
 			tasks: [{
 				id: "7D19A09FC562CF85"
 				item: {
@@ -367,7 +367,7 @@
 				}
 				type: "item"
 			}]
-			title: "Bigger Faster Stronger"
+			title: "更大、更快、更強"
 			x: 4.5d
 			y: 3.0d
 		}
@@ -409,7 +409,7 @@
 				}
 				type: "item"
 			}]
-			title: "New book, new mage"
+			title: "新書，新法師"
 			x: 3.0d
 			y: 5.5d
 		}
@@ -435,7 +435,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Post Slider&r"
+			subtitle: "&6擊敗滑行者後&r"
 			tasks: [{
 				id: "26172C9B4A8570F0"
 				item: {
@@ -451,7 +451,7 @@
 				}
 				type: "item"
 			}]
-			title: "Ultimate Wizard weapon"
+			title: "巫師的終極武器"
 			x: 4.0d
 			y: 5.5d
 		}
@@ -486,7 +486,7 @@
 				}
 				type: "item"
 			}]
-			title: "From the depth"
+			title: "來自深淵"
 			x: 3.5d
 			y: 6.5d
 		}
@@ -520,7 +520,7 @@
 				}
 				type: "item"
 			}]
-			title: "From the dragon itself"
+			title: "來自巨龍本身"
 			x: 4.0d
 			y: 8.5d
 		}
@@ -529,7 +529,7 @@
 				"1A1D4191D9A098E9"
 				"745FE062B66D6927"
 			]
-			description: ["Use the Scroll Forge to create new scrolls."]
+			description: ["使用卷軸熔爐來製作新卷軸。"]
 			hide_until_deps_visible: true
 			id: "1F264C3D08A2BC5E"
 			rewards: [
@@ -552,7 +552,7 @@
 				item: "irons_spellbooks:scroll_forge"
 				type: "item"
 			}]
-			title: "Scroll making"
+			title: "製作卷軸"
 			x: 1.5d
 			y: -2.0d
 		}
@@ -571,7 +571,7 @@
 				item: "irons_spellbooks:arcane_anvil"
 				type: "item"
 			}]
-			title: "Imbue your weapons with magic!"
+			title: "為你的武器灌注魔力！"
 			x: 3.0d
 			y: -2.0d
 		}
@@ -581,7 +581,7 @@
 				"774BCB593AAFAA33"
 			]
 			dependency_requirement: "all_started"
-			description: ["You need to unlock the armors in the &6Skill Tree&r and to progress in the main quest lines."]
+			description: ["你需要在&6技能樹&r中解鎖護甲，並在主線任務中推進進度。"]
 			hide_until_deps_visible: true
 			id: "32C900436B8BA216"
 			rewards: [
@@ -652,7 +652,7 @@
 					type: "item"
 				}
 			]
-			title: "Wizard armors for the Expert Mode"
+			title: "專家模式的巫師護甲"
 			x: 4.5d
 			y: 0.0d
 		}
@@ -671,7 +671,7 @@
 				table_id: 7449522933339281626L
 				type: "loot"
 			}]
-			subtitle: "&6Post Void Blossom&r"
+			subtitle: "&6擊敗虛空之花後&r"
 			tasks: [{
 				id: "20F9183BAFABC09C"
 				item: {
@@ -688,7 +688,7 @@
 				}
 				type: "item"
 			}]
-			title: "Nature book"
+			title: "自然之書"
 			x: 5.0d
 			y: 5.5d
 		}
@@ -707,7 +707,7 @@
 				table_id: 7449522933339281626L
 				type: "loot"
 			}]
-			subtitle: "&6Post Ignis&r"
+			subtitle: "&6擊敗火焰之主後&r"
 			tasks: [{
 				id: "7B9659FF92B22DEC"
 				item: {
@@ -724,7 +724,7 @@
 				}
 				type: "item"
 			}]
-			title: "Fire book"
+			title: "火焰之書"
 			x: 4.5d
 			y: 6.5d
 		}
@@ -743,7 +743,7 @@
 				item: "irons_spellbooks:graybeard_staff"
 				type: "item"
 			}]
-			title: "Craft a staff"
+			title: "製作一根法杖"
 			x: 0.5d
 			y: 3.0d
 		}
@@ -786,7 +786,7 @@
 		{
 			dependencies: ["745FE062B66D6927"]
 			id: "75938C00E0EE00F0"
-			subtitle: "&6Post Dead King&r"
+			subtitle: "&6擊敗死亡國王後&r"
 			tasks: [{
 				id: "2DD3727BF5E7DADB"
 				item: "irons_spellbooks:blood_staff"
@@ -798,7 +798,7 @@
 		{
 			dependencies: ["745FE062B66D6927"]
 			id: "6FBF018F1564BB57"
-			subtitle: "&6Post Frostmaw&r"
+			subtitle: "&6擊敗霜凍巨獸後&r"
 			tasks: [{
 				id: "6C712F1768633189"
 				item: "irons_spellbooks:ice_staff"
@@ -808,5 +808,5 @@
 			y: 4.0d
 		}
 	]
-	title: "Wizard"
+	title: "巫師"
 }
