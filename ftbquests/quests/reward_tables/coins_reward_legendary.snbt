@@ -7,5 +7,5 @@
 		{ count: 50, item: "numismatic-overhaul:silver_coin", random_bonus: 49, weight: 2.0f }
 		{ count: 70, item: "numismatic-overhaul:bronze_coin", random_bonus: 29 }
 	]
-	title: "Coins Reward Legendary"
+	title: "硬幣獎勵（傳說）"
 }

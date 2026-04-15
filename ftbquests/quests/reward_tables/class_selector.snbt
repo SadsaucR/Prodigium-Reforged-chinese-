@@ -7,5 +7,5 @@
 		{ item: "kubejs:token_ranged" }
 		{ item: "kubejs:token_mage" }
 	]
-	title: "Class Selector"
+	title: "職業選擇器"
 }

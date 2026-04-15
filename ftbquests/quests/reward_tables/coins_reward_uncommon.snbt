@@ -7,5 +7,5 @@
 		{ count: 15, item: "numismatic-overhaul:silver_coin", random_bonus: 25, weight: 4.0f }
 		{ count: 20, item: "numismatic-overhaul:bronze_coin", random_bonus: 79, weight: 8.0f }
 	]
-	title: "Coins Reward Uncommon"
+	title: "硬幣獎勵（非凡）"
 }
