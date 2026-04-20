@@ -3,5 +3,5 @@ StartupEvents.registry("fluid", (e) => {
   e.create("honey")
     .thickTexture(0xfbbf24)
     .bucketColor(0xfbbf24)
-    .displayName("Honey");
+    .displayName("蜂蜜");
 });

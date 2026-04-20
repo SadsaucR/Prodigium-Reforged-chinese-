@@ -1,4 +1,4 @@
-ClientEvents.lang("en_us", (event) => {
+ClientEvents.lang("zh_cn", (event) => {
   //Misc
   event.renameItem("sweet_charm_o_mine:copper_pocket", "鐵彈袋");
   event.renameItem("sweet_charm_o_mine:iron_pocket", "鈷彈袋");

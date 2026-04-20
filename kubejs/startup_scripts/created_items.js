@@ -115,7 +115,7 @@ StartupEvents.registry("item", (event) => {
   // King Slime
   event
     .create("prodigium_reforged:slime_crown")
-    .displayName("Slime Crown")
+    .displayName("史萊姆王冠")
     .texture("prodigium_reforged:item/slime_crown")
     .use((level, player, hand) => true)
     .useDuration(() => 40)
@@ -138,7 +138,7 @@ StartupEvents.registry("item", (event) => {
   // Eye Of Cthulhu
   event
     .create("prodigium_reforged:suspicious_looking_eye")
-    .displayName("Suspicious Looking Eye")
+    .displayName("可疑眼球")
     .use((level, player, hand) => true)
     .useDuration(() => 40)
     .useAnimation("bow")
@@ -160,7 +160,7 @@ StartupEvents.registry("item", (event) => {
   // Eater of Worlds
   event
     .create("prodigium_reforged:worm_food")
-    .displayName("Worm Food")
+    .displayName("蠕蟲誘餌")
     .use((level, player, hand) => true)
     .useDuration(() => 40)
     .useAnimation("bow")
@@ -204,7 +204,7 @@ StartupEvents.registry("item", (event) => {
   // Abeemination
   event
     .create("prodigium_reforged:abeemination")
-    .displayName("Abeemination")
+    .displayName("憎惡之蜂")
     .use((level, player, hand) => true)
     .useDuration(() => 40)
     .useAnimation("bow")
