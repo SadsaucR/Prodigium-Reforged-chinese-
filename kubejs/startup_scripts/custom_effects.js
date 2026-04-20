@@ -110,7 +110,7 @@ StartupEvents.registry("mob_effect", (event) => {
     .create("bee_boost")
     .color(0xffcc33)
     .beneficial()
-    .displayName("Bee Boost")
+    .displayName("蜜蜂增益")
     .effectTick((entity, lvl) => {
       const honey = entity.getEffect("confluence:honey");
       if (!honey) return;
@@ -129,7 +129,7 @@ StartupEvents.registry("mob_effect", (event) => {
     .create("frostburner")
     .color(0x550000)
     .beneficial()
-    .displayName("Frostburner");
+    .displayName("霜凍");
 
   // Holy Touch
   event

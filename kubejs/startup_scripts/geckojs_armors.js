@@ -7,7 +7,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleTexture("kubejs:textures/armor/wizard_ignitium.png");
     })
     .rarity("rare")
-    .displayName("Wizard Ignitium Hat")
+    .displayName("烈火石巫師帽")
     .tier("wizard_ignitium");
 
   event
@@ -17,7 +17,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleTexture("kubejs:textures/armor/wizard_ignitium.png");
     })
     .rarity("rare")
-    .displayName("Wizard Ignitium Robe")
+    .displayName("烈火石巫師袍")
     .tier("wizard_ignitium");
 
   event
@@ -27,7 +27,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleTexture("kubejs:textures/armor/wizard_ignitium.png");
     })
     .rarity("rare")
-    .displayName("Wizard Ignitium Leggings")
+    .displayName("烈火石巫師褲")
     .tier("wizard_ignitium");
 
   event
@@ -37,7 +37,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleTexture("kubejs:textures/armor/wizard_ignitium.png");
     })
     .rarity("rare")
-    .displayName("Wizard Ignitium Boots")
+    .displayName("烈火石巫師靴")
     .tier("wizard_ignitium");
 
   // Necro armor
@@ -48,7 +48,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleTexture("kubejs:textures/armor/necro.png");
     })
     .rarity("rare")
-    .displayName("Necro Helmet")
+    .displayName("死靈頭盔")
     .tier("necro");
 
   event
@@ -58,7 +58,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleTexture("kubejs:textures/armor/necro.png");
     })
     .rarity("rare")
-    .displayName("Necro Chestplate")
+    .displayName("死靈胸甲")
     .tier("necro");
 
   event
@@ -68,7 +68,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleTexture("kubejs:textures/armor/necro.png");
     })
     .rarity("rare")
-    .displayName("Necro Leggings")
+    .displayName("死靈護腿")
     .tier("necro");
 
   event
@@ -78,7 +78,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleTexture("kubejs:textures/armor/necro.png");
     })
     .rarity("rare")
-    .displayName("Necro Boots")
+    .displayName("死靈靴")
     .tier("necro");
 
   // Skyjade Armor
@@ -89,7 +89,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleTexture("kubejs:textures/armor/skyjade_armor.png");
     })
     .rarity("rare")
-    .displayName("Skyjade Hat")
+    .displayName("天玉帽")
     .tier("wizard_skyjade");
 
   event
@@ -99,7 +99,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleTexture("kubejs:textures/armor/skyjade_armor.png");
     })
     .rarity("rare")
-    .displayName("Skyjade Robe")
+    .displayName("天玉袍")
     .tier("wizard_skyjade");
 
   event
@@ -109,7 +109,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleTexture("kubejs:textures/armor/skyjade_armor.png");
     })
     .rarity("rare")
-    .displayName("Skyjade Leggings")
+    .displayName("天玉褲")
     .tier("wizard_skyjade");
 
   event
@@ -119,7 +119,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleTexture("kubejs:textures/armor/skyjade_armor.png");
     })
     .rarity("rare")
-    .displayName("Skyjade Boots")
+    .displayName("天玉靴")
     .tier("wizard_skyjade");
 
   // Sol Armor
@@ -130,7 +130,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleTexture("kubejs:textures/armor/sol.png");
     })
     .rarity("rare")
-    .displayName("Sol Robe")
+    .displayName("太陽袍")
     .tier("sunbird");
 
   event
@@ -140,7 +140,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleTexture("kubejs:textures/armor/sol.png");
     })
     .rarity("rare")
-    .displayName("Sol Leggings")
+    .displayName("太陽褲")
     .tier("sunbird");
 
   event
@@ -150,7 +150,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleTexture("kubejs:textures/armor/sol.png");
     })
     .rarity("rare")
-    .displayName("Sol Boots")
+    .displayName("太陽靴")
     .tier("sunbird");
 
   // Plated Valkyrie armor
@@ -164,7 +164,7 @@ StartupEvents.registry("item", (event) => {
       );
     })
     .rarity("rare")
-    .displayName("Plated Valkyrie Helmet")
+    .displayName("鐵甲女武神頭盔")
     .tier("plated_valkyrie");
 
   event
@@ -177,13 +177,13 @@ StartupEvents.registry("item", (event) => {
       );
     })
     .rarity("rare")
-    .displayName("Plated Valkyrie Chestplate")
+    .displayName("鐵甲女武神胸甲")
     .tier("plated_valkyrie");
 
   event
     .create("kubejs:plated_valkyrie_leggings", "leggings")
     .rarity("rare")
-    .displayName("Plated Valkyrie Leggings")
+    .displayName("鐵甲女武神護腿")
     .tier("plated_valkyrie");
 
   event
@@ -196,7 +196,7 @@ StartupEvents.registry("item", (event) => {
       );
     })
     .rarity("rare")
-    .displayName("Plated Valkyrie Boots")
+    .displayName("鐵甲女武神靴")
     .tier("plated_valkyrie");
 
   // Bee Armor
@@ -208,7 +208,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleAnimation("kubejs:animations/armor/thebee.animation.json");
     })
     .rarity("rare")
-    .displayName("Bee Helmet")
+    .displayName("蜜蜂頭盔")
     .tier("bee");
 
   event
@@ -219,13 +219,13 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleAnimation("kubejs:animations/armor/thebee.animation.json");
     })
     .rarity("rare")
-    .displayName("Bee Chestplate")
+    .displayName("蜜蜂胸甲")
     .tier("bee");
 
   event
     .create("bee_leggings", "leggings")
     .rarity("rare")
-    .displayName("Bee Leggings")
+    .displayName("蜜蜂護腿")
     .tier("bee");
 
   event
@@ -236,7 +236,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleAnimation("kubejs:animations/armor/thebee.animation.json");
     })
     .rarity("rare")
-    .displayName("Bee Boots")
+    .displayName("蜜蜂靴")
     .tier("bee");
 
   // Ranger Phoenix armor
@@ -247,7 +247,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleTexture("kubejs:textures/armor/phoenix_ranger.png");
     })
     .rarity("rare")
-    .displayName("Phoenix Ranger Helmet")
+    .displayName("鳳凰遊俠頭盔")
     .tier("phoenix_ranger");
 
   event
@@ -257,7 +257,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleTexture("kubejs:textures/armor/phoenix_ranger.png");
     })
     .rarity("rare")
-    .displayName("Phoenix Ranger Chestplate")
+    .displayName("鳳凰遊俠胸甲")
     .tier("phoenix_ranger");
 
   event
@@ -267,7 +267,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleTexture("kubejs:textures/armor/phoenix_ranger.png");
     })
     .rarity("rare")
-    .displayName("Phoenix Ranger Leggings")
+    .displayName("鳳凰遊俠護腿")
     .tier("phoenix_ranger");
 
   event
@@ -277,7 +277,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleTexture("kubejs:textures/armor/phoenix_ranger.png");
     })
     .rarity("rare")
-    .displayName("Phoenix Ranger Boots")
+    .displayName("鳳凰遊俠靴")
     .tier("phoenix_ranger");
 
   // Frost Armor
@@ -288,7 +288,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleTexture("kubejs:textures/armor/frost.png");
     })
     .rarity("rare")
-    .displayName("Frost Hood")
+    .displayName("寒霜兜帽")
     .tier("frost");
 
   event
@@ -298,7 +298,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleTexture("kubejs:textures/armor/frost.png");
     })
     .rarity("rare")
-    .displayName("Frost Chestplate")
+    .displayName("寒霜胸甲")
     .tier("frost");
 
   event
@@ -308,7 +308,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleTexture("kubejs:textures/armor/frost.png");
     })
     .rarity("rare")
-    .displayName("Frost Leggings")
+    .displayName("寒霜護腿")
     .tier("frost");
 
   event
@@ -318,7 +318,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleTexture("kubejs:textures/armor/frost.png");
     })
     .rarity("rare")
-    .displayName("Frost Boots")
+    .displayName("寒霜靴")
     .tier("frost");
 
   // Scaled Armor
@@ -329,7 +329,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleTexture("kubejs:textures/armor/scaled.png");
     })
     .rarity("rare")
-    .displayName("Scaled Helmet")
+    .displayName("鱗甲頭盔")
     .tier("scaled");
 
   event
@@ -339,7 +339,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleTexture("kubejs:textures/armor/scaled.png");
     })
     .rarity("rare")
-    .displayName("Scaled Chestplate")
+    .displayName("鱗甲胸甲")
     .tier("scaled");
 
   event
@@ -349,7 +349,7 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleTexture("kubejs:textures/armor/scaled.png");
     })
     .rarity("rare")
-    .displayName("Scaled Leggings")
+    .displayName("鱗甲護腿")
     .tier("scaled");
 
   event
@@ -359,6 +359,6 @@ StartupEvents.registry("item", (event) => {
       geo.setSimpleTexture("kubejs:textures/armor/scaled.png");
     })
     .rarity("rare")
-    .displayName("Scaled Boots")
+    .displayName("鱗甲靴")
     .tier("scaled");
 });
