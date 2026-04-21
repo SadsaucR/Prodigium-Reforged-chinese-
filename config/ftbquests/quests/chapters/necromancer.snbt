@@ -45,7 +45,7 @@
 				item: "irons_spellbooks:inscription_table"
 				type: "item"
 			}]
-			title: "製作銘刻台"
+			title: "製作法術抄寫台"
 			x: 1.5d
 			y: 0.0d
 		}

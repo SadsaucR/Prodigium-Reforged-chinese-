@@ -8,7 +8,7 @@ JEIEvents.information((event) => {
       "aether_redux:raw_veridium",
       "aether_redux:veridium_ingot",
     ],
-    ["在天境頂部生成（y=155以上）"],
+    ["在天堂頂部生成（y=155以上）"],
   );
   //// NPC items
   // Arms Dealer
