@@ -1,8 +1,0 @@
-{
-  "schemaVersion": 2,
-  "items": [],
-  "incompatible": [
-    "minecraft:thorns",
-    "majruszsenchantments:incompatibility_curse"
-  ]
-}
