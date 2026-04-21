@@ -20,14 +20,14 @@
       "value": 0.06,
       "attributeOperation": 1,
       "modifierUUID": "94fbc91e-e162-46b6-9726-e74459b97f5d",
-      "description": "+6% Arrow Damage"
+      "description": "+6% 箭矢傷害"
     },
     {
       "type": "attribute",
       "name": "combatroll:recharge",
       "value": 0.1,
       "modifierUUID": "4f5a8157-57d3-4f97-a502-8c026c0659a5",
-      "description": "10% Roll Cooldown Reduction"
+      "description": "10% 翻滾冷卻縮減"
     },
     {
       "type": "effect",

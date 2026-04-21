@@ -19,14 +19,14 @@
 	  "name": "minecraft:generic.armor",
 	  "value": 1.5,
 	  "modifierUUID": "28c3cad0-bd53-4b32-b664-60a0329a9b86",
-	  "description": "+1.5 Armor"
+	  "description": "+1.5 護甲"
     },
 	{
 	  "type": "attribute",
 	  "name": "minecraft:generic.movement_speed",
 	  "value": 0.1,
 	  "modifierUUID": "350629e6-07c9-4aa8-9121-6e2f8bd39aec",
-	  "description": "0.1 Movement Speed in water",
+	  "description": "+0.1 水中移動速度",
     "interactionDuration": 1200,
     "conditions": [
       {

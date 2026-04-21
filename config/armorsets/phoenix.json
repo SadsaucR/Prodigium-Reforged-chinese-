@@ -19,21 +19,21 @@
       "name": "minecraft:generic.attack_damage",
       "value": 3.0,
       "modifierUUID": "70027cd2-71f9-4cd0-932f-8c0fa02d8129",
-      "description": "+3 Attack Damage"
+      "description": "+3 攻擊傷害"
     },
     {
       "type": "attribute",
       "name": "minecraft:generic.max_health",
       "value": 8.0,
       "modifierUUID": "378d6211-00aa-493c-9ac2-fe34e5200914",
-      "description": "+4 Max health"
+      "description": "+4 最大生命值"
     },
     {
       "type": "attribute",
       "name": "minecraft:generic.attack_speed",
       "value": 0.1,
       "modifierUUID": "2aea28ee-9cca-11ed-b47f-0311a1fd8b9f",
-      "description": "+0.1 Attack Speed"
+      "description": "+0.1 攻擊速度"
     },
     {
       "type": "effect",

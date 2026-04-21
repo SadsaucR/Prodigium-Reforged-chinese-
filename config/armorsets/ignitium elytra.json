@@ -29,14 +29,14 @@
       "name": "minecraft:generic.armor_toughness",
       "value": 1.5,
       "modifierUUID": "b7006518-e6ab-4614-bc34-df445b831787",
-      "description": "+1.5 Armor Toughness"
+      "description": "+1.5 護甲韌性"
     },
     {
       "type": "attribute",
       "name": "minecraft:generic.armor",
       "value": 3.0,
       "modifierUUID": "63544859-9637-426c-b2ef-e2776da4c2de",
-      "description": "+3 Armor"
+      "description": "+3 護甲"
     }
   ]
 }

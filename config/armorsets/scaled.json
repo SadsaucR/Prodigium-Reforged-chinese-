@@ -19,14 +19,14 @@
       "name": "gunswithoutroses:gwr.damage_base",
       "value": 4.0,
       "modifierUUID": "96fd0092-f1ec-4f3c-918d-0e179a8e4f5f",
-      "description": "+4.0 Gun damage"
+      "description": "+4.0 槍械傷害"
     },
     {
       "type": "attribute",
       "name": "gunswithoutroses:gwr.fire_delay",
       "value": -0.2,
       "modifierUUID": "e845aaaa-8860-4ab7-8bd4-fe09a809bf7f",
-      "description": "+20% Rate of Fire"
+      "description": "+20% 射速"
     },
     {
       "type": "effect",

@@ -19,14 +19,14 @@
       "name": "gunswithoutroses:gwr.damage_base",
       "value": 4.0,
       "modifierUUID": "f10d0137-a10e-45ae-825f-63dbc3ddb9bd",
-      "description": "+4.0 Gun damage"
+      "description": "+4.0 槍械傷害"
     },
     {
       "type": "attribute",
       "name": "gunswithoutroses:gwr.chance_ammo",
       "value": -0.05,
       "modifierUUID": "59a949a3-e346-4249-a5e6-265ab46c7f62",
-      "description": "5% Chance to not consume ammo"
+      "description": "5% 機率不消耗彈藥"
     },
     {
       "type": "effect",
@@ -42,7 +42,7 @@
       "type": "effect",
       "name": "mowziesmobs:frozen",
       "interactionType": "immunity",
-      "description": "Freeze immunity"
+      "description": "免疫冰凍"
     }
   ]
 }

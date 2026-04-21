@@ -19,14 +19,14 @@
       "name": "irons_spellbooks:spell_power",
       "value": 0.04,
       "modifierUUID": "fd83eb39-fa96-4ddb-968a-fb00482eaa69",
-      "description": "+4% Spell Power"
+      "description": "+4% 法術強度"
     },
     {
       "type": "attribute",
       "name": "irons_spellbooks:max_mana",
       "value": 400,
       "modifierUUID": "9f25495a-23bd-4caa-a983-bac1e96eb05f",
-      "description": "+400 Max Mana"
+      "description": "+400 最大魔力"
     },
     {
       "type": "effect",

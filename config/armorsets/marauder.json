@@ -19,14 +19,14 @@
       "name": "gunswithoutroses:gwr.damage_base",
       "value": 3.0,
       "modifierUUID": "4a6a54fb-6466-4719-a138-6ed070435b50",
-      "description": "+3.0 Gun damage"
+      "description": "+3.0 槍械傷害"
     },
     {
       "type": "attribute",
       "name": "gunswithoutroses:gwr.chance_ammo",
       "value": -0.15,
       "modifierUUID": "4c409871-4b26-42ff-b335-e8a96f80b56b",
-      "description": "15% Chance to not consume ammo"
+      "description": "15% 機率不消耗彈藥"
     }
   ]
 }

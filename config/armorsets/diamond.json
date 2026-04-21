@@ -19,14 +19,14 @@
       "name": "minecraft:generic.attack_damage",
       "value": 1.5,
       "modifierUUID": "590733d0-eb62-4408-91a6-4cc4c8559bd8",
-      "description": "+1.5 Attack Damage"
+      "description": "+1.5 攻擊傷害"
     },
     {
       "type": "attribute",
       "name": "minecraft:generic.max_health",
       "value": 4.0,
       "modifierUUID": "c1caf6f5-00c2-475e-8a70-08a7a9f0b5db",
-      "description": "+2 Max health"
+      "description": "+2 最大生命值"
     },
     {
       "type": "effect",

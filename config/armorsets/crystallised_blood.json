@@ -19,7 +19,7 @@
       "name": "minecraft:generic.attack_damage",
       "value": 6,
       "modifierUUID": "e4dfe545-629d-4a5e-a21f-b44bf983e14f",
-      "description": "+6 Attack Damage"
+      "description": "+6 攻擊傷害"
     },
     {
       "type": "effect",

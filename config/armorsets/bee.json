@@ -20,14 +20,14 @@
       "value": 0.04,
       "attributeOperation": 1,
       "modifierUUID": "dd4b5038-9856-4948-94bd-b38ebbefcef9",
-      "description": "+4% Arrow Damage"
+      "description": "+4% 箭矢傷害"
     },
     {
       "type": "attribute",
       "name": "combatroll:recharge",
       "value": 0.1,
       "modifierUUID": "a69cc154-5a59-484f-995f-275217d36ff9",
-      "description": "10% Roll Cooldown Reduction"
+      "description": "10% 翻滾冷卻縮減"
     },
     {
       "type": "effect",
@@ -38,7 +38,7 @@
       "type": "effect",
       "name": "minecraft:poison",
       "interactionType": "immunity",
-      "description": "Poison immunity"
+      "description": "免疫中毒"
     }
   ]
 }

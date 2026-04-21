@@ -19,14 +19,14 @@
       "name": "irons_spellbooks:holy_spell_power",
       "value": 0.04,
       "modifierUUID": "80ef5b8f-9d43-4958-a833-eea5ccf392b1",
-      "description": "+4% Holy Spell Power"
+      "description": "+4% 神聖法術強度"
     },
     {
       "type": "attribute",
       "name": "irons_spellbooks:max_mana",
       "value": 75,
       "modifierUUID": "6ba542c9-5644-4f08-b733-c12791a7ab82",
-      "description": "+75 Max Mana"
+      "description": "+75 最大魔力"
     },
     {
       "type": "effect",
