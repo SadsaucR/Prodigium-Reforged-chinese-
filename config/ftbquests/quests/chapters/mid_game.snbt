@@ -1005,13 +1005,13 @@
 				item: "minecraft:netherite_scrap"
 				type: "item"
 			}]
-			title: "你現在已解鎖&8下界合金&r"
+			title: "你現在已解鎖&8獄髓&r"
 			x: 19.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["476DC0D49480853F"]
-			description: ["在下界中找到它"]
+			description: ["在地獄中找到它"]
 			hide_until_deps_visible: true
 			id: "099477E4F8EED634"
 			rewards: [{
@@ -1025,7 +1025,7 @@
 				item: "simpleores:onyx_gem"
 				type: "item"
 			}]
-			title: "你現在已解鎖&8黑曜玉&r和&2鎢&r"
+			title: "你現在已解鎖&8黑曜石&r和&2鎢&r"
 			x: 3.5d
 			y: 1.0d
 		}
@@ -1153,7 +1153,7 @@
 						}
 					}
 					id: "49BFF0417C3C70C2"
-					title: "擊殺&5下界合金怪物&r"
+					title: "擊殺&5獄髓怪物&r"
 					type: "kill"
 					value: 1L
 				}
@@ -1433,7 +1433,7 @@
 			description: [
 				"&n提示：&r"
 				""
-				"所有天境類別的Boss都可以在&o天境&r維度中戰鬥。"
+				"所有天堂類別的Boss都可以在&o天堂&r維度中戰鬥。"
 			]
 			id: "7C742369CC5C8B9E"
 			rewards: [
@@ -1532,7 +1532,7 @@
 				dimension: "aether:the_aether"
 				icon: "minecraft:glowstone"
 				id: "0DE749290636BCC1"
-				title: "進入天境維度"
+				title: "進入天堂維度"
 				type: "dimension"
 			}]
 			x: 8.0d
@@ -1543,7 +1543,7 @@
 			description: [
 				"位於&2青銅地牢&r中。"
 				""
-				"&7（天境Boss的數值尚未平衡）&r"
+				"&7（天堂Boss的數值尚未平衡）&r"
 			]
 			icon: {
 				Count: 1
@@ -1698,7 +1698,7 @@
 			description: [
 				"位於&2白銀地牢&r中。"
 				""
-				"&7（天境Boss的數值尚未平衡）&r"
+				"&7（天堂Boss的數值尚未平衡）&r"
 			]
 			icon: {
 				Count: 1
@@ -1830,7 +1830,7 @@
 			description: [
 				"位於&2黃金地牢&r中。"
 				""
-				"&7（天境Boss的數值尚未平衡）&r"
+				"&7（天堂Boss的數值尚未平衡）&r"
 			]
 			icon: "irons_spellbooks:fire_upgrade_orb"
 			id: "64DECE60E0B6FB6D"
@@ -1947,7 +1947,7 @@
 		}
 		{
 			dependencies: ["113BABA4C72BAEBD"]
-			description: ["在&2花蕾競技場&r中找到。（這個競技場在天境中）"]
+			description: ["在&2花蕾競技場&r中找到。（這個競技場在天堂中）"]
 			icon: "minecraft:spore_blossom"
 			id: "6AC131C918D30C93"
 			min_required_tasks: 1
@@ -2189,7 +2189,7 @@
 					entity: "bosses_of_mass_destruction:gauntlet"
 					icon: "bosses_of_mass_destruction:blazing_eye"
 					id: "461CA47E0065DD97"
-					title: "擊敗&5下界鐵手套&r"
+					title: "擊敗&5地獄鐵手套&r"
 					type: "kill"
 					value: 1L
 				}
@@ -2325,7 +2325,7 @@
 			description: [
 				"要打開通往&5終界&r的傳送門，你至少需要&6來自終界重製版模組的12個眼睛&r。"
 				""
-				"大多數眼睛&e可從Boss的寶物袋中獲得&r，你也可以&e製作其中一些&r！"
+				"大多數眼睛&e可從Boss的寶藏袋中獲得&r，你也可以&e製作其中一些&r！"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -2743,7 +2743,7 @@
 		{
 			dependencies: ["6AC131C918D30C93"]
 			description: [
-				"在其&2修道院&r（天境中）找到，用&9櫻花樹苗&r向它挑戰。"
+				"在其&2修道院&r（天堂中）找到，用&9櫻花樹苗&r向它挑戰。"
 				""
 				"&7如果你無法開始挑戰，意味著上方有方塊阻擋。甚至一個方塊高的障礙就能阻止...&r"
 			]
@@ -2967,7 +2967,7 @@
 					entity: "stalwart_dungeons:nether_keeper"
 					icon: "stalwart_dungeons:keeping_castle_spawner"
 					id: "7A851329C3F650DB"
-					title: "擊殺&5下界守衛者&r"
+					title: "擊殺&5地獄守衛者&r"
 					type: "kill"
 					value: 1L
 				}
@@ -2994,7 +2994,7 @@
 					type: "item"
 				}
 			]
-			title: "擊殺&5下界守衛者&r和&5恐怖惡魂&r"
+			title: "擊殺&5地獄守衛者&r和&5恐怖惡魂&r"
 			x: 2.0d
 			y: 1.875d
 		}

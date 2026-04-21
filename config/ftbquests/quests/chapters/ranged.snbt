@@ -1232,8 +1232,8 @@
 		{
 			dependencies: ["686B5BA848725480"]
 			description: [
-				"小惡魔可以在&6下界&r的&2同伴帳篷&r結構中找到。"
-				"使用&6下界硬幣&r嘗試馴服牠們。（牠們可能不會太高興）"
+				"小惡魔可以在&6地獄&r的&2同伴帳篷&r結構中找到。"
+				"使用&6地獄硬幣&r嘗試馴服牠們。（牠們可能不會太高興）"
 				""
 				"小惡魔的形態會根據所在維度而改變。"
 			]
@@ -1249,7 +1249,7 @@
 				id: "7611A2C23B1EA737"
 				observe_type: 5
 				timer: 0L
-				title: "下界小惡魔！"
+				title: "地獄小惡魔！"
 				to_observe: "companions:hostile_imp"
 				type: "observation"
 			}]
