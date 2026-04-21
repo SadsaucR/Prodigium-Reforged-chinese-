@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 2,
+  "items": [],
+  "incompatible": [
+    "minecraft:silk_touch",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

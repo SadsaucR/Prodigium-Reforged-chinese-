@@ -1,0 +1,531 @@
+{
+  "cataclysm:netherite_monstrosity": [
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_magic_resist",
+      "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_magic_resist",
+      "modify": -0.55,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 0.5,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:prot_shred",
+      "modify": 2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "modify": 0.1,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "furattributes:debuff_time",
+      "modify": 20,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 0.6,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "cataclysm:the_harbinger": [
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_magic_resist",
+      "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_magic_resist",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 0.2,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:prot_shred",
+      "modify": 2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "furattributes:debuff_time",
+      "modify": 20,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 0.6,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "cataclysm:the_leviathan": [
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_magic_resist",
+      "modify": -0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_magic_resist",
+      "modify": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_magic_resist",
+      "modify": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 0.15,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:prot_shred",
+      "modify": 2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "furattributes:debuff_time",
+      "modify": 20,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 0.6,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "cataclysm:ignis": [
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_magic_resist",
+      "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_magic_resist",
+      "modify": -0.25,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 0.25,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:prot_shred",
+      "modify": 2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "furattributes:debuff_time",
+      "modify": 20,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 0.6,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "cataclysm:ancient_remnant": [
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_magic_resist",
+      "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 0.3,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "furattributes:debuff_time",
+      "modify": 20,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 0.6,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "cataclysm:ender_golem": [
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_magic_resist",
+      "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 0.2,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "furattributes:debuff_time",
+      "modify": 20,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 0.6,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ],
+  "cataclysm:ender_guardian": [
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "modify": -0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:ender_magic_resist",
+      "modify": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:nature_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:ice_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:holy_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:fire_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:evocation_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_magic_resist",
+      "modify": -0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "modify": 0.35,
+      "operation": "MULTIPLY_TOTAL"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:armor_pierce",
+      "modify": 4,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "furattributes:debuff_time",
+      "modify": 20,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "modify": 0.6,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ]
+}

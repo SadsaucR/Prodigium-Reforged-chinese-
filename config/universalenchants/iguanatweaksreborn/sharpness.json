@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [],
+  "incompatible": [
+    "iguanatweaksreborn:critical",
+    "iguanatweaksreborn:bane_of_sssss",
+    "majruszsenchantments:incompatibility_curse",
+    "iguanatweaksreborn:smite"
+  ]
+}

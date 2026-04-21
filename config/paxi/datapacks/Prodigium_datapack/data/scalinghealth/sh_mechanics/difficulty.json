@@ -1,0 +1,95 @@
+{
+  "startingValue": 2,
+  "minValue": 0,
+  "maxValue": 1015,
+  "changePerSecond": 0.00085,
+  "mode": {
+    "type": "distance_and_time",
+    "distance": {
+      "distanceFactor": 0.0011
+    },
+    "average": {
+      "radius": 256
+    }
+  },
+  "groupBonus": "1 + 0.05 * (areaPlayerCount - 1)",
+  "groupBonusRadius": 128,
+  "idleMultiplier": 0.5,
+  "afkMessage": false,
+  "timeBeforeAfk": 120,
+  "sleepWarningMessage": false,
+  "multipliers": {
+    "lunarMultipliers": [1.1, 1.075, 1.05, 1.0, 0.95, 1.0, 1.05, 1.075],
+    "locationMultipliers": [
+      {
+        "scale": 1.5,
+        "dimensions": [
+          "minecraft:the_end",
+          "minecraft:the_nether",
+          "aether:the_aether"
+        ]
+      },
+      {
+        "scale": 1.025,
+        "dimensions": ["minecraft:overworld"],
+        "biomes": []
+      }
+    ]
+  },
+  "mutators": {
+    "onBlightKilled": "difficulty",
+    "onHostileKilled": "difficulty",
+    "onPeacefulKilled": "difficulty",
+    "onPlayerKilled": "difficulty",
+    "onPlayerDeath": "difficulty",
+    "onPlayerSleep": "difficulty",
+    "byEntity": [
+      {
+        "entities": [
+          "mowziesmobs:ferrous_wroughtnaut",
+          "terra_entity:skeletron",
+          "terra_entity:queen_bee",
+          "terra_entity:brain_of_cthulhu",
+          "terra_entity:eater_of_worlds",
+          "terra_entity:eye_of_cthulhu",
+          "lost_aether_content:aerwhale_king",
+          "meetyourfight:bellringer",
+          "meetyourfight:dame_fortuna",
+          "meetyourfight:rosalyne",
+          "meetyourfight:swampjaw",
+          "aether:valkyrie_queen",
+          "aether:sun_spirit",
+          "terra_entity:king_slime",
+          "aether:slider",
+          "block_factorys_bosses:sandworm",
+          "block_factorys_bosses:infernal_dragon",
+          "block_factorys_bosses:underworld_knight",
+          "bosses_of_mass_destruction:void_blossom",
+          "bosses_of_mass_destruction:gauntlet",
+          "bosses_of_mass_destruction:lich",
+          "bosses_of_mass_destruction:obsidilith",
+          "minecraft:wither",
+          "minecraft:ender_dragon",
+          "conjurer_illager:conjurer",
+          "minecraft:elder_guardian",
+          "stalwart_dungeons:nether_keeper",
+          "stalwart_dungeons:awful_ghast",
+          "cataclysm:netherite_monstrosity",
+          "cataclysm:ignis",
+          "minecraft:warden",
+          "cataclysm:the_harbinger",
+          "alexsmobs:void_worm",
+          "stalwart_dungeons:shelterer",
+          "cataclysm:ender_guardian",
+          "cataclysm:ender_golem",
+          "cataclysm:ancient_remnant",
+          "irons_spellbooks:dead_king",
+          "cataclysm:the_leviathan",
+          "mowziesmobs:umvuthi",
+          "mowziesmobs:frostmaw"
+        ],
+        "onKilled": "difficulty + 20"
+      }
+    ]
+  }
+}

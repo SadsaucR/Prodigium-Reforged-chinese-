@@ -1,0 +1,38 @@
+{
+  "armorSetName": "ranged",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "prodigium:orichalcum_helmet"
+  },
+  "chest": {
+    "itemKey": "prodigium:orichalcum_chestplate"
+  },
+  "legs": {
+    "itemKey": "prodigium:orichalcum_leggings"
+  },
+  "boots": {
+    "itemKey": "prodigium:orichalcum_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "furattributes:proj_damage",
+      "value": 0.05,
+      "attributeOperation": 1,
+      "modifierUUID": "7fab53f7-ba6b-4aa0-8a37-39494621a315",
+      "description": "+5% Arrow Damage"
+    },
+    {
+      "type": "attribute",
+      "name": "combatroll:recharge",
+      "value": 0.08,
+      "modifierUUID": "c3a22c2c-dcae-428b-8d33-3abe21ca81fd",
+      "description": "8% Roll Cooldown Reduction"
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:hunter",
+      "value": 0
+    }
+  ]
+}

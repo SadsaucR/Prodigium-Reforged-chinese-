@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "T": {
+      "item": "prodigium_reforged:onyx_plate"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": ["G G", "ITI", "LTL"],
+  "result": {
+    "item": "paladins:crusader_armor_chest"
+  }
+}

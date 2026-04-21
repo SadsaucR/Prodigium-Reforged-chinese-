@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.modpackindex.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:api.github.com)",
+      "WebSearch",
+      "WebFetch(domain:www.curseforge.com)",
+      "WebFetch(domain:prodigiumreforged.wiki.gg)",
+      "WebFetch(domain:prodigium-reforged.fandom.com)",
+      "WebFetch(domain:api.curseforge.com)",
+      "WebFetch(domain:edge.forgecdn.net)",
+      "Bash(grep -oE '\"[a-zA-Z &][^\"]{4,}\"' C:/Users/admin/Desktop/Prodigium-Reforged-chinese-/config/ftbquests/quests/chapters/mid_game.snbt)",
+      "Bash(grep -oE '\"[^\"]{5,}\"' C:/Users/admin/Desktop/Prodigium-Reforged-chinese-/config/ftbquests/quests/chapters/classes_introduction.snbt)",
+      "Bash(grep -oE '\"[^\"]{5,}\"' C:/Users/admin/Desktop/Prodigium-Reforged-chinese-/config/ftbquests/quests/chapters/mid_game.snbt)",
+      "Bash(grep -oE '\"[^\"]{5,}\"' C:/Users/admin/Desktop/Prodigium-Reforged-chinese-/config/ftbquests/quests/chapters/pve.snbt)",
+      "Bash(grep -oE '\"[^\"]{5,}\"' C:/Users/admin/Desktop/Prodigium-Reforged-chinese-/config/ftbquests/quests/chapters/test_3.snbt)",
+      "Bash(xargs grep *)",
+      "WebFetch(domain:minecraft.fandom.com)",
+      "WebFetch(domain:zh.minecraft.wiki)"
+    ]
+  }
+}

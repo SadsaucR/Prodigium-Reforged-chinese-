@@ -1,0 +1,100 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "endrem:cursed_eye"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:tidal_claws",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:abyssal_egg",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:music_disc_the_leviathan",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "prodigium_reforged:leviathan_scale",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "numismatic-overhaul:silver_coin",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 45,
+                "max": 45
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "numismatic-overhaul:gold_coin",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 13,
+                "max": 15
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gwrexpansions:tidal_pistol",
+          "weight": 5
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.35
+        }
+      ]
+    }
+  ]
+}

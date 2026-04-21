@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [],
+  "incompatible": [
+    "iguanatweaksreborn:critical",
+    "iguanatweaksreborn:sharpness",
+    "iguanatweaksreborn:bane_of_sssss",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

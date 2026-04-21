@@ -1,0 +1,5 @@
+{
+  "schemaVersion": 2,
+  "items": ["$minecraft:universal_enchants_shield"],
+  "incompatible": ["majruszsenchantments:incompatibility_curse"]
+}

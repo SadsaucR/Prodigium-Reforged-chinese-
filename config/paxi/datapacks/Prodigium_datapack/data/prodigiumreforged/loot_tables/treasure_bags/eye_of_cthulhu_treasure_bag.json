@@ -1,0 +1,104 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "endrem:old_eye",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "confluence:shield_of_cthulhu",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "archers_paradox:explosive_arrow",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 10,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 10,
+          "quality": -1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 10
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 8,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "numismatic-overhaul:silver_coin",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 15
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "numismatic-overhaul:gold_coin",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "armorSetName": "berserker",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "aether:phoenix_helmet"
+  },
+  "chest": {
+    "itemKey": "aether:phoenix_chestplate"
+  },
+  "legs": {
+    "itemKey": "aether:phoenix_leggings"
+  },
+  "boots": {
+    "itemKey": "aether:phoenix_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 3.0,
+      "modifierUUID": "70027cd2-71f9-4cd0-932f-8c0fa02d8129",
+      "description": "+3 Attack Damage"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.max_health",
+      "value": 8.0,
+      "modifierUUID": "378d6211-00aa-493c-9ac2-fe34e5200914",
+      "description": "+4 Max health"
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_speed",
+      "value": 0.1,
+      "modifierUUID": "2aea28ee-9cca-11ed-b47f-0311a1fd8b9f",
+      "description": "+0.1 Attack Speed"
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:phoenix_embrace",
+      "value": 0.0
+    }
+  ]
+}

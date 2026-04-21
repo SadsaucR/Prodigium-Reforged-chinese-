@@ -1,0 +1,107 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "majruszsdifficulty:infernal_sponge",
+          "weight": 2,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsdifficulty:wither_sword",
+          "weight": 1,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "prodigium_reforged:demon_heart",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 12.0,
+        "max": 16.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wither_rose",
+          "weight": 50,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_wart",
+          "weight": 30,
+          "quality": 0
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blaze_rod",
+          "weight": 15,
+          "quality": 0
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wither_skeleton_skull",
+          "weight": 5,
+          "quality": 3
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "numismatic-overhaul:silver_coin",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 20,
+                "max": 45
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "numismatic-overhaul:gold_coin",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 15
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

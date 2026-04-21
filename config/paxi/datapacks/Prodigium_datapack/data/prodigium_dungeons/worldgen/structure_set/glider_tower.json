@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "prodigium_dungeons:glider_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1224566510,
+    "frequency": 0.95,
+    "spacing": 15,
+    "separation": 6,
+    "type": "minecraft:random_spread"
+  }
+}

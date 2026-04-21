@@ -1,0 +1,154 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "endrem:cold_eye",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mowziesmobs:ice_crystal",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:frozen_turtle_shell",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mowziesmobs:music_disc_petiole"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "prodigium_reforged:frostmaw_hide",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:frozen_bone",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tameablebeasts:ice_helmet",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tameablebeasts:ice_chestplate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tameablebeasts:icepop",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aether_redux:subzero_crossbow",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:permafrost_shard",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sweet_charm_o_mine:dunlop_pick",
+          "weight": 6
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "numismatic-overhaul:silver_coin",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 10,
+                "max": 15
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "numismatic-overhaul:gold_coin",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

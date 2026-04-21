@@ -1,0 +1,38 @@
+{
+  "armorSetName": "ranged",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "aether:neptune_helmet"
+  },
+  "chest": {
+    "itemKey": "aether:neptune_chestplate"
+  },
+  "legs": {
+    "itemKey": "aether:neptune_leggings"
+  },
+  "boots": {
+    "itemKey": "aether:neptune_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "furattributes:proj_damage",
+      "value": 0.06,
+      "attributeOperation": 1,
+      "modifierUUID": "94fbc91e-e162-46b6-9726-e74459b97f5d",
+      "description": "+6% Arrow Damage"
+    },
+    {
+      "type": "attribute",
+      "name": "combatroll:recharge",
+      "value": 0.1,
+      "modifierUUID": "4f5a8157-57d3-4f97-a502-8c026c0659a5",
+      "description": "10% Roll Cooldown Reduction"
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:neptune_buff",
+      "value": 0
+    }
+  ]
+}

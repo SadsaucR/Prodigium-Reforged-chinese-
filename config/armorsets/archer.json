@@ -1,0 +1,40 @@
+{
+  "armorSetName": "archer",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "archers:archer_armor_head"
+  },
+  "chest": {
+    "itemKey": "archers:archer_armor_chest"
+  },
+  "legs": {
+    "itemKey": "archers:archer_armor_legs"
+  },
+  "boots": {
+    "itemKey": "archers:archer_armor_feet"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "furattributes:proj_damage",
+      "value": 0.03,
+      "attributeOperation": 1,
+      "modifierUUID": "36d41b96-cdc7-42a9-94e3-8b901bae6d74",
+      "description": "+3% Arrow Damage"
+    },
+    {
+      "type": "attribute",
+      "name": "combatroll:recharge",
+      "value": 0.07,
+      "modifierUUID": "445b1d8d-523e-41c3-92cd-130cae1c7bea",
+      "description": "7% Roll Cooldown Reduction"
+    },
+    {
+      "type": "attribute",
+      "name": "attributeslib:dodge_chance",
+      "value": 0.02,
+      "modifierUUID": "dd4c881c-7e95-466f-963f-110a17255b65",
+      "description": "2% Dodge Chance"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "schemaVersion": 2,
+  "items": ["$minecraft:spyglass"],
+  "incompatible": ["majruszsenchantments:incompatibility_curse"]
+}

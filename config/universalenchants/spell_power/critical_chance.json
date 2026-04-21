@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "items": [],
+  "incompatible": [
+    "minecraft:infinity",
+    "minecraft:punch",
+    "minecraft:multishot",
+    "minecraft:piercing",
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:power",
+    "allurement:spread_of_ailments",
+    "minecraft:flame",
+    "allurement:reeling",
+    "minecraft:quick_charge"
+  ]
+}

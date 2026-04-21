@@ -1,0 +1,118 @@
+{
+  "ranged_weapons": {
+    "archers:netherite_heavy_crossbow": {
+      "pull_time": 1,
+      "damage": 0.0,
+      "velocity": 0.0
+    },
+    "archers:netherite_shortbow": {
+      "pull_time": 1,
+      "damage": 0.0,
+      "velocity": 0.0
+    },
+    "archers:royal_longbow": {
+      "pull_time": 1,
+      "damage": 0.0,
+      "velocity": 0.0
+    },
+    "archers:netherite_rapid_crossbow": {
+      "pull_time": 1,
+      "damage": 0.0,
+      "velocity": 0.0
+    },
+    "archers:heavy_crossbow": {
+      "pull_time": 1,
+      "damage": 0.0,
+      "velocity": 0.0
+    },
+    "archers:netherite_longbow": {
+      "pull_time": 1,
+      "damage": 0.0,
+      "velocity": 0.0
+    },
+    "archers:composite_longbow": {
+      "pull_time": 1,
+      "damage": 1.0,
+      "velocity": 0.0
+    },
+    "archers:rapid_crossbow": {
+      "pull_time": 1,
+      "damage": 0.0,
+      "velocity": 0.0
+    },
+    "archers:mechanic_shortbow": {
+      "pull_time": 1,
+      "damage": 0.0,
+      "velocity": 0.0
+    }
+  },
+  "melee_weapons": {
+    "golden_spear": {
+      "attack_damage": 3.0,
+      "attack_speed": -2.6,
+      "attributes": []
+    },
+    "diamond_spear": {
+      "attack_damage": 6.0,
+      "attack_speed": -2.6,
+      "attributes": []
+    },
+    "flint_spear": {
+      "attack_damage": 4.0,
+      "attack_speed": -2.6,
+      "attributes": []
+    },
+    "netherite_spear": {
+      "attack_damage": 7.0,
+      "attack_speed": -2.6,
+      "attributes": []
+    },
+    "iron_spear": {
+      "attack_damage": 5.0,
+      "attack_speed": -2.6,
+      "attributes": []
+    }
+  },
+  "armor_sets": {
+    "archer_armor": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 3,
+        "attributes": []
+      },
+      "chest": {
+        "armor": 5,
+        "attributes": []
+      },
+      "legs": {
+        "armor": 5,
+        "attributes": []
+      },
+      "feet": {
+        "armor": 3,
+        "attributes": []
+      }
+    },
+    "ranger_armor": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 4,
+        "attributes": []
+      },
+      "chest": {
+        "armor": 6,
+        "attributes": []
+      },
+      "legs": {
+        "armor": 6,
+        "attributes": []
+      },
+      "feet": {
+        "armor": 4,
+        "attributes": []
+      }
+    }
+  }
+}

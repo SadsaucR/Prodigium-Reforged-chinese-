@@ -1,0 +1,44 @@
+{
+  "armorSetName": "ranged",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "kubejs:bee_helmet"
+  },
+  "chest": {
+    "itemKey": "kubejs:bee_chestplate"
+  },
+  "legs": {
+    "itemKey": "kubejs:bee_leggings"
+  },
+  "boots": {
+    "itemKey": "kubejs:bee_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "furattributes:proj_damage",
+      "value": 0.04,
+      "attributeOperation": 1,
+      "modifierUUID": "dd4b5038-9856-4948-94bd-b38ebbefcef9",
+      "description": "+4% Arrow Damage"
+    },
+    {
+      "type": "attribute",
+      "name": "combatroll:recharge",
+      "value": 0.1,
+      "modifierUUID": "a69cc154-5a59-484f-995f-275217d36ff9",
+      "description": "10% Roll Cooldown Reduction"
+    },
+    {
+      "type": "effect",
+      "name": "kubejs:bee_boost",
+      "value": 0.0
+    },
+    {
+      "type": "effect",
+      "name": "minecraft:poison",
+      "interactionType": "immunity",
+      "description": "Poison immunity"
+    }
+  ]
+}

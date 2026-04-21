@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "item": "prodigium_reforged:diamond_plate"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": ["ICI", "I I"],
+  "result": {
+    "item": "paladins:paladin_armor_head"
+  }
+}

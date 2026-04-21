@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_chest",
+    "$minecraft:universal_enchants_horse_armor",
+    "$minecraft:universal_enchants_shield"
+  ],
+  "incompatible": [
+    "minecraft:blast_protection",
+    "allurement:vengeance",
+    "minecraft:protection",
+    "iguanatweaksreborn:projectile_protection",
+    "minecraft:feather_falling",
+    "majruszsenchantments:incompatibility_curse",
+    "iguanatweaksreborn:blast_protection",
+    "iguanatweaksreborn:feather_falling",
+    "minecraft:fire_protection",
+    "spell_power:magic_protection",
+    "iguanatweaksreborn:protection",
+    "minecraft:projectile_protection",
+    "iguanatweaksreborn:fire_protection"
+  ]
+}

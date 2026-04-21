@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": ["$minecraft:weapon"],
+  "incompatible": [
+    "minecraft:bane_of_arthropods",
+    "minecraft:sharpness",
+    "minecraft:smite",
+    "majruszsenchantments:incompatibility_curse",
+    "apotheosis:bane_of_illagers"
+  ]
+}
