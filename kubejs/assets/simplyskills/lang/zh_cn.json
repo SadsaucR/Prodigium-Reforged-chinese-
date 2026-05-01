@@ -1,0 +1,168 @@
+{
+  "text.skills.berserker_category.title": "§7§b狂戰士專精§7",
+
+  "text.skills.berserkerpath.title": "§b狂戰士§7之道",
+  "text.skills.berserkerpath.description": "\n§7§a[魯莽]§7\n生命值超過70%時，受到持續虛弱效果。\n\n此外，造成或受到傷害時獲得一層憤怒。\n\n§f(憤怒)§7 每層提升§a+0.5% §f[x]§7 近戰傷害、攻擊速度及受到傷害，最多100層。\n憤怒超過25層時迅速失去疲憊層數。§7\n\n按住§f[SHIFT]§7查看更多：",
+  "text.skills.berserkerpath.extra_description": "\n§7§b狂戰士§7受到難以遏制的破壞欲驅使，完全無視自身安危。他們是§a近戰§7的主宰，熱衷於造成毀滅性傷害，哪怕這意味著§a以命相搏§7。",
+
+  "text.skills.berserkerSwordMastery.title": "§7§a[劍術精通]§7",
+  "text.skills.berserkerSwordMastery.description": "§7主手持劍時獲得持續加速效果。",
+
+  "text.skills.berserkerSwordMasteryProficient.title": "§7§a[劍術精通 +]§7",
+  "text.skills.berserkerSwordMasteryProficient.description": "§7主手持劍時獲得更強的持續加速效果。",
+
+  "text.skills.berserkerSwordMasterySkilled.title": "§7§a[劍術精通 ++]§7",
+  "text.skills.berserkerSwordMasterySkilled.description": "§7非雙持時獲得持續神力效果。\n\n§f(神力)§7 每層提升§a+10% §f[x]§7 攻擊傷害。",
+
+  "text.skills.berserkerAxeMastery.title": "§7§a[斧術精通]§7",
+  "text.skills.berserkerAxeMastery.description": "§7主手持斧時獲得持續力量效果。",
+
+  "text.skills.berserkerAxeMasteryProficient.title": "§7§a[斧術精通 +]§7",
+  "text.skills.berserkerAxeMasteryProficient.description": "§7主手持斧時獲得更強的持續力量效果。",
+
+  "text.skills.berserkerAxeMasterySkilled.title": "§7§a[斧術精通 ++]§7",
+  "text.skills.berserkerAxeMasterySkilled.description": "§7主手持斧時獲得更強的持續力量效果。",
+
+  "text.skills.berserkerIgnorePain.title": "§7§a[無視痛苦]§7",
+  "text.skills.berserkerIgnorePain.description": "§7生命值低於40%時獲得持續抗性效果。",
+
+  "text.skills.berserkerIgnorePainProficient.title": "§7§a[無視痛苦 +]§7",
+  "text.skills.berserkerIgnorePainProficient.description": "§7生命值低於40%時獲得更強的持續抗性效果。",
+
+  "text.skills.berserkerIgnorePainSkilled.title": "§7§a[無視痛苦 ++]§7",
+  "text.skills.berserkerIgnorePainSkilled.description": "§7生命值低於40%時獲得更強的持續抗性效果。",
+
+  "text.skills.berserkerRecklessness.title": "§7§a[魯莽]§7",
+  "text.skills.berserkerRecklessness.description": "§7生命值超過70%時，受到持續虛弱效果。\n\n此外，造成或受到傷害時獲得一層憤怒。\n\n§f(憤怒)§7 每層提升§a+0.5% §f[x]§7 近戰傷害、攻擊速度及受到傷害，最多100層。\n憤怒超過25層時迅速失去疲憊層數。",
+
+  "text.skills.berserkerChallenge.title": "§7§a[挑釁]§7",
+  "text.skills.berserkerChallenge.description": "§7每有一個附近敵人獲得一層急速效果。",
+
+  "text.skills.berserkerExploit.title": "§7§a[趁虛而入]§7",
+  "text.skills.berserkerExploit.description": "§7攻擊被禁錮的敵人時，對其施加虛弱效果。",
+
+  "text.skills.berserkerSignatureRampage.title": "招牌技能：§6[狂暴衝擊]§7",
+  "text.skills.berserkerSignatureRampage.description": "§7\n獲得15秒的狂暴衝擊效果。\n\n§f(狂暴衝擊)§7 每次受到傷害時獲得隨機增益。\n\n§a冷卻：30秒§7",
+
+  "text.skills.berserkerSignatureRampageCharge.title": "§f[衝鋒]",
+  "text.skills.berserkerSignatureRampageCharge.description": "§7§6[狂暴衝擊]§7 現在會立即給予你生命恢復和抗性，並使你向前猛衝，造成傷害並擊退敵人。",
+
+  "text.skills.berserkerSignatureRampageChargeRelentless.title": "§f[無情]",
+  "text.skills.berserkerSignatureRampageChargeRelentless.description": "§7衝鋒造成傷害時，將疲憊層數轉換為力量。",
+
+  "text.skills.berserkerSignatureRampageChargeImmob.title": "§f[禁錮]",
+  "text.skills.berserkerSignatureRampageChargeImmob.description": "§7被衝鋒擊中的敵人同時受到禁錮效果。\n\n§f(禁錮)§7 敵人嘗試移動時受到大幅減速及傷害。",
+
+  "text.skills.berserkerSignatureBloodthirsty.title": "招牌技能：§6[嗜血]§7",
+  "text.skills.berserkerSignatureBloodthirsty.description": "§7\n獲得20秒的嗜血效果。\n\n§f(嗜血)§7 每次擊殺敵人時回復最大生命值的25%。\n\n§a冷卻：25秒§7",
+
+  "text.skills.berserkerSignatureBloodthirstyMighty.title": "§f[神力]",
+  "text.skills.berserkerSignatureBloodthirstyMighty.description": "§7§6[嗜血]§7 啟動時同時給予神力效果。\n\n§f(神力)§7 每層提升§a+10% §f[x]§7 攻擊傷害。",
+
+  "text.skills.berserkerSignatureBloodthirstyTireless.title": "§f[不知疲倦]",
+  "text.skills.berserkerSignatureBloodthirstyTireless.description": "§7§6[嗜血]§7 啟動期間，攻擊時有機率移除疲憊層數。",
+
+  "text.skills.berserkerSignatureBloodthirstyTremor.title": "§f[震顫]",
+  "text.skills.berserkerSignatureBloodthirstyTremor.description": "§7§6[嗜血]§7 啟動期間，攻擊時有機率獲得大地震撼效果。\n\n§f(大地震撼)§7 落地時對周圍敵人造成傷害並擊退。傷害與護甲值成正比。",
+
+  "text.skills.berserkerSignatureBerserking.title": "招牌技能：§6[狂戰]§7",
+  "text.skills.berserkerSignatureBerserking.description": "§7\n犧牲30%最大生命值。根據失去的心數獲得對應時長的狂戰效果。\n\n§f(狂戰)§7 每次攻擊敵人時獲得疊加的攻擊增益。\n\n§a冷卻：25秒§7",
+
+  "text.skills.berserkerSignatureBerserkingLeap.title": "§f[躍擊]",
+  "text.skills.berserkerSignatureBerserkingLeap.description": "§7§6[狂戰]§7 現在使你向前躍擊，在落點對敵人造成傷害並擊退。",
+
+  "text.skills.berserkerSignatureBerserkingLeapImmob.title": "§f[禁錮]",
+  "text.skills.berserkerSignatureBerserkingLeapImmob.description": "§7躍擊同時對敵人施加禁錮效果。\n\n§f(禁錮)§7 敵人嘗試移動時受到大幅減速及傷害。",
+
+  "text.skills.berserkerSignatureBerserkingLeapPull.title": "§f[磁力]",
+  "text.skills.berserkerSignatureBerserkingLeapPull.description": "§7躍擊現在改為吸引附近敵人而非擊退。",
+
+  "text.skills.wizard_category.title": "§7§b巫師專精§7",
+
+  "text.skills.wizardPath.title": "§b巫師§7之道",
+  "text.skills.wizardPath.description": "\n§7§a[脆弱]§7\n§7無法有效使用攻擊力超過6的武器。\n\n獲得敏捷效果。護甲值越低，獲得的敏捷層數越多。\n\n§f(敏捷)§7 每層提升§a+5% §f[x]§7 攻擊速度、移動速度、施法急速及遠程傷害。§7\n\n按住§f[SHIFT]§7查看更多：",
+  "text.skills.wizardPath.extra_description": "\n§7§b巫師§7專精適合那些渴望駕馭魔法力量的人。他們是無情而具有破壞力的§a施法者§7，能夠對敵人釋放毀天滅地的魔法能量。然而，對奧術力量的渴求使他們§a忽視自身的肉體§7，削弱了防禦能力及物理攻擊。",
+
+  "text.skills.wizardPassiveSpellEcho.title": "§7§a[法術回響]§7",
+  "text.skills.wizardPassiveSpellEcho.description": "§7法術命中時有機率觸發回響，對目標追加施放一個隨機法術。",
+
+  "text.skills.wizardSignatureMeteorShower.title": "招牌技能：§6[流星雨]§7",
+  "text.skills.wizardSignatureMeteorShower.description": "§7\n召喚流星砸向附近敵人。\n\n§8[需要附近目標]\n\n§a冷卻：40秒§7",
+
+  "text.skills.wizardSignatureMeteorShowerGreater.title": "§f[強化]§7",
+  "text.skills.wizardSignatureMeteorShowerGreater.description": "§7§6[流星雨]§7 現在召喚一顆更大的流星，在更大範圍內造成大量傷害。\n\n§8[需要目標]",
+
+  "text.skills.wizardSignatureMeteorShowerWrath.title": "§f[怒火]",
+  "text.skills.wizardSignatureMeteorShowerWrath.description": "§7施放§6[流星雨]§7 時獲得10層隕石怒火效果。\n\n§f(隕石怒火)§7 定期在附近敵人頭頂召喚流星。",
+
+  "text.skills.wizardSignatureMeteorShowerRenewingWrath.title": "§f[復甦]",
+  "text.skills.wizardSignatureMeteorShowerRenewingWrath.description": "§7隕石怒火觸發時有10%機率不消耗層數。",
+
+  "text.skills.wizardSignatureMeteorShowerRenewingWrath++.title": "§f[復甦 +]",
+  "text.skills.wizardSignatureMeteorShowerRenewingWrath++.description": "§7隕石怒火觸發時有30%機率不消耗層數。",
+
+  "text.skills.wizardSignatureMeteorShowerRenewingWrath+++.title": "§f[復甦 ++]",
+  "text.skills.wizardSignatureMeteorShowerRenewingWrath+++.description": "§7隕石怒火觸發時有50%機率不消耗層數。",
+
+  "text.skills.wizardSignatureIceComet.title": "招牌技能：§6[冰霜彗星]§7",
+  "text.skills.wizardSignatureIceComet.description": "§7\n召喚冰霜彗星在大範圍內對敵人造成傷害並減速。\n\n§a冷卻：30秒§7",
+
+  "text.skills.wizardSignatureIceCometLeap.title": "§f[後躍]",
+  "text.skills.wizardSignatureIceCometLeap.description": "§7施放§6[冰霜彗星]§7 時，使你向後躍起並短暫獲得緩降效果。",
+
+  "text.skills.wizardSignatureIceCometVolley.title": "§f[連射]",
+  "text.skills.wizardSignatureIceCometVolley.description": "§7施放§6[冰霜彗星]§7 時獲得6層霜冰連射效果。\n\n§f(霜冰連射)§7 定期向附近或目標敵人召喚冰霜箭。",
+
+  "text.skills.wizardSignatureIceCometDamage.title": "§f[強化]",
+  "text.skills.wizardSignatureIceCometDamage.description": "§7§6[冰霜彗星]§7 體積更大，造成更多傷害及擊退。",
+
+  "text.skills.wizardSignatureIceCometDamage++.title": "§f[強化 +]",
+  "text.skills.wizardSignatureIceCometDamage++.description": "§7§6[冰霜彗星]§7 體積更大，造成更多傷害及擊退。",
+
+  "text.skills.wizardSignatureIceCometDamage+++.title": "§f[強化 ++]",
+  "text.skills.wizardSignatureIceCometDamage+++.description": "§7§6[冰霜彗星]§7 體積顯著增大，造成大量傷害及擊退。",
+
+  "text.skills.wizardSignatureStaticDischarge.title": "招牌技能：§6[靜電釋放]§7",
+  "text.skills.wizardSignatureStaticDischarge.description": "§7\n對目標釋放高傷害電流，施加虛弱效果。\n\n§8[需要目標]\n\n§a冷卻：35秒§7",
+
+  "text.skills.wizardSignatureStaticDischargeLightningBall.title": "§f[球形閃電]",
+  "text.skills.wizardSignatureStaticDischargeLightningBall.description": "§6[靜電釋放]§7 不再向前躍擊，改為召喚一顆緩慢移動的雷球，定期向附近敵人釋放電流。\n\n所有原本在躍擊時觸發的被動效果，現在改在雷球命中敵人時觸發。",
+
+  "text.skills.wizardSignatureStaticDischargeLeap.title": "§f[連鎖]",
+  "text.skills.wizardSignatureStaticDischargeLeap.description": "§7你的§6[靜電]§7 現在可以在附近敵人間連鎖跳躍。",
+
+  "text.skills.wizardSignatureStaticDischargeLeap++.title": "§f[連鎖 +]",
+  "text.skills.wizardSignatureStaticDischargeLeap++.description": "§7§6[靜電釋放]§7 在消散前獲得額外連鎖次數。",
+
+  "text.skills.wizardSignatureStaticDischargeLeap+++.title": "§f[連鎖 ++]",
+  "text.skills.wizardSignatureStaticDischargeLeap+++.description": "§7§6[靜電釋放]§7 在消散前獲得更多連鎖次數。",
+
+  "text.skills.wizardSignatureStaticDischargeSpeed.title": "§f[加速]",
+  "text.skills.wizardSignatureStaticDischargeSpeed.description": "§7每次§6[靜電釋放]§7 連鎖或施放時，有5%機率獲得加速效果。",
+
+  "text.skills.wizardSignatureStaticDischargeSpeed++.title": "§f[加速 +]",
+  "text.skills.wizardSignatureStaticDischargeSpeed++.description": "§7每次§6[靜電釋放]§7 連鎖或施放時，有10%機率獲得加速效果。",
+
+  "text.skills.wizardSignatureStaticDischargeSpeed+++.title": "§f[加速 ++]",
+  "text.skills.wizardSignatureStaticDischargeSpeed+++.description": "§7每次§6[靜電釋放]§7 連鎖或施放時，有15%機率獲得加速效果。",
+
+  "text.skills.wizardSignatureStaticDischargeLightningOrb.title": "§f[雷球]",
+  "text.skills.wizardSignatureStaticDischargeLightningOrb.description": "§7除了獲得加速外，還有機率召喚一顆雷球繞你不規則運動，對途徑的敵人造成傷害。\n\n每有一顆雷球在附近，獲得一層靈魂電震效果。\n\n§f(靈魂電震)§7 每層提升§a+1 §f[x]§7 靈魂及閃電法術強度。",
+
+  "text.skills.wizardSignatureStaticDischargeLightningOrbOnHit.title": "§f[命中觸發]",
+  "text.skills.wizardSignatureStaticDischargeLightningOrbOnHit.description": "§7雷球命中時現在可以觸發施法時效果，例如法術回響。",
+
+  "text.skills.wizardSignatureArcaneBolt.title": "招牌技能：§6[奧術箭]§7",
+  "text.skills.wizardSignatureArcaneBolt.description": "§7\n向目標發射集中的奧術能量箭。\n\n§a冷卻：35秒§7",
+
+  "text.skills.wizardSignatureArcaneBoltLesser.title": "§f[弱化]",
+  "text.skills.wizardSignatureArcaneBoltLesser.description": "§7§6[奧術箭]§7 現在發射弱化奧術箭，傷害較低但會引發連鎖反應。",
+
+  "text.skills.wizardSignatureArcaneBoltVolley.title": "§f[連射]",
+  "text.skills.wizardSignatureArcaneBoltVolley.description": "§7施放§6[奧術箭]§7 時獲得10層奧術連射效果。\n \n§f(奧術連射)§7 使你快速向目標敵人施放弱化奧術箭。",
+
+  "text.skills.wizardSignatureArcaneBoltGreater.title": "§f[強化]",
+  "text.skills.wizardSignatureArcaneBoltGreater.description": "§7現在施放§6[強化奧術箭]§7，傷害更高且具有穿透能力。",
+
+  "text.skills.stamina+0.5%.title": "§a+0.5%§f [+] §7耐力"
+}

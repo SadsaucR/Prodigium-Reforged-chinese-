@@ -10050,7 +10050,7 @@
     ]
   },
   "armor+0.5": {
-    "title": "+0.5 Armor",
+    "title": "+0.5 護甲",
     "icon": {
       "type": "item",
       "data": {
@@ -10069,7 +10069,7 @@
     ]
   },
   "melee_damage+5%": {
-    "title": "+3% Melee Damage",
+    "title": "+3% 近戰傷害",
     "icon": {
       "type": "effect",
       "data": {
@@ -10088,7 +10088,7 @@
     ]
   },
   "melee_damage+10%": {
-    "title": "+6% Melee Damage",
+    "title": "+6% 近戰傷害",
     "icon": {
       "type": "effect",
       "data": {
@@ -10107,7 +10107,7 @@
     ]
   },
   "overheal": {
-    "title": "Unlocks overheal",
+    "title": "解鎖超量治療",
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10127,7 +10127,7 @@
     ]
   },
   "overheal+2%": {
-    "title": "+1% Overheal",
+    "title": "+1% 超量治療",
     "icon": {
       "type": "effect",
       "data": {
@@ -10146,7 +10146,7 @@
     ]
   },
   "resistance+1": {
-    "title": "+1% Resistance",
+    "title": "+1% 傷害抗性",
     "icon": {
       "type": "effect",
       "data": {
@@ -10165,7 +10165,7 @@
     ]
   },
   "resistance+5%": {
-    "title": "+5% Resistance",
+    "title": "+5% 傷害抗性",
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10185,7 +10185,7 @@
     ]
   },
   "health2+": {
-    "title": "+1 Heart",
+    "title": "+1 心",
     "icon": {
       "type": "effect",
       "data": {
@@ -10204,7 +10204,7 @@
     ]
   },
   "health+4": {
-    "title": "+4 Hearts",
+    "title": "+4 心",
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10224,7 +10224,7 @@
     ]
   },
   "root_health+4": {
-    "title": "Chose the Melee class (+4 Hearts)",
+    "title": "選擇近戰職業（+4 心）",
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10244,7 +10244,7 @@
     ]
   },
   "healing+5%": {
-    "title": "+2% Healing",
+    "title": "+2% 治療量",
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10264,7 +10264,7 @@
     ]
   },
   "healing+10%": {
-    "title": "+10% Healing",
+    "title": "+10% 治療量",
     "icon": {
       "type": "effect",
       "data": {
@@ -10283,7 +10283,7 @@
     ]
   },
   "crit_damage+5%": {
-    "title": "+5% Crit Damage",
+    "title": "+5% 暴擊傷害",
     "icon": {
       "type": "effect",
       "data": {
@@ -10302,7 +10302,7 @@
     ]
   },
   "crit_chance+5%": {
-    "title": "+5% Crit Chance",
+    "title": "+5% 暴擊機率",
     "icon": {
       "type": "effect",
       "data": {
@@ -10321,7 +10321,7 @@
     ]
   },
   "dodge+5%": {
-    "title": "+2% Dodge chance",
+    "title": "+2% 閃躲機率",
     "icon": {
       "type": "effect",
       "data": {
@@ -10340,7 +10340,7 @@
     ]
   },
   "dodge+10%": {
-    "title": "+5% Dodge chance",
+    "title": "+5% 閃躲機率",
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10360,7 +10360,7 @@
     ]
   },
   "cold_damage+0.5": {
-    "title": "+0.5 Cold Damage",
+    "title": "+0.5 冰冷傷害",
     "icon": {
       "type": "effect",
       "data": {
@@ -10379,7 +10379,7 @@
     ]
   },
   "cold_damage+1": {
-    "title": "+1 Cold Damage",
+    "title": "+1 冰冷傷害",
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10399,7 +10399,7 @@
     ]
   },
   "fire_damage+0.5": {
-    "title": "+0.5 Fire Damage",
+    "title": "+0.5 火焰傷害",
     "icon": {
       "type": "effect",
       "data": {
@@ -10418,7 +10418,7 @@
     ]
   },
   "fire_damage+1": {
-    "title": "+1 Fire Damage",
+    "title": "+1 火焰傷害",
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10438,7 +10438,7 @@
     ]
   },
   "armor_toughness+1": {
-    "title": "+1 Armor Toughness",
+    "title": "+1 護甲韌性",
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10458,7 +10458,7 @@
     ]
   },
   "attack_knockback+5%": {
-    "title": "+5% Attack Knockback",
+    "title": "+5% 攻擊擊退",
     "icon": {
       "type": "effect",
       "data": {
@@ -10477,7 +10477,7 @@
     ]
   },
   "knockback_resistance+5%": {
-    "title": "+5% Knockback Resistance",
+    "title": "+5% 擊退抗性",
     "icon": {
       "type": "effect",
       "data": {
@@ -10496,7 +10496,7 @@
     ]
   },
   "adamantium": {
-    "title": "Unlock Adamantium Gear",
+    "title": "解鎖精金裝備",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -10514,7 +10514,7 @@
     ]
   },
   "diamond": {
-    "title": "Unlock Diamond Gear",
+    "title": "解鎖鑽石裝備",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -10532,7 +10532,7 @@
     ]
   },
   "roll_count+1": {
-    "title": "+1 Max Roll",
+    "title": "+1 最大翻滾次數",
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10552,7 +10552,7 @@
     ]
   },
   "roll_distance+1": {
-    "title": "+1 Max Roll Distance",
+    "title": "+1 最大翻滾距離",
     "icon": {
       "type": "item",
       "data": {
@@ -10571,7 +10571,7 @@
     ]
   },
   "roll_cooldown-10%": {
-    "title": "-10% Roll Coolown",
+    "title": "-10% 翻滾冷卻",
     "icon": {
       "type": "item",
       "data": {
@@ -10590,7 +10590,7 @@
     ]
   },
   "luck+1": {
-    "title": "+1 Luck",
+    "title": "+1 幸運",
     "icon": {
       "type": "effect",
       "data": {
@@ -10609,7 +10609,7 @@
     ]
   },
   "root_ranged_damage+15%": {
-    "title": "Chose the Ranged class (+15% Ranged Damage)",
+    "title": "選擇遠程職業（+15% 遠程傷害）",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -10629,7 +10629,7 @@
     ]
   },
   "ranged_damage+5%": {
-    "title": "+5% Ranged Damage",
+    "title": "+5% 遠程傷害",
     "icon": {
       "type": "item",
       "data": {
@@ -10648,7 +10648,7 @@
     ]
   },
   "ranged_damage+10%": {
-    "title": "+10% Ranged Damage",
+    "title": "+10% 遠程傷害",
     "icon": {
       "type": "item",
       "data": {
@@ -10667,7 +10667,7 @@
     ]
   },
   "ranged_damage+20%": {
-    "title": "+20% Ranged Damage",
+    "title": "+20% 遠程傷害",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -10687,7 +10687,7 @@
     ]
   },
   "armor_shred+5%": {
-    "title": "+5% Armor Shred",
+    "title": "+5% 破甲",
     "icon": {
       "type": "item",
       "data": {
@@ -10706,7 +10706,7 @@
     ]
   },
   "arrow_velocity+2%": {
-    "title": "+2% Arrow Velocity",
+    "title": "+2% 箭矢速度",
     "icon": {
       "type": "item",
       "data": {
@@ -10725,7 +10725,7 @@
     ]
   },
   "current_hp_damage+5%": {
-    "title": "+5% Current Ennemy Health Damage",
+    "title": "+5% 對敵人當前生命值傷害",
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -10745,7 +10745,7 @@
     ]
   },
   "draw_speed+5%": {
-    "title": "+5% Draw Speed",
+    "title": "+5% 拉弓速度",
     "icon": {
       "type": "item",
       "data": {
@@ -10764,7 +10764,7 @@
     ]
   },
   "prot_shred+5%": {
-    "title": "+5% Protection Shred",
+    "title": "+5% 破防",
     "icon": {
       "type": "effect",
       "data": {
@@ -10783,7 +10783,7 @@
     ]
   },
   "palladium": {
-    "title": "Unlock Palladium Gear",
+    "title": "解鎖鈀金裝備",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -10801,7 +10801,7 @@
     ]
   },
   "orichalcum": {
-    "title": "Unlock Orichalcum Gear",
+    "title": "解鎖山銅裝備",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -10819,7 +10819,7 @@
     ]
   },
   "shroomite": {
-    "title": "Unlock Shroomite Gear",
+    "title": "解鎖蘑菇裝備",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -10837,7 +10837,7 @@
     ]
   },
   "root_mana+75": {
-    "title": "Chose the Mage class (+75 Mana)",
+    "title": "選擇魔法職業（+75 魔力）",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -10857,7 +10857,7 @@
     ]
   },
   "mana+50": {
-    "title": "+50 Mana",
+    "title": "+50 魔力",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -10877,7 +10877,7 @@
     ]
   },
   "mana+25": {
-    "title": "+25 Mana",
+    "title": "+25 魔力",
     "icon": {
       "type": "effect",
       "data": {
@@ -10896,7 +10896,7 @@
     ]
   },
   "cast_time_reduction-5%": {
-    "title": "-5% Cast Time",
+    "title": "-5% 施法時間",
     "icon": {
       "type": "item",
       "data": {
@@ -10915,7 +10915,7 @@
     ]
   },
   "cooldown_reduction-5%": {
-    "title": "-5% Spell Cooldown",
+    "title": "-5% 法術冷卻",
     "icon": {
       "type": "item",
       "data": {
@@ -10934,7 +10934,7 @@
     ]
   },
   "spell_power+5%": {
-    "title": "+5% Spell Power",
+    "title": "+5% 法術強度",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -10954,7 +10954,7 @@
     ]
   },
   "spell_power+10%": {
-    "title": "+10% Spell Power",
+    "title": "+10% 法術強度",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -10974,7 +10974,7 @@
     ]
   },
   "spell_power+20%": {
-    "title": "+20% Spell Power",
+    "title": "+20% 法術強度",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -10994,7 +10994,7 @@
     ]
   },
   "summon_damage+5%": {
-    "title": "+5% Summoning Damage",
+    "title": "+5% 召喚傷害",
     "icon": {
       "type": "effect",
       "data": {
@@ -11013,7 +11013,7 @@
     ]
   },
   "summon_damage+10%": {
-    "title": "+10% Summon Damage",
+    "title": "+10% 召喚傷害",
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -11033,7 +11033,7 @@
     ]
   },
   "lightning_spell_power+5%": {
-    "title": "+5% Lightning Spell Power",
+    "title": "+5% 閃電法術強度",
     "icon": {
       "type": "item",
       "data": {
@@ -11052,7 +11052,7 @@
     ]
   },
   "lightning_spell_power+10%": {
-    "title": "+10% Lightning Spell Power",
+    "title": "+10% 閃電法術強度",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11072,7 +11072,7 @@
     ]
   },
   "lightning_magic_resist+10%": {
-    "title": "+10% Lightning Magic Resist",
+    "title": "+10% 閃電魔法抗性",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11092,7 +11092,7 @@
     ]
   },
   "ice_spell_power+5%": {
-    "title": "+5% Ice Spell Power",
+    "title": "+5% 冰霜法術強度",
     "icon": {
       "type": "item",
       "data": {
@@ -11111,7 +11111,7 @@
     ]
   },
   "ice_spell_power+10%": {
-    "title": "+10% Ice Spell Power",
+    "title": "+10% 冰霜法術強度",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11131,7 +11131,7 @@
     ]
   },
   "ice_magic_resist+10%": {
-    "title": "+10% Ice Magic Resist",
+    "title": "+10% 冰霜魔法抗性",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11151,7 +11151,7 @@
     ]
   },
   "holy_spell_power+5%": {
-    "title": "+5% Holy Spell Power",
+    "title": "+5% 神聖法術強度",
     "icon": {
       "type": "item",
       "data": {
@@ -11170,7 +11170,7 @@
     ]
   },
   "holy_spell_power+10%": {
-    "title": "+10% Holy Spell Power",
+    "title": "+10% 神聖法術強度",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11190,7 +11190,7 @@
     ]
   },
   "holy_magic_resist+10%": {
-    "title": "+10% Holy Magic Resist",
+    "title": "+10% 神聖魔法抗性",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11210,7 +11210,7 @@
     ]
   },
   "fire_spell_power+5%": {
-    "title": "+5% Fire Spell Power",
+    "title": "+5% 火焰法術強度",
     "icon": {
       "type": "item",
       "data": {
@@ -11229,7 +11229,7 @@
     ]
   },
   "fire_spell_power+10%": {
-    "title": "+10% Fire Spell Power",
+    "title": "+10% 火焰法術強度",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11249,7 +11249,7 @@
     ]
   },
   "fire_magic_resist+10%": {
-    "title": "+10% Fire Magic Resist",
+    "title": "+10% 火焰魔法抗性",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11269,7 +11269,7 @@
     ]
   },
   "evocation_spell_power+5%": {
-    "title": "+5% Evocation Spell Power",
+    "title": "+5% 召喚法術強度",
     "icon": {
       "type": "item",
       "data": {
@@ -11288,7 +11288,7 @@
     ]
   },
   "evocation_spell_power+10%": {
-    "title": "+10% Evocation Spell Power",
+    "title": "+10% 召喚法術強度",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11308,7 +11308,7 @@
     ]
   },
   "evocation_magic_resist+10%": {
-    "title": "+10% Evocation Magic Resist",
+    "title": "+10% 召喚魔法抗性",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11328,7 +11328,7 @@
     ]
   },
   "ender_spell_power+5%": {
-    "title": "+5% Ender Spell Power",
+    "title": "+5% 終界法術強度",
     "icon": {
       "type": "item",
       "data": {
@@ -11347,7 +11347,7 @@
     ]
   },
   "ender_spell_power+10%": {
-    "title": "+10% Ender Spell Power",
+    "title": "+10% 終界法術強度",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11367,7 +11367,7 @@
     ]
   },
   "ender_magic_resist+10%": {
-    "title": "+10% Ender Magic Resist",
+    "title": "+10% 終界魔法抗性",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11387,7 +11387,7 @@
     ]
   },
   "blood_spell_power+5%": {
-    "title": "+5% Blood Spell Power",
+    "title": "+5% 血液法術強度",
     "icon": {
       "type": "item",
       "data": {
@@ -11406,7 +11406,7 @@
     ]
   },
   "blood_spell_power+10%": {
-    "title": "+10% Blood Spell Power",
+    "title": "+10% 血液法術強度",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11426,7 +11426,7 @@
     ]
   },
   "blood_magic_resist+10%": {
-    "title": "+10% Blood Magic Resist",
+    "title": "+10% 血液魔法抗性",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11446,7 +11446,7 @@
     ]
   },
   "spell_resist+10": {
-    "title": "+10% Spell Resist",
+    "title": "+10% 法術抵抗",
     "icon": {
       "type": "item",
       "data": {
@@ -11465,7 +11465,7 @@
     ]
   },
   "pumpkin": {
-    "title": "Unlock Scarecrow Gear",
+    "title": "解鎖稻草人裝備",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11483,7 +11483,7 @@
     ]
   },
   "swim_speed+3%": {
-    "title": "+3% Swim Speed",
+    "title": "+3% 游泳速度",
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -11496,14 +11496,14 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "forge:swim_speed",
-          "value": 3.0,
+          "value": 3,
           "operation": "addition"
         }
       }
     ]
   },
   "mining_speed+5%": {
-    "title": "+5% Mining Speed",
+    "title": "+5% 挖礦速度",
     "frame": "challenge",
     "icon": {
       "type": "effect",
@@ -11516,14 +11516,14 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "puffish_attributes:player.mining_speed",
-          "value": 5.0,
+          "value": 5,
           "operation": "addition"
         }
       }
     ]
   },
   "neptune": {
-    "title": "Unlock Neptune Gear",
+    "title": "解鎖海神裝備",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11541,7 +11541,7 @@
     ]
   },
   "tungsten": {
-    "title": "Unlock Tungsten Gear",
+    "title": "解鎖鎢裝備",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11559,7 +11559,7 @@
     ]
   },
   "phoenix": {
-    "title": "Unlock Phoenix Gear",
+    "title": "解鎖鳳凰裝備",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11577,7 +11577,7 @@
     ]
   },
   "chorundum": {
-    "title": "Unlock Chorundum Gear",
+    "title": "解鎖剛玉裝備",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11595,7 +11595,7 @@
     ]
   },
   "berserker_normal_gear": {
-    "title": "Unlock Normal Mode Berserker's Gear",
+    "title": "解鎖狂戰士普通裝備",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11616,7 +11616,7 @@
     }
   },
   "berserker_expert_gear": {
-    "title": "Unlock Expert Mode Berserker's Gear",
+    "title": "解鎖狂戰士進階裝備",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11638,7 +11638,7 @@
     }
   },
   "wizard_normal_gear": {
-    "title": "Unlock Normal Mode Wizard's Gear",
+    "title": "解鎖巫師普通裝備",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11659,7 +11659,7 @@
     }
   },
   "wizard_expert_gear": {
-    "title": "Unlock Expert Mode Wizard's Gear",
+    "title": "解鎖巫師進階裝備",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11680,7 +11680,7 @@
     }
   },
   "archer_normal_gear": {
-    "title": "Unlock Normal Mode Archer's Gear",
+    "title": "解鎖弓箭手普通裝備",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11701,7 +11701,7 @@
     }
   },
   "archer_expert_gear": {
-    "title": "Unlock Expert Mode Archer's Gear",
+    "title": "解鎖弓箭手進階裝備",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11723,7 +11723,7 @@
     }
   },
   "crusader_normal_gear": {
-    "title": "Unlock Normal Mode Crusader's Gear",
+    "title": "解鎖十字軍普通裝備",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11744,7 +11744,7 @@
     }
   },
   "crusader_expert_gear": {
-    "title": "Unlock Expert Mode Cruasder's Gear",
+    "title": "解鎖十字軍進階裝備",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11766,7 +11766,7 @@
     }
   },
   "priest_expert_gear": {
-    "title": "Unlock Expert Mode Priest's Gear",
+    "title": "解鎖牧師進階裝備",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11788,7 +11788,7 @@
     }
   },
   "priest_normal_gear": {
-    "title": "Unlock Normal Mode Priest's Gear",
+    "title": "解鎖牧師普通裝備",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11809,7 +11809,7 @@
     }
   },
   "gunner_expert_gear": {
-    "title": "Unlock Expert Mode Gunner's Gear",
+    "title": "解鎖槍手進階裝備",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11831,7 +11831,7 @@
     }
   },
   "gunner_normal_gear": {
-    "title": "Unlock Normal Mode Gunner's Gear",
+    "title": "解鎖槍手普通裝備",
     "frame": "challenge",
     "icon": {
       "type": "item",
@@ -11852,7 +11852,7 @@
     }
   },
   "school": {
-    "title": "Unlock All School Gear",
+    "title": "解鎖全學派裝備",
     "frame": "challenge",
     "icon": {
       "type": "item",
