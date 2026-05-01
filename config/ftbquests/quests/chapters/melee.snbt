@@ -1,4 +1,4 @@
-{
+﻿{
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "melee"
@@ -959,7 +959,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0E1B59FB76D59EF1"
-			subtitle: "&6擊敗滑行者後&r"
+			subtitle: "&6擊敗滑行魔石後&r"
 			tasks: [{
 				id: "7B8F05EC16776DF0"
 				item: {
@@ -1055,7 +1055,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "4D3BBB3CBAF37499"
-			subtitle: "&6擊敗火焰之主後&r"
+			subtitle: "&6擊敗焰魔後&r"
 			tasks: [{
 				id: "0D3CAB4B3C213947"
 				item: {
@@ -1079,7 +1079,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "75EDD937E66F586C"
-			subtitle: "&6擊敗火焰之主後&r"
+			subtitle: "&6擊敗焰魔後&r"
 			tasks: [{
 				id: "1586B3133D303813"
 				item: {
@@ -1103,7 +1103,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "75EB4D5FC0838A3A"
-			subtitle: "&6擊敗火焰之主後&r"
+			subtitle: "&6擊敗焰魔後&r"
 			tasks: [{
 				id: "7DB123213AA06141"
 				item: {
@@ -1127,7 +1127,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "496279C8210351DC"
-			subtitle: "&6擊敗火焰之主後&r"
+			subtitle: "&6擊敗焰魔後&r"
 			tasks: [{
 				id: "4E037B7F78763F76"
 				item: "cataclysm:the_incinerator"
@@ -1145,7 +1145,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0CDCE666E532F26D"
-			subtitle: "&6擊敗火焰之主後&r"
+			subtitle: "&6擊敗焰魔後&r"
 			tasks: [{
 				id: "264EFE9B16694942"
 				item: {
@@ -1304,7 +1304,7 @@
 			hide_until_deps_complete: true
 			id: "0059F5AC2D4E9D55"
 			shape: "octagon"
-			subtitle: "&6擊敗火焰之主後&r"
+			subtitle: "&6擊敗焰魔後&r"
 			tasks: [{
 				id: "781D3042E09D77C9"
 				item: "cataclysm:blazing_grips"

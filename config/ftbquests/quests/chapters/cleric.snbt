@@ -1,4 +1,4 @@
-{
+﻿{
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "cleric"
@@ -360,7 +360,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6擊敗火焰之主後&r"
+			subtitle: "&6擊敗焰魔後&r"
 			tasks: [{
 				id: "4E47A7FA2CD4D761"
 				item: {

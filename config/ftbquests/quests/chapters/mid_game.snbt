@@ -1,4 +1,4 @@
-{
+﻿{
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mid_game"
@@ -1153,7 +1153,7 @@
 						}
 					}
 					id: "49BFF0417C3C70C2"
-					title: "擊殺&5獄髓怪物&r"
+					title: "擊殺&5獄髓巨獸&r"
 					type: "kill"
 					value: 1L
 				}
@@ -1271,7 +1271,7 @@
 					entity: "cataclysm:ignis"
 					icon: "cataclysm:bulwark_of_the_flame"
 					id: "469575AC0949000F"
-					title: "擊殺&5火焰之主&r"
+					title: "擊殺&5焰魔&r"
 					type: "kill"
 					value: 1L
 				}
@@ -1670,7 +1670,7 @@
 						}
 					}
 					id: "6B4790D825780CDF"
-					title: "擊敗&5滑行者&r"
+					title: "擊敗&5滑行魔石&r"
 					type: "kill"
 					value: 1L
 				}
@@ -1802,7 +1802,7 @@
 						}
 					}
 					id: "61BB677C2D9111EC"
-					title: "擊殺&5女武神皇后&r"
+					title: "擊殺&5武神女王&r"
 					type: "kill"
 					value: 1L
 				}
@@ -1922,7 +1922,7 @@
 					entity: "aether:sun_spirit"
 					icon: "irons_spellbooks:fire_upgrade_orb"
 					id: "13C396BB9CF8F116"
-					title: "擊敗&5太陽精靈&r"
+					title: "擊敗&5烈陽巨靈&r"
 					type: "kill"
 					value: 1L
 				}
@@ -2038,7 +2038,7 @@
 					entity: "bosses_of_mass_destruction:void_blossom"
 					icon: "minecraft:spore_blossom"
 					id: "5B7ACDD77C09B465"
-					title: "擊殺&5虛空花&r"
+					title: "擊殺&5虛空之花&r"
 					type: "kill"
 					value: 1L
 				}
@@ -2189,7 +2189,7 @@
 					entity: "bosses_of_mass_destruction:gauntlet"
 					icon: "bosses_of_mass_destruction:blazing_eye"
 					id: "461CA47E0065DD97"
-					title: "擊敗&5地獄鐵手套&r"
+					title: "擊敗&5地獄鐵掌&r"
 					type: "kill"
 					value: 1L
 				}
@@ -2624,7 +2624,7 @@
 					entity: "meetyourfight:dame_fortuna"
 					icon: "meetyourfight:devils_ante"
 					id: "44A45D7F652EA1F2"
-					title: "擊殺&5幸運女神&r"
+					title: "擊殺&5福爾圖娜女爵&r"
 					type: "kill"
 					value: 1L
 				}
@@ -2733,7 +2733,7 @@
 				entity: "lost_aether_content:aerwhale_king"
 				icon: "lost_aether_content:songstone"
 				id: "7A840B459C76DDB9"
-				title: "擊敗&5天空鯨王&r"
+				title: "擊敗&5雲鯨王&r"
 				type: "kill"
 				value: 1L
 			}]
@@ -2967,7 +2967,7 @@
 					entity: "stalwart_dungeons:nether_keeper"
 					icon: "stalwart_dungeons:keeping_castle_spawner"
 					id: "7A851329C3F650DB"
-					title: "擊殺&5地獄守衛者&r"
+					title: "擊殺&5地獄守衛&r"
 					type: "kill"
 					value: 1L
 				}
@@ -2975,7 +2975,7 @@
 					entity: "stalwart_dungeons:awful_ghast"
 					icon: "stalwart_dungeons:awful_dungeon_spawner"
 					id: "5B443EB49F15C3AB"
-					title: "擊殺&5恐怖惡魂&r"
+					title: "擊殺&5驚駭惡魂&r"
 					type: "kill"
 					value: 1L
 				}
@@ -2994,7 +2994,7 @@
 					type: "item"
 				}
 			]
-			title: "擊殺&5地獄守衛者&r和&5恐怖惡魂&r"
+			title: "擊殺&5地獄守衛&r和&5驚駭惡魂&r"
 			x: 2.0d
 			y: 1.875d
 		}
@@ -3014,7 +3014,7 @@
 				entity: "bosses_of_mass_destruction:lich"
 				icon: "prodigium:night_lich_treasure_bag"
 				id: "09F7ACD5E19F8A86"
-				title: "擊敗&3夜間巫妖&r"
+				title: "擊敗&3巫妖&r"
 				type: "kill"
 				value: 1L
 			}]
@@ -3026,7 +3026,7 @@
 			description: [
 				"你可以用它移除武器上的附魔，然後將其放入書中。"
 				""
-				"&8&o（你需要透過擊敗滑行者來解鎖翠綠礦石）&r&r"
+				"&8&o（你需要透過擊敗滑行魔石來解鎖翠綠礦石）&r&r"
 			]
 			hide_until_deps_visible: true
 			id: "2851394B90D1E773"

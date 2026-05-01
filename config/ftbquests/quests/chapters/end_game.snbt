@@ -1,4 +1,4 @@
-{
+﻿{
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "end_game"
@@ -135,7 +135,7 @@
 					entity: "cataclysm:ender_guardian"
 					icon: "majruszsdifficulty:enderium_shard"
 					id: "04D5EB5486245C39"
-					title: "擊殺 &4末影守護者&r"
+					title: "擊殺 &4終界守衛者&r"
 					type: "kill"
 					value: 1L
 				}
@@ -246,7 +246,7 @@
 				entity: "cataclysm:ender_golem"
 				icon: "cataclysm:void_core"
 				id: "28CFCAC0B99706F3"
-				title: "擊殺 &4末影魔像&r"
+				title: "擊殺 &4終界傀儡&r"
 				type: "kill"
 				value: 1L
 			}]
@@ -390,7 +390,7 @@
 					entity: "cataclysm:ancient_remnant"
 					icon: "cataclysm:necklace_of_the_desert"
 					id: "59330083685E8CCA"
-					title: "擊敗 &4遠古殘骸&r"
+					title: "擊敗 &4遠古遺魂&r"
 					type: "kill"
 					value: 1L
 				}
@@ -408,7 +408,7 @@
 		{
 			dependencies: ["6EB21A5EFC2F6EF2"]
 			description: [
-				"在 &2黑曜岩石競技場&r 中找到。"
+				"在 &2黑曜巨石柱競技場&r 中找到。"
 				""
 				"在 &9黑曜岩祭壇&r 上使用 &9末影之眼&r。"
 			]
@@ -509,7 +509,7 @@
 					entity: "bosses_of_mass_destruction:obsidilith"
 					icon: "artifacts:obsidian_skull"
 					id: "4EF1F3E2E1EA7513"
-					title: "擊敗 &4黑曜岩石&r"
+					title: "擊敗 &4黑曜巨石柱&r"
 					type: "kill"
 					value: 1L
 				}

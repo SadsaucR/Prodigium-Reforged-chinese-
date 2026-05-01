@@ -1,4 +1,4 @@
-{
+﻿{
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "gunner"
@@ -646,7 +646,7 @@
 			hide_until_deps_complete: true
 			id: "10D4CB14A52B23D9"
 			shape: "octagon"
-			subtitle: "&6擊敗火焰之主後&r"
+			subtitle: "&6擊敗焰魔後&r"
 			tasks: [{
 				id: "5A9ACE56B27BF292"
 				item: "gwrexpansions:ignitium_bullet"
@@ -923,7 +923,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "3CF68B6074182FA6"
-			subtitle: "&6擊敗火焰之主後&r"
+			subtitle: "&6擊敗焰魔後&r"
 			tasks: [{
 				id: "4B905C192FF57D63"
 				item: {

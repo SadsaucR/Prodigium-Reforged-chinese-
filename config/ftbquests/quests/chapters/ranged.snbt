@@ -1,4 +1,4 @@
-{
+﻿{
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ranged"
@@ -1715,7 +1715,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "4C3BE3F0BF63237D"
-			subtitle: "&6擊敗火焰之主後&r"
+			subtitle: "&6擊敗焰魔後&r"
 			tasks: [{
 				id: "42CC134592C5BAB3"
 				item: {

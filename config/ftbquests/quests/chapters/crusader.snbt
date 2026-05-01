@@ -1,4 +1,4 @@
-{
+﻿{
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "crusader"
@@ -778,7 +778,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "5DA0156177FA8DDD"
-			subtitle: "&6擊敗滑行者後&r"
+			subtitle: "&6擊敗滑行魔石後&r"
 			tasks: [{
 				id: "386D9DA6F0F6ADC9"
 				item: {
@@ -932,7 +932,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "013EB8B0B53393CE"
-			subtitle: "&6擊敗火焰之主後&r"
+			subtitle: "&6擊敗焰魔後&r"
 			tasks: [{
 				id: "7F3903729C49324E"
 				item: {

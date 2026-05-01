@@ -1,4 +1,4 @@
-{
+﻿{
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "test_3"
@@ -546,7 +546,7 @@
 		}
 		{
 			dependencies: ["0B31131A12E42700"]
-			description: ["發現於&2霜顎洞穴&r"]
+			description: ["發現於&2霜凍巨獸洞穴&r"]
 			icon: {
 				Count: 1
 				id: "mowziesmobs:ice_crystal"
@@ -699,7 +699,7 @@
 						}
 					}
 					id: "2F7F6325F65627FB"
-					title: "擊殺&3霜顎&r"
+					title: "擊殺&3霜凍巨獸&r"
 					type: "kill"
 					value: 1L
 				}
@@ -1227,7 +1227,7 @@
 					entity: "irons_spellbooks:dead_king"
 					icon: "minecraft:skeleton_skull"
 					id: "650290681E34BC76"
-					title: "擊敗 &3亡靈之王 (Dead King)&r"
+					title: "擊敗 &3死者之王&r"
 					type: "kill"
 					value: 1L
 				}
@@ -1589,7 +1589,7 @@
 					entity: "meetyourfight:swampjaw"
 					icon: "meetyourfight:swampjaw_head"
 					id: "68529F45A5B5E184"
-					title: "擊敗 &3沼澤顎 (Swampjaw)&r"
+					title: "擊敗 &3沼澤巨顎怪&r"
 					type: "kill"
 					value: 1L
 				}
@@ -1640,7 +1640,7 @@
 				entity: "mowziesmobs:ferrous_wroughtnaut"
 				icon: "mowziesmobs:wrought_helmet"
 				id: "275266D212C679D3"
-				title: "擊敗 &3鋼鐵守望者 (Ferrous Wroughtnaut)&r"
+				title: "擊敗 &3鋼鐵守護者&r"
 				type: "kill"
 				value: 1L
 			}]
