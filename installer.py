@@ -230,6 +230,7 @@ class App(tk.Tk):
         self._build_ui()
         self._refresh_version_label()
         self.after(100, self._poll_queue)
+        threading.Thread(target=self._startup_check, daemon=True).start()
 
     # ---- UI ----------------------------------------------------------------
 
@@ -337,6 +338,14 @@ class App(tk.Tk):
 
     # ---- Helpers -----------------------------------------------------------
 
+    def _startup_check(self):
+        try:
+            self.q.put(("progress", 0, "正在檢查最新版本..."))
+            self.git.clone_or_pull(lambda pct, msg: None)
+            self.q.put(("startup_done",))
+        except Exception:
+            self.q.put(("startup_done",))
+
     def _refresh_version_label(self):
         commit = self.git.get_current_commit()
         msg = self.git.get_latest_commit_msg()
@@ -414,7 +423,11 @@ class App(tk.Tk):
             while True:
                 msg = self.q.get_nowait()
                 kind = msg[0]
-                if kind == "progress":
+                if kind == "startup_done":
+                    self._refresh_version_label()
+                    self.status_var.set("就緒")
+                    self.progress_var.set(0)
+                elif kind == "progress":
                     _, pct, text = msg
                     self.progress_var.set(pct)
                     self.status_var.set(text)
