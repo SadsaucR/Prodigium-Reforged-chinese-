@@ -77,20 +77,17 @@ class GitManager:
         )
 
     def clone_or_pull(self, progress_cb):
-        """Returns True if files were updated, False if already up to date."""
         APP_DIR.mkdir(parents=True, exist_ok=True)
         if (CACHE_DIR / ".git").exists():
             progress_cb(10, "拉取最新漢化...")
             result = self._run(["git", "pull"], cwd=CACHE_DIR)
             if result.returncode != 0:
                 raise RuntimeError(result.stderr.strip() or "git pull 失敗")
-            return "Already up to date" not in result.stdout
         else:
             progress_cb(5, "首次下載漢化資料...")
             result = self._run(["git", "clone", REPO_URL, str(CACHE_DIR)])
             if result.returncode != 0:
                 raise RuntimeError(result.stderr.strip() or "git clone 失敗")
-            return True
 
     def get_recent_commits(self, n=8):
         if not (CACHE_DIR / ".git").exists():
@@ -172,17 +169,19 @@ def install_worker(instance_path: str, q: queue.Queue):
             q.put(("error", "找不到 git。請先安裝 Git for Windows:\nhttps://git-scm.com/download/win"))
             return
 
-        updated = git.clone_or_pull(cb)
+        git.clone_or_pull(cb)
+        current_commit = git.get_current_commit()
         cb(20, "git 更新完成")
-
-        if not updated:
-            cb(100, "已是最新版本，無需更新")
-            q.put(("uptodate",))
-            return
 
         inst = Path(instance_path)
         if not inst.exists():
             q.put(("error", f"路徑不存在：{instance_path}"))
+            return
+
+        version_file = inst / ".hanhua_version"
+        if version_file.exists() and version_file.read_text(encoding="utf-8").strip() == current_commit:
+            cb(100, "已是最新版本，無需更新")
+            q.put(("uptodate",))
             return
 
         backup_instance(inst, cb)
@@ -201,6 +200,7 @@ def install_worker(instance_path: str, q: queue.Queue):
             if src.exists():
                 shutil.copytree(src, dst, dirs_exist_ok=True)
 
+        version_file.write_text(current_commit, encoding="utf-8")
         cb(100, "漢化安裝完成！")
         q.put(("done",))
 
@@ -305,6 +305,13 @@ class App(tk.Tk):
                   relief="flat", cursor="hand2", padx=8,
                   command=self._browse).pack(side="left", padx=(6, 0))
 
+        # Installed version row
+        self.inst_version_var = tk.StringVar(value="")
+        self.inst_version_label = tk.Label(self, textvariable=self.inst_version_var,
+                                           font=("Microsoft JhengHei", 9), bg=BG, fg="#f38ba8")
+        self.inst_version_label.pack(pady=(0, 4))
+        self._refresh_inst_version()
+
         # Separator
         tk.Frame(self, height=1, bg="#45475a").pack(fill="x", padx=PAD, pady=8)
 
@@ -349,6 +356,20 @@ class App(tk.Tk):
             self.changelog_text.insert("end", "（安裝後可查看更新日誌）")
         self.changelog_text.configure(state="disabled")
 
+    def _refresh_inst_version(self):
+        path = self.path_var.get().strip()
+        if not path:
+            self.inst_version_var.set("")
+            return
+        vf = Path(path) / ".hanhua_version"
+        if vf.exists():
+            ver = vf.read_text(encoding="utf-8").strip()
+            self.inst_version_var.set(f"已安裝版本：{ver}")
+            self.inst_version_label.configure(fg="#a6e3a1")
+        else:
+            self.inst_version_var.set("尚未安裝漢化")
+            self.inst_version_label.configure(fg="#f38ba8")
+
     def _toggle_changelog(self):
         self.changelog_visible = not self.changelog_visible
         if self.changelog_visible:
@@ -364,11 +385,13 @@ class App(tk.Tk):
             if n == name:
                 self.path_var.set(p)
                 break
+        self._refresh_inst_version()
 
     def _browse(self):
         d = filedialog.askdirectory(title="選擇遊戲實例資料夾")
         if d:
             self.path_var.set(d)
+            self._refresh_inst_version()
 
     def _start_install(self):
         path = self.path_var.get().strip()
@@ -402,6 +425,7 @@ class App(tk.Tk):
                     self.config_data.last_updated = datetime.now().isoformat()
                     self.config_data.save()
                     self._refresh_version_label()
+                    self._refresh_inst_version()
                     self.install_btn.configure(state="normal")
                     messagebox.showinfo("完成", "漢化已成功安裝！\n請重新啟動遊戲以套用。")
                 elif kind == "error":

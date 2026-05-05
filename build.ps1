@@ -25,8 +25,20 @@ if (-not $pythonExe) {
 Write-Host "Using Python: $pythonExe" -ForegroundColor Yellow
 & $pythonExe --version
 
-Write-Host "Installing PyInstaller..." -ForegroundColor Yellow
+Write-Host "Installing PyInstaller + UPX..." -ForegroundColor Yellow
 & $pythonExe -m pip install pyinstaller
+
+# Download UPX if not present
+$upxDir = Join-Path $ScriptDir "upx"
+if (-not (Test-Path "$upxDir\upx.exe")) {
+    Write-Host "Downloading UPX compressor..." -ForegroundColor Yellow
+    $upxZip = Join-Path $env:TEMP "upx.zip"
+    Invoke-WebRequest -Uri "https://github.com/upx/upx/releases/download/v4.2.4/upx-4.2.4-win64.zip" -OutFile $upxZip
+    Expand-Archive -Path $upxZip -DestinationPath $env:TEMP -Force
+    New-Item -ItemType Directory -Path $upxDir -Force | Out-Null
+    Copy-Item "$env:TEMP\upx-4.2.4-win64\upx.exe" "$upxDir\upx.exe"
+    Remove-Item $upxZip -Force
+}
 if ($LASTEXITCODE -ne 0) {
     Write-Host "pip failed (exit $LASTEXITCODE)" -ForegroundColor Red
     pause; exit 1
@@ -50,8 +62,24 @@ $pyiArgs = @(
     "--hidden-import", "tkinter",
     "--hidden-import", "tkinter.ttk",
     "--hidden-import", "tkinter.filedialog",
-    "--hidden-import", "tkinter.messagebox"
+    "--hidden-import", "tkinter.messagebox",
+    "--exclude-module", "unittest",
+    "--exclude-module", "email",
+    "--exclude-module", "http",
+    "--exclude-module", "xml",
+    "--exclude-module", "pdb",
+    "--exclude-module", "doctest",
+    "--exclude-module", "difflib",
+    "--exclude-module", "ftplib",
+    "--exclude-module", "imaplib",
+    "--exclude-module", "mailbox",
+    "--exclude-module", "smtplib"
 )
+if (Test-Path "$upxDir\upx.exe") {
+    Write-Host "UPX compression enabled" -ForegroundColor Yellow
+    $pyiArgs += "--upx-dir"
+    $pyiArgs += $upxDir
+}
 if (Test-Path $iconFile) {
     Write-Host "Using icon: $iconFile" -ForegroundColor Yellow
     $pyiArgs += "--icon"
