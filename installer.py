@@ -6,6 +6,7 @@ import json
 import os
 import queue
 import shutil
+import stat
 import subprocess
 import sys
 import threading
@@ -15,7 +16,10 @@ from datetime import datetime
 from pathlib import Path
 from tkinter import filedialog, messagebox, ttk
 
-REPO_URL = "https://github.com/SadsaucR/Prodigium-Reforged-chinese-.git"
+REPO_OWNER = "SadsaucR"
+REPO_NAME  = "Prodigium-Reforged-chinese-"
+BRANCH     = "main"
+REPO_URL   = f"https://github.com/{REPO_OWNER}/{REPO_NAME}.git"
 APP_DIR = Path(os.environ["APPDATA"]) / "ProdigiumChinese"
 CACHE_DIR = APP_DIR / "cache"
 BACKUP_DIR = APP_DIR / "backups"
@@ -59,6 +63,15 @@ class Config:
 
 
 # ---------------------------------------------------------------------------
+# Helpers
+# ---------------------------------------------------------------------------
+
+def _force_remove(func, path, _):
+    os.chmod(path, stat.S_IWRITE)
+    func(path)
+
+
+# ---------------------------------------------------------------------------
 # Git
 # ---------------------------------------------------------------------------
 
@@ -84,8 +97,10 @@ class GitManager:
             if result.returncode != 0:
                 raise RuntimeError(result.stderr.strip() or "git pull 失敗")
         else:
+            if CACHE_DIR.exists():
+                shutil.rmtree(CACHE_DIR, onerror=_force_remove)
             progress_cb(5, "首次下載漢化資料...")
-            result = self._run(["git", "clone", REPO_URL, str(CACHE_DIR)])
+            result = self._run(["git", "clone", "--depth=1", REPO_URL, str(CACHE_DIR)])
             if result.returncode != 0:
                 raise RuntimeError(result.stderr.strip() or "git clone 失敗")
 
@@ -105,6 +120,42 @@ class GitManager:
             return "—"
         result = self._run(["git", "rev-parse", "--short", "HEAD"], cwd=CACHE_DIR)
         return result.stdout.strip() if result.returncode == 0 else "—"
+
+    def get_current_commit_fast(self) -> str:
+        """Read SHA from git files directly — no subprocess."""
+        if not (CACHE_DIR / ".git").exists():
+            return "—"
+        try:
+            ref_file = CACHE_DIR / ".git" / "refs" / "heads" / BRANCH
+            if ref_file.exists():
+                return ref_file.read_text().strip()[:7]
+            packed = CACHE_DIR / ".git" / "packed-refs"
+            if packed.exists():
+                for line in packed.read_text(errors="replace").splitlines():
+                    if not line.startswith("#") and f"refs/heads/{BRANCH}" in line:
+                        return line.split()[0][:7]
+        except Exception:
+            pass
+        return "—"
+
+    def get_latest_commit_msg_fast(self) -> str:
+        """Read last commit message from COMMIT_EDITMSG — no subprocess."""
+        try:
+            editmsg = CACHE_DIR / ".git" / "COMMIT_EDITMSG"
+            if editmsg.exists():
+                return editmsg.read_text(encoding="utf-8", errors="replace").splitlines()[0]
+        except Exception:
+            pass
+        return ""
+
+    def is_update_available(self) -> bool:
+        if not (CACHE_DIR / ".git").exists() or not self.check_git():
+            return False
+        local = self._run(["git", "rev-parse", "HEAD"], cwd=CACHE_DIR)
+        remote = self._run(["git", "ls-remote", "origin", BRANCH], cwd=CACHE_DIR)
+        if local.returncode != 0 or remote.returncode != 0 or not remote.stdout.strip():
+            return False
+        return local.stdout.strip() != remote.stdout.split()[0]
 
     def get_latest_commit_msg(self):
         if not (CACHE_DIR / ".git").exists():
@@ -151,6 +202,9 @@ def backup_instance(instance_path: Path, progress_cb):
             for f in src.rglob("*"):
                 if f.is_file():
                     zf.write(f, f.relative_to(instance_path))
+    old = sorted(BACKUP_DIR.glob("backup_*.zip"), key=lambda p: p.stat().st_mtime)
+    for p in old[:-3]:
+        p.unlink(missing_ok=True)
     return zip_path
 
 
@@ -340,23 +394,24 @@ class App(tk.Tk):
 
     def _startup_check(self):
         try:
-            self.q.put(("progress", 0, "正在檢查最新版本..."))
-            self.git.clone_or_pull(lambda pct, msg: None)
-            self.q.put(("startup_done",))
+            commits = self.git.get_recent_commits()
         except Exception:
-            self.q.put(("startup_done",))
+            commits = []
+        try:
+            has_update = self.git.is_update_available()
+        except Exception:
+            has_update = False
+        self.q.put(("startup_done", has_update, commits))
 
     def _refresh_version_label(self):
-        commit = self.git.get_current_commit()
-        msg = self.git.get_latest_commit_msg()
+        commit = self.git.get_current_commit_fast()
+        msg = self.git.get_latest_commit_msg_fast()
         if commit == "—":
             self.version_var.set("尚未下載（點安裝後自動下載）")
         else:
             self.version_var.set(f"目前版本：{commit}  {msg}")
-        self._refresh_changelog()
 
-    def _refresh_changelog(self):
-        commits = self.git.get_recent_commits()
+    def _refresh_changelog(self, commits):
         self.changelog_text.configure(state="normal")
         self.changelog_text.delete("1.0", "end")
         if commits:
@@ -424,7 +479,11 @@ class App(tk.Tk):
                 msg = self.q.get_nowait()
                 kind = msg[0]
                 if kind == "startup_done":
+                    _, has_update, commits = msg
                     self._refresh_version_label()
+                    self._refresh_changelog(commits)
+                    if has_update:
+                        self.version_var.set(self.version_var.get() + "  ★ 有新版本")
                     self.status_var.set("就緒")
                     self.progress_var.set(0)
                 elif kind == "progress":
@@ -438,6 +497,7 @@ class App(tk.Tk):
                     self.config_data.last_updated = datetime.now().isoformat()
                     self.config_data.save()
                     self._refresh_version_label()
+                    self._refresh_changelog(self.git.get_recent_commits())
                     self._refresh_inst_version()
                     self.install_btn.configure(state="normal")
                     messagebox.showinfo("完成", "漢化已成功安裝！\n請重新啟動遊戲以套用。")
