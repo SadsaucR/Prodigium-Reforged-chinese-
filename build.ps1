@@ -71,7 +71,24 @@ $pyiArgs = @(
     "--exclude-module", "ftplib",
     "--exclude-module", "imaplib",
     "--exclude-module", "mailbox",
-    "--exclude-module", "smtplib"
+    "--exclude-module", "smtplib",
+    "--exclude-module", "asyncio",
+    "--exclude-module", "concurrent",
+    "--exclude-module", "multiprocessing",
+    "--exclude-module", "sqlite3",
+    "--exclude-module", "curses",
+    "--exclude-module", "turtle",
+    "--exclude-module", "lzma",
+    "--exclude-module", "csv",
+    "--exclude-module", "decimal",
+    "--exclude-module", "fractions",
+    "--exclude-module", "nntplib",
+    "--exclude-module", "poplib",
+    "--exclude-module", "telnetlib",
+    "--exclude-module", "wsgiref",
+    "--exclude-module", "xmlrpc",
+    "--exclude-module", "cgitb",
+    "--exclude-module", "cgi"
 )
 if (Test-Path "$upxDir\upx.exe") {
     Write-Host "UPX compression enabled" -ForegroundColor Yellow

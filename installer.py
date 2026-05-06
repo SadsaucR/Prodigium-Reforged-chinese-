@@ -193,13 +193,6 @@ class GitManager:
                 raise RuntimeError(result.stderr.strip() or "git clone 失敗")
 
     def get_recent_commits(self, n=8):
-        if (CACHE_DIR / ".git").exists():
-            result = self._run(
-                ["git", "log", f"-{n}", "--pretty=format:%h %s (%ad)", "--date=short"],
-                cwd=CACHE_DIR,
-            )
-            if result.returncode == 0 and result.stdout.strip():
-                return result.stdout.strip().splitlines()
         try:
             data = _api_get(f"/commits?per_page={n}&sha={BRANCH}")
             return [
@@ -207,7 +200,15 @@ class GitManager:
                 for c in data
             ]
         except Exception:
-            return []
+            pass
+        if (CACHE_DIR / ".git").exists():
+            result = self._run(
+                ["git", "log", f"-{n}", "--pretty=format:%h %s (%ad)", "--date=short"],
+                cwd=CACHE_DIR,
+            )
+            if result.returncode == 0 and result.stdout.strip():
+                return result.stdout.strip().splitlines()
+        return []
 
     def get_current_commit(self):
         if (CACHE_DIR / ".git").exists():
@@ -245,13 +246,22 @@ class GitManager:
         return ""
 
     def is_update_available(self) -> bool:
-        if not (CACHE_DIR / ".git").exists() or not self.check_git():
-            return False
-        local = self._run(["git", "rev-parse", "HEAD"], cwd=CACHE_DIR)
-        remote = self._run(["git", "ls-remote", "origin", BRANCH], cwd=CACHE_DIR)
-        if local.returncode != 0 or remote.returncode != 0 or not remote.stdout.strip():
-            return False
-        return local.stdout.strip() != remote.stdout.split()[0]
+        if self.check_git() and (CACHE_DIR / ".git").exists():
+            local = self._run(["git", "rev-parse", "HEAD"], cwd=CACHE_DIR)
+            remote = self._run(["git", "ls-remote", "origin", BRANCH], cwd=CACHE_DIR)
+            if local.returncode != 0 or remote.returncode != 0 or not remote.stdout.strip():
+                return False
+            return local.stdout.strip() != remote.stdout.split()[0]
+        else:
+            if not SHA_FILE.exists():
+                return False
+            try:
+                remote_sha = _api_get(f"/commits/{BRANCH}")["sha"]
+                cached_sha = SHA_FILE.read_text(encoding="utf-8").strip()
+                log.info("update check: remote=%s cached=%s", remote_sha[:7], cached_sha[:7])
+                return remote_sha != cached_sha
+            except Exception:
+                return False
 
     def get_latest_commit_msg(self):
         if not (CACHE_DIR / ".git").exists():
@@ -292,12 +302,17 @@ def backup_instance(instance_path: Path, progress_cb):
     progress_cb(26, "備份現有漢化檔案...")
     with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
         for d in COPY_DIRS:
-            src = instance_path / d
-            if not src.exists():
+            cache_src = CACHE_DIR / d
+            inst_src  = instance_path / d
+            if not cache_src.exists() or not inst_src.exists():
                 continue
-            for f in src.rglob("*"):
-                if f.is_file():
-                    zf.write(f, f.relative_to(instance_path))
+            for cache_file in cache_src.rglob("*"):
+                if not cache_file.is_file():
+                    continue
+                rel = cache_file.relative_to(CACHE_DIR)
+                inst_file = instance_path / rel
+                if inst_file.exists():
+                    zf.write(inst_file, rel)
     old = sorted(BACKUP_DIR.glob("backup_*.zip"), key=lambda p: p.stat().st_mtime)
     for p in old[:-3]:
         p.unlink(missing_ok=True)
