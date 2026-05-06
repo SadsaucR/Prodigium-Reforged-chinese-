@@ -3,14 +3,17 @@ Prodigium Reforged 漢化安裝器
 從 GitHub 自動抓取最新漢化並安裝到遊戲實例
 """
 import json
+import logging
 import os
 import queue
 import shutil
+import ssl
 import stat
 import subprocess
 import sys
 import threading
 import tkinter as tk
+import urllib.request
 import zipfile
 from datetime import datetime
 from pathlib import Path
@@ -20,10 +23,14 @@ REPO_OWNER = "SadsaucR"
 REPO_NAME  = "Prodigium-Reforged-chinese-"
 BRANCH     = "main"
 REPO_URL   = f"https://github.com/{REPO_OWNER}/{REPO_NAME}.git"
-APP_DIR = Path(os.environ["APPDATA"]) / "ProdigiumChinese"
-CACHE_DIR = APP_DIR / "cache"
+API_BASE   = f"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}"
+ZIP_URL    = f"https://github.com/{REPO_OWNER}/{REPO_NAME}/archive/refs/heads/{BRANCH}.zip"
+
+APP_DIR    = Path(os.environ["APPDATA"]) / "ProdigiumChinese"
+CACHE_DIR  = APP_DIR / "cache"
 BACKUP_DIR = APP_DIR / "backups"
 CONFIG_FILE = APP_DIR / "config.json"
+SHA_FILE   = APP_DIR / "cached_sha.txt"
 
 COPY_DIRS = ["config", "kubejs", "mods", "resourcepacks"]
 
@@ -35,6 +42,23 @@ SEARCH_ROOTS = [
     Path(os.environ["APPDATA"]) / "ATLauncher" / "instances",
 ]
 
+# ---------------------------------------------------------------------------
+# Logging
+# ---------------------------------------------------------------------------
+
+def _setup_logging():
+    APP_DIR.mkdir(parents=True, exist_ok=True)
+    log_file = APP_DIR / "installer.log"
+    fmt = "%(asctime)s [%(levelname)s] %(message)s"
+    handlers = [logging.StreamHandler(sys.stdout)]
+    try:
+        handlers.append(logging.FileHandler(log_file, encoding="utf-8"))
+    except Exception:
+        pass
+    logging.basicConfig(level=logging.DEBUG, format=fmt, handlers=handlers)
+
+_setup_logging()
+log = logging.getLogger(__name__)
 
 # ---------------------------------------------------------------------------
 # Config
@@ -71,6 +95,31 @@ def _force_remove(func, path, _):
     func(path)
 
 
+def _ssl_ctx():
+    try:
+        import certifi
+        return ssl.create_default_context(cafile=certifi.where())
+    except Exception:
+        ctx = ssl.create_default_context()
+        ctx.check_hostname = False
+        ctx.verify_mode = ssl.CERT_NONE
+        return ctx
+
+
+def _api_get(path: str):
+    req = urllib.request.Request(
+        API_BASE + path,
+        headers={"Accept": "application/vnd.github+json", "User-Agent": "ProdigiumInstaller/1.0"},
+    )
+    with urllib.request.urlopen(req, timeout=15, context=_ssl_ctx()) as r:
+        return json.loads(r.read().decode())
+
+
+def _urlretrieve(url: str, dest):
+    with urllib.request.urlopen(url, context=_ssl_ctx()) as r, open(dest, "wb") as f:
+        shutil.copyfileobj(r, f)
+
+
 # ---------------------------------------------------------------------------
 # Git
 # ---------------------------------------------------------------------------
@@ -89,57 +138,104 @@ class GitManager:
             encoding="utf-8", errors="replace",
         )
 
+    def _zip_clone_or_pull(self, progress_cb):
+        log.info("ZIP mode: fetching remote SHA")
+        progress_cb(5, "連線 GitHub 確認版本...")
+        remote_sha = _api_get(f"/commits/{BRANCH}")["sha"]
+        log.info("remote_sha=%s", remote_sha)
+        cached_sha = SHA_FILE.read_text(encoding="utf-8").strip() if SHA_FILE.exists() else ""
+        log.info("cached_sha=%s", cached_sha)
+        if cached_sha == remote_sha and CACHE_DIR.exists():
+            log.info("ZIP cache up to date, skip download")
+            return
+        progress_cb(10, "下載漢化資料（ZIP）...")
+        zip_path = APP_DIR / "repo.zip"
+        log.info("Downloading ZIP to %s", zip_path)
+        _urlretrieve(ZIP_URL, zip_path)
+        log.info("Download complete, extracting")
+        progress_cb(18, "解壓縮...")
+        extract_dir = APP_DIR / "_extract"
+        if CACHE_DIR.exists():
+            log.info("Removing old CACHE_DIR")
+            shutil.rmtree(CACHE_DIR, onerror=_force_remove)
+        with zipfile.ZipFile(zip_path, "r") as zf:
+            zf.extractall(extract_dir)
+        top = next(extract_dir.iterdir())
+        log.info("Renaming %s -> %s", top, CACHE_DIR)
+        top.rename(CACHE_DIR)
+        shutil.rmtree(extract_dir, onerror=_force_remove)
+        zip_path.unlink(missing_ok=True)
+        SHA_FILE.write_text(remote_sha, encoding="utf-8")
+        log.info("ZIP extraction done")
+
     def clone_or_pull(self, progress_cb):
         APP_DIR.mkdir(parents=True, exist_ok=True)
+        has_git = self.check_git()
+        log.info("check_git=%s", has_git)
+        if not has_git:
+            self._zip_clone_or_pull(progress_cb)
+            return
         if (CACHE_DIR / ".git").exists():
+            log.info("git pull")
             progress_cb(10, "拉取最新漢化...")
             result = self._run(["git", "pull"], cwd=CACHE_DIR)
+            log.info("git pull rc=%d stderr=%s", result.returncode, result.stderr.strip())
             if result.returncode != 0:
                 raise RuntimeError(result.stderr.strip() or "git pull 失敗")
         else:
             if CACHE_DIR.exists():
                 shutil.rmtree(CACHE_DIR, onerror=_force_remove)
+            log.info("git clone --depth=1")
             progress_cb(5, "首次下載漢化資料...")
             result = self._run(["git", "clone", "--depth=1", REPO_URL, str(CACHE_DIR)])
+            log.info("git clone rc=%d stderr=%s", result.returncode, result.stderr.strip())
             if result.returncode != 0:
                 raise RuntimeError(result.stderr.strip() or "git clone 失敗")
 
     def get_recent_commits(self, n=8):
-        if not (CACHE_DIR / ".git").exists():
+        if (CACHE_DIR / ".git").exists():
+            result = self._run(
+                ["git", "log", f"-{n}", "--pretty=format:%h %s (%ad)", "--date=short"],
+                cwd=CACHE_DIR,
+            )
+            if result.returncode == 0 and result.stdout.strip():
+                return result.stdout.strip().splitlines()
+        try:
+            data = _api_get(f"/commits?per_page={n}&sha={BRANCH}")
+            return [
+                f"{c['sha'][:7]} {c['commit']['message'].splitlines()[0]} ({c['commit']['committer']['date'][:10]})"
+                for c in data
+            ]
+        except Exception:
             return []
-        result = self._run(
-            ["git", "log", f"-{n}", "--pretty=format:%h %s (%ad)", "--date=short"],
-            cwd=CACHE_DIR,
-        )
-        if result.returncode != 0:
-            return []
-        return result.stdout.strip().splitlines()
 
     def get_current_commit(self):
-        if not (CACHE_DIR / ".git").exists():
-            return "—"
-        result = self._run(["git", "rev-parse", "--short", "HEAD"], cwd=CACHE_DIR)
-        return result.stdout.strip() if result.returncode == 0 else "—"
+        if (CACHE_DIR / ".git").exists():
+            result = self._run(["git", "rev-parse", "--short", "HEAD"], cwd=CACHE_DIR)
+            if result.returncode == 0:
+                return result.stdout.strip()
+        if SHA_FILE.exists():
+            return SHA_FILE.read_text(encoding="utf-8").strip()[:7]
+        return "—"
 
     def get_current_commit_fast(self) -> str:
-        """Read SHA from git files directly — no subprocess."""
-        if not (CACHE_DIR / ".git").exists():
-            return "—"
-        try:
-            ref_file = CACHE_DIR / ".git" / "refs" / "heads" / BRANCH
-            if ref_file.exists():
-                return ref_file.read_text().strip()[:7]
-            packed = CACHE_DIR / ".git" / "packed-refs"
-            if packed.exists():
-                for line in packed.read_text(errors="replace").splitlines():
-                    if not line.startswith("#") and f"refs/heads/{BRANCH}" in line:
-                        return line.split()[0][:7]
-        except Exception:
-            pass
+        if (CACHE_DIR / ".git").exists():
+            try:
+                ref_file = CACHE_DIR / ".git" / "refs" / "heads" / BRANCH
+                if ref_file.exists():
+                    return ref_file.read_text().strip()[:7]
+                packed = CACHE_DIR / ".git" / "packed-refs"
+                if packed.exists():
+                    for line in packed.read_text(errors="replace").splitlines():
+                        if not line.startswith("#") and f"refs/heads/{BRANCH}" in line:
+                            return line.split()[0][:7]
+            except Exception:
+                pass
+        if SHA_FILE.exists():
+            return SHA_FILE.read_text(encoding="utf-8").strip()[:7]
         return "—"
 
     def get_latest_commit_msg_fast(self) -> str:
-        """Read last commit message from COMMIT_EDITMSG — no subprocess."""
         try:
             editmsg = CACHE_DIR / ".git" / "COMMIT_EDITMSG"
             if editmsg.exists():
@@ -218,14 +314,11 @@ def install_worker(instance_path: str, q: queue.Queue):
 
     try:
         git = GitManager()
-        cb(0, "檢查 git...")
-        if not git.check_git():
-            q.put(("error", "找不到 git。請先安裝 Git for Windows:\nhttps://git-scm.com/download/win"))
-            return
-
+        log.info("install_worker start, instance=%s", instance_path)
         git.clone_or_pull(cb)
         current_commit = git.get_current_commit()
-        cb(20, "git 更新完成")
+        log.info("current_commit=%s", current_commit)
+        cb(20, "下載完成")
 
         inst = Path(instance_path)
         if not inst.exists():
@@ -259,6 +352,7 @@ def install_worker(instance_path: str, q: queue.Queue):
         q.put(("done",))
 
     except Exception as e:
+        log.exception("install_worker error")
         q.put(("error", str(e)))
 
 

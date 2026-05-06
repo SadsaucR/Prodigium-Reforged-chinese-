@@ -64,8 +64,6 @@ $pyiArgs = @(
     "--hidden-import", "tkinter.filedialog",
     "--hidden-import", "tkinter.messagebox",
     "--exclude-module", "unittest",
-    "--exclude-module", "email",
-    "--exclude-module", "http",
     "--exclude-module", "xml",
     "--exclude-module", "pdb",
     "--exclude-module", "doctest",
