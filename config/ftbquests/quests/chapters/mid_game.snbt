@@ -2063,7 +2063,7 @@
 		}
 		{
 			dependencies: ["78E025D30CD1E607"]
-			description: ["在&2鐵手套競技場&r中找到。"]
+			description: ["在&2鐵掌競技場&r中找到。"]
 			icon: "bosses_of_mass_destruction:blazing_eye"
 			id: "476DC0D49480853F"
 			min_required_tasks: 1
