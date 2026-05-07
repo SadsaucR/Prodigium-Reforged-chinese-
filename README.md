@@ -3,12 +3,10 @@
 Prodigium Reforged FTB Quest 及 KubeJS 的繁體中文漢化
 
 ## 使用漢化安裝器（推薦）
-
-1. 確認已安裝 [Git for Windows](https://git-scm.com/download/win) 及 [Python 3](https://www.python.org/downloads/)
-2. 下載 `漢化安裝器.py`
-3. 雙擊執行（或 `python 漢化安裝器.py`）
-4. 選擇遊戲實例路徑，點「一鍵安裝 / 更新漢化」
-5. 重新啟動遊戲
+1. 下載 `漢化安裝器.py`
+2. 雙擊執行（或 `python 漢化安裝器.py`）
+3. 選擇遊戲實例路徑，點「一鍵安裝 / 更新漢化」
+4. 重新啟動遊戲
 
 漢化器會自動從 GitHub 拉取最新版本並覆蓋安裝，每次開啟都能一鍵更新。
 
