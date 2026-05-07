@@ -129,7 +129,7 @@
 							Damage: 0
 						}
 					}
-					title: "弓箭手護甲"
+					title: "弓箭手(Archer)護甲"
 					type: "item"
 				}
 				{
@@ -144,7 +144,7 @@
 					type: "item"
 				}
 			]
-			title: "普通模式的弓箭手護甲"
+			title: "普通模式的弓箭手(Archer)護甲"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -161,7 +161,7 @@
 				xp_levels: 1
 			}]
 			size: 1.0d
-			subtitle: "&6擊敗敲鐘人後&r"
+			subtitle: "&6擊敗敲鐘人(Bellringer)後&r"
 			tasks: [{
 				id: "6CB78B448DF82681"
 				item: {
@@ -230,7 +230,7 @@
 				xp_levels: 1
 			}]
 			shape: "octagon"
-			subtitle: "&6擊敗霜凍巨獸後&r"
+			subtitle: "&6擊敗霜凍巨獸(Frostmaw)後&r"
 			tasks: [{
 				id: "556CBB5D99D95AE2"
 				item: "archers_paradox:diamond_arrow"
@@ -315,7 +315,7 @@
 				xp_levels: 1
 			}]
 			shape: "octagon"
-			subtitle: "&6擊敗敲鐘人後&r"
+			subtitle: "&6擊敗敲鐘人(Bellringer)後&r"
 			tasks: [{
 				id: "03077CE0FE10E7A3"
 				item: "archers_paradox:phantasmal_arrow"
@@ -497,7 +497,7 @@
 							Damage: 0
 						}
 					}
-					title: "秘銀護甲"
+					title: "秘銀(Mithril)護甲"
 					type: "item"
 				}
 				{
@@ -532,11 +532,11 @@
 							Damage: 0
 						}
 					}
-					title: "鳳凰遊俠護甲"
+					title: "鳳凰遊俠(Ranger)護甲"
 					type: "item"
 				}
 			]
-			title: "專家模式的弓箭手護甲"
+			title: "專家模式的弓箭手(Archer)護甲"
 			x: 4.5d
 			y: 0.0d
 		}
@@ -577,7 +577,7 @@
 				title: "蘑菇護甲"
 				type: "item"
 			}]
-			title: "大師模式的弓箭手護甲"
+			title: "大師模式的弓箭手(Archer)護甲"
 			x: 7.5d
 			y: 0.0d
 		}
@@ -593,7 +593,7 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			subtitle: "&6擊敗敲鐘人後&r"
+			subtitle: "&6擊敗敲鐘人(Bellringer)後&r"
 			tasks: [{
 				id: "7C8C2198071AD44F"
 				item: {
@@ -619,7 +619,7 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			subtitle: "&6擊敗敲鐘人後&r"
+			subtitle: "&6擊敗敲鐘人(Bellringer)後&r"
 			tasks: [{
 				id: "6CE9D2D491F40319"
 				item: {
@@ -645,7 +645,7 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			subtitle: "&6擊敗敲鐘人後&r"
+			subtitle: "&6擊敗敲鐘人(Bellringer)後&r"
 			tasks: [{
 				id: "0D4CCEA10C8F8F5F"
 				item: {
@@ -671,7 +671,7 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			subtitle: "&6擊敗霜凍巨獸後&r"
+			subtitle: "&6擊敗霜凍巨獸(Frostmaw)後&r"
 			tasks: [{
 				id: "51A39758DD373530"
 				item: {
@@ -1044,7 +1044,7 @@
 		{
 			dependencies: ["686B5BA848725480"]
 			id: "55833B75FF5E34CB"
-			subtitle: "&6擊敗霜凍巨獸後&r"
+			subtitle: "&6擊敗霜凍巨獸(Frostmaw)後&r"
 			tasks: [{
 				id: "5664CA9C051B9CAA"
 				item: {
@@ -1249,7 +1249,7 @@
 				id: "7611A2C23B1EA737"
 				observe_type: 5
 				timer: 0L
-				title: "地獄小惡魔！"
+				title: "地獄(Nether)小惡魔！"
 				to_observe: "companions:hostile_imp"
 				type: "observation"
 			}]
@@ -1511,7 +1511,7 @@
 		}
 		{
 			dependencies: ["686B5BA848725480"]
-			description: ["&6影刃&r是使用&6影刃祭壇&r和&6暗影鐘&r召喚的臨時同伴。"]
+			description: ["&6影刃(Shade Sword)&r是使用&6影刃祭壇(Shade Sword Altar)&r和&6暗影鐘(Shadow Bell)&r召喚的臨時同伴。"]
 			id: "639828FF57238E0A"
 			rewards: [{
 				auto: "invisible"
@@ -1529,7 +1529,7 @@
 		}
 		{
 			dependencies: ["686B5BA848725480"]
-			description: ["&6暗影巨獸&r是使用&6暗影巨獸祭壇&r和&6暗影鐘&r召喚的臨時同伴。"]
+			description: ["&6暗影巨獸(Shade Maw)&r是使用&6暗影巨獸祭壇(Shade Maw Altar)&r和&6暗影鐘(Shadow Bell)&r召喚的臨時同伴。"]
 			id: "50C24E7A7A52F27B"
 			rewards: [{
 				auto: "invisible"
@@ -1667,7 +1667,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "7DA6A2139D246465"
-			subtitle: "&6擊敗冥界騎士後&r"
+			subtitle: "&6擊敗冥界騎士(Underworld Knight)後&r"
 			tasks: [{
 				id: "3F90FFAC32683644"
 				item: {
@@ -1691,7 +1691,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "35D7760BABF13D2A"
-			subtitle: "&6擊敗利維坦後&r"
+			subtitle: "&6擊敗利維坦(Leviathan)後&r"
 			tasks: [{
 				id: "3DCC0B7094F8A1CF"
 				item: {
@@ -1715,7 +1715,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "4C3BE3F0BF63237D"
-			subtitle: "&6擊敗焰魔後&r"
+			subtitle: "&6擊敗焰魔(Ignis)後&r"
 			tasks: [{
 				id: "42CC134592C5BAB3"
 				item: {
@@ -1733,7 +1733,7 @@
 		{
 			dependencies: ["686B5BA848725480"]
 			id: "7981D6DC4327D855"
-			subtitle: "&6擊敗霜凍巨獸後&r"
+			subtitle: "&6擊敗霜凍巨獸(Frostmaw)後&r"
 			tasks: [{
 				id: "40609A920B376610"
 				item: {
@@ -1866,7 +1866,7 @@
 			hide_dependent_lines: true
 			hide_until_deps_complete: true
 			id: "59BD32C5B6F0FE5E"
-			subtitle: "&6擊敗虛空之花後&r"
+			subtitle: "&6擊敗虛空之花(Void Blossom)後&r"
 			tasks: [{
 				id: "244C4C3D64267AF0"
 				item: {
@@ -1882,5 +1882,5 @@
 			y: 9.0d
 		}
 	]
-	title: "弓箭手"
+	title: "弓箭手(Archer)"
 }

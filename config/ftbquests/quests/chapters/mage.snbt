@@ -214,7 +214,7 @@
 					type: "item"
 				}
 			]
-			title: "普通模式的巫師護甲"
+			title: "普通模式的巫師(Wizard)護甲"
 			x: 3.0d
 			y: 0.0d
 		}
@@ -284,7 +284,7 @@
 							Damage: 0
 						}
 					}
-					title: "終界學派護甲"
+					title: "終界(The End)學派護甲"
 					type: "item"
 				}
 				{
@@ -351,7 +351,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6擊敗敲鐘人後&r"
+			subtitle: "&6擊敗敲鐘人(Bellringer)後&r"
 			tasks: [{
 				id: "7D19A09FC562CF85"
 				item: {
@@ -435,7 +435,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6擊敗滑行魔石後&r"
+			subtitle: "&6擊敗滑行魔石(Slider)後&r"
 			tasks: [{
 				id: "26172C9B4A8570F0"
 				item: {
@@ -652,7 +652,7 @@
 					type: "item"
 				}
 			]
-			title: "專家模式的巫師護甲"
+			title: "專家模式的巫師(Wizard)護甲"
 			x: 4.5d
 			y: 0.0d
 		}
@@ -671,7 +671,7 @@
 				table_id: 7449522933339281626L
 				type: "loot"
 			}]
-			subtitle: "&6擊敗虛空之花後&r"
+			subtitle: "&6擊敗虛空之花(Void Blossom)後&r"
 			tasks: [{
 				id: "20F9183BAFABC09C"
 				item: {
@@ -707,7 +707,7 @@
 				table_id: 7449522933339281626L
 				type: "loot"
 			}]
-			subtitle: "&6擊敗焰魔後&r"
+			subtitle: "&6擊敗焰魔(Ignis)後&r"
 			tasks: [{
 				id: "7B9659FF92B22DEC"
 				item: {
@@ -798,7 +798,7 @@
 		{
 			dependencies: ["745FE062B66D6927"]
 			id: "6FBF018F1564BB57"
-			subtitle: "&6擊敗霜凍巨獸後&r"
+			subtitle: "&6擊敗霜凍巨獸(Frostmaw)後&r"
 			tasks: [{
 				id: "6C712F1768633189"
 				item: "irons_spellbooks:ice_staff"
@@ -808,5 +808,5 @@
 			y: 4.0d
 		}
 	]
-	title: "巫師"
+	title: "巫師(Wizard)"
 }

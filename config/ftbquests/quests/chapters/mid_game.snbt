@@ -469,7 +469,7 @@
 	quests: [
 		{
 			dependencies: ["64DECE60E0B6FB6D"]
-			description: ["在&2海洋神殿&r中找到。"]
+			description: ["在&2海洋神殿(Ocean Monument)&r中找到。"]
 			icon: "majruszsdifficulty:elder_guardian_treasure_bag"
 			id: "3B3B33E6A70E1CAF"
 			min_required_tasks: 1
@@ -687,7 +687,7 @@
 					entity: "minecraft:wither"
 					icon: "minecraft:wither_skeleton_skull"
 					id: "1787DFC6FDBED8FB"
-					title: "擊殺&5凋靈&r"
+					title: "擊殺&5凋靈(Wither)&r"
 					type: "kill"
 					value: 1L
 				}
@@ -826,7 +826,7 @@
 					entity: "minecraft:ender_dragon"
 					icon: "minecraft:dragon_head"
 					id: "2F5E3A53F186F4F3"
-					title: "擊殺&5終界龍&r並解鎖&9大師模式&r"
+					title: "擊殺&5終界(The End)龍&r並解鎖&9大師模式&r"
 					type: "kill"
 					value: 1L
 				}
@@ -983,7 +983,7 @@
 				entity: "minecraft:wither"
 				icon: "minecraft:wither_skeleton_skull"
 				id: "2C91F2E4CF182B42"
-				title: "擊殺&5凋靈&r 15次"
+				title: "擊殺&5凋靈(Wither)&r 15次"
 				type: "kill"
 				value: 15L
 			}]
@@ -1005,13 +1005,13 @@
 				item: "minecraft:netherite_scrap"
 				type: "item"
 			}]
-			title: "你現在已解鎖&8獄髓&r"
+			title: "你現在已解鎖&8獄髓(Netherite)&r"
 			x: 19.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["476DC0D49480853F"]
-			description: ["在地獄中找到它"]
+			description: ["在地獄(Nether)中找到它"]
 			hide_until_deps_visible: true
 			id: "099477E4F8EED634"
 			rewards: [{
@@ -1025,13 +1025,13 @@
 				item: "simpleores:onyx_gem"
 				type: "item"
 			}]
-			title: "你現在已解鎖&8黑曜石&r和&2鎢&r"
+			title: "你現在已解鎖&8黑曜石(Obsidian)&r和&2鎢(Tungsten)&r"
 			x: 3.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["4C893D987E24A8AF"]
-			description: ["在其&2靈魂鐵匠&r結構中找到"]
+			description: ["在其&2靈魂鐵匠(Soul Blacksmith)&r結構中找到"]
 			icon: {
 				Count: 1
 				id: "stalwart_dungeons:nether_hammer"
@@ -1153,7 +1153,7 @@
 						}
 					}
 					id: "49BFF0417C3C70C2"
-					title: "擊殺&5獄髓巨獸&r"
+					title: "擊殺&5獄髓巨獸(Netherite Monstrosity)&r"
 					type: "kill"
 					value: 1L
 				}
@@ -1170,7 +1170,7 @@
 		}
 		{
 			dependencies: ["14CA102BAD4F6A38"]
-			description: ["在&2燃燒競技場&r的最後一層找到。將從點燃亡靈身上掉落的&9燃燒灰燼&r使用在烈火祭壇上"]
+			description: ["在&2燃燒競技場(Burning Arena)&r的最後一層找到。將從點燃亡靈身上掉落的&9燃燒灰燼(Burning Ashes)&r使用在烈火祭壇上"]
 			icon: "cataclysm:bulwark_of_the_flame"
 			id: "3FDEF8CE2822DEFB"
 			min_required_tasks: 1
@@ -1271,7 +1271,7 @@
 					entity: "cataclysm:ignis"
 					icon: "cataclysm:bulwark_of_the_flame"
 					id: "469575AC0949000F"
-					title: "擊殺&5焰魔&r"
+					title: "擊殺&5焰魔(Ignis)&r"
 					type: "kill"
 					value: 1L
 				}
@@ -1413,7 +1413,7 @@
 					entity: "cataclysm:the_harbinger"
 					icon: "cataclysm:emp"
 					id: "1E8C22D71228D269"
-					title: "擊殺&5先驅者&r"
+					title: "擊殺&5先驅者(The Harbinger)&r"
 					type: "kill"
 					value: 1L
 				}
@@ -1532,7 +1532,7 @@
 				dimension: "aether:the_aether"
 				icon: "minecraft:glowstone"
 				id: "0DE749290636BCC1"
-				title: "進入天堂維度"
+				title: "進入天堂(Aether)維度"
 				type: "dimension"
 			}]
 			x: 8.0d
@@ -1670,7 +1670,7 @@
 						}
 					}
 					id: "6B4790D825780CDF"
-					title: "擊敗&5滑行魔石&r"
+					title: "擊敗&5滑行魔石(Slider)&r"
 					type: "kill"
 					value: 1L
 				}
@@ -1802,7 +1802,7 @@
 						}
 					}
 					id: "61BB677C2D9111EC"
-					title: "擊殺&5武神女王&r"
+					title: "擊殺&5武神女王(Valkyrie Queen)&r"
 					type: "kill"
 					value: 1L
 				}
@@ -1922,7 +1922,7 @@
 					entity: "aether:sun_spirit"
 					icon: "irons_spellbooks:fire_upgrade_orb"
 					id: "13C396BB9CF8F116"
-					title: "擊敗&5烈陽巨靈&r"
+					title: "擊敗&5烈陽巨靈(Sun Spirit)&r"
 					type: "kill"
 					value: 1L
 				}
@@ -1947,7 +1947,7 @@
 		}
 		{
 			dependencies: ["113BABA4C72BAEBD"]
-			description: ["在&2花蕾競技場&r中找到。（這個競技場在天堂中）"]
+			description: ["在&2花蕾競技場(Blossom Arena)&r中找到。（這個競技場在天堂(Aether)中）"]
 			icon: "minecraft:spore_blossom"
 			id: "6AC131C918D30C93"
 			min_required_tasks: 1
@@ -2038,7 +2038,7 @@
 					entity: "bosses_of_mass_destruction:void_blossom"
 					icon: "minecraft:spore_blossom"
 					id: "5B7ACDD77C09B465"
-					title: "擊殺&5虛空之花&r"
+					title: "擊殺&5虛空之花(Void Blossom)&r"
 					type: "kill"
 					value: 1L
 				}
@@ -2063,7 +2063,7 @@
 		}
 		{
 			dependencies: ["78E025D30CD1E607"]
-			description: ["在&2鐵掌競技場&r中找到。"]
+			description: ["在&2鐵掌競技場(Gauntlet Arena)&r中找到。"]
 			icon: "bosses_of_mass_destruction:blazing_eye"
 			id: "476DC0D49480853F"
 			min_required_tasks: 1
@@ -2189,7 +2189,7 @@
 					entity: "bosses_of_mass_destruction:gauntlet"
 					icon: "bosses_of_mass_destruction:blazing_eye"
 					id: "461CA47E0065DD97"
-					title: "擊敗&5地獄鐵掌&r"
+					title: "擊敗&5地獄鐵掌(Gauntlet)&r"
 					type: "kill"
 					value: 1L
 				}
@@ -2214,7 +2214,7 @@
 		}
 		{
 			dependencies: ["64DECE60E0B6FB6D"]
-			description: ["在&2沉沒城市&r中找到，在深淵祭壇上使用&9深淵犧牲&r來召喚此生物。"]
+			description: ["在&2沉沒城市(Sunken City)&r中找到，在深淵祭壇上使用&9深淵犧牲(Abyssal Sacrifice)&r來召喚此生物。"]
 			icon: "cataclysm:altar_of_abyss"
 			id: "2E4E6F6B59046500"
 			min_required_tasks: 1
@@ -2305,7 +2305,7 @@
 					entity: "cataclysm:the_leviathan"
 					icon: "cataclysm:altar_of_abyss"
 					id: "20108F7B32AB038C"
-					title: "擊敗&5利維坦&r"
+					title: "擊敗&5利維坦(Leviathan)&r"
 					type: "kill"
 					value: 1L
 				}
@@ -2504,7 +2504,7 @@
 					type: "item"
 				}
 			]
-			title: "終界之眼"
+			title: "終界(The End)之眼"
 			x: 26.5d
 			y: 0.0d
 		}
@@ -2624,7 +2624,7 @@
 					entity: "meetyourfight:dame_fortuna"
 					icon: "meetyourfight:devils_ante"
 					id: "44A45D7F652EA1F2"
-					title: "擊殺&5福爾圖娜女爵&r"
+					title: "擊殺&5福爾圖娜女爵(Dame Fortuna)&r"
 					type: "kill"
 					value: 1L
 				}
@@ -2733,7 +2733,7 @@
 				entity: "lost_aether_content:aerwhale_king"
 				icon: "lost_aether_content:songstone"
 				id: "7A840B459C76DDB9"
-				title: "擊敗&5雲鯨王&r"
+				title: "擊敗&5雲鯨王(Aerwhale King)&r"
 				type: "kill"
 				value: 1L
 			}]
@@ -2967,7 +2967,7 @@
 					entity: "stalwart_dungeons:nether_keeper"
 					icon: "stalwart_dungeons:keeping_castle_spawner"
 					id: "7A851329C3F650DB"
-					title: "擊殺&5地獄守衛&r"
+					title: "擊殺&5地獄守衛(Nether Keeper)&r"
 					type: "kill"
 					value: 1L
 				}
@@ -2975,7 +2975,7 @@
 					entity: "stalwart_dungeons:awful_ghast"
 					icon: "stalwart_dungeons:awful_dungeon_spawner"
 					id: "5B443EB49F15C3AB"
-					title: "擊殺&5驚駭惡魂&r"
+					title: "擊殺&5驚駭惡魂(Awful Ghast)&r"
 					type: "kill"
 					value: 1L
 				}
@@ -2994,7 +2994,7 @@
 					type: "item"
 				}
 			]
-			title: "擊殺&5地獄守衛&r和&5驚駭惡魂&r"
+			title: "擊殺&5地獄守衛(Nether Keeper)&r和&5驚駭惡魂(Awful Ghast)&r"
 			x: 2.0d
 			y: 1.875d
 		}
@@ -3014,7 +3014,7 @@
 				entity: "bosses_of_mass_destruction:lich"
 				icon: "prodigium:night_lich_treasure_bag"
 				id: "09F7ACD5E19F8A86"
-				title: "擊敗&3巫妖&r"
+				title: "擊敗&3巫妖(Lich)&r"
 				type: "kill"
 				value: 1L
 			}]
@@ -3055,7 +3055,7 @@
 		}
 		{
 			dependencies: ["476DC0D49480853F"]
-			description: ["位於&2冥界競技場&r中"]
+			description: ["位於&2冥界競技場(Underworld Arena)&r中"]
 			id: "4C893D987E24A8AF"
 			rewards: [
 				{
@@ -3169,7 +3169,7 @@
 					}
 				}
 				id: "0D557BEB0247D7FC"
-				title: "擊敗&5冥界騎士&r"
+				title: "擊敗&5冥界騎士(Underworld Knight)&r"
 				type: "kill"
 				value: 1L
 			}]

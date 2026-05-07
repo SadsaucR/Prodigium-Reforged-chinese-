@@ -613,7 +613,7 @@
 					entity: "stalwart_dungeons:incomplete_wither"
 					icon: "wstweaks:fragment"
 					id: "0C88F9AB77699C08"
-					title: "擊殺一個不完整凋靈"
+					title: "擊殺一個不完整凋靈(Wither)"
 					type: "kill"
 					value: 1L
 				}
@@ -697,7 +697,7 @@
 						}
 					}
 					id: "5EFAF1559A41B347"
-					title: "擊殺一個凋靈骷髏騎士"
+					title: "擊殺一個凋靈(Wither)骷髏騎士"
 					type: "kill"
 					value: 1L
 				}

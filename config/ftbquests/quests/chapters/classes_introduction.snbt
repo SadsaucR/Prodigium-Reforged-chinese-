@@ -127,7 +127,7 @@
 					}
 				}
 				id: "3668223101538AEE"
-				title: "你選擇了狂戰士職業！"
+				title: "你選擇了狂戰士(Berserker)職業！"
 				type: "custom"
 			}]
 			x: -6.5d
@@ -158,7 +158,7 @@
 					}
 				}
 				id: "5875FE1DE2AE640D"
-				title: "你選擇了十字軍職業！"
+				title: "你選擇了十字軍(Crusader)職業！"
 				type: "custom"
 			}]
 			x: -6.0d
@@ -189,7 +189,7 @@
 					}
 				}
 				id: "41F70500E273E37C"
-				title: "你選擇了弓箭手職業！"
+				title: "你選擇了弓箭手(Archer)職業！"
 				type: "custom"
 			}]
 			x: 2.0d
@@ -228,7 +228,7 @@
 					}
 				}
 				id: "1038F0CA80FBD1CA"
-				title: "你選擇了巫師職業！"
+				title: "你選擇了巫師(Wizard)職業！"
 				type: "custom"
 			}]
 			x: 5.0d
@@ -261,7 +261,7 @@
 			tasks: [{
 				icon: "runes:healing_stone"
 				id: "27BB11301CE03400"
-				title: "你選擇了牧師職業！"
+				title: "你選擇了牧師(Cleric)職業！"
 				type: "custom"
 			}]
 			x: 6.0d
@@ -319,7 +319,7 @@
 		}
 		{
 			dependencies: ["25D1B37A73FB9F53"]
-			description: ["適用於遠程（弓箭手與槍手）"]
+			description: ["適用於遠程（弓箭手(Archer)與槍手(Gunner)）"]
 			hide_until_deps_visible: true
 			id: "412E0ADC86F7DE20"
 			rewards: [
@@ -356,7 +356,7 @@
 		}
 		{
 			dependencies: ["25D1B37A73FB9F53"]
-			description: ["適用於近戰（十字軍與狂戰士）"]
+			description: ["適用於近戰（十字軍(Crusader)與狂戰士(Berserker)）"]
 			hide_until_deps_visible: true
 			id: "525148F80B756AD6"
 			rewards: [
@@ -420,7 +420,7 @@
 				id: "4686B4DE08B2CE31"
 				type: "custom"
 			}]
-			title: "你選擇了死靈法師職業！"
+			title: "你選擇了死靈法師(Necromancer)職業！"
 			x: 13.0d
 			y: 3.5d
 		}
@@ -449,7 +449,7 @@
 					}
 				}
 				id: "7290D4A54277F76D"
-				title: "你選擇了槍手職業！"
+				title: "你選擇了槍手(Gunner)職業！"
 				type: "custom"
 			}]
 			x: -2.0d

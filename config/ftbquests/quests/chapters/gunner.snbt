@@ -121,7 +121,7 @@
 					type: "item"
 				}
 			]
-			title: "普通模式的槍手護甲"
+			title: "普通模式的槍手(Gunner)護甲"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -174,7 +174,7 @@
 					type: "item"
 				}
 			]
-			title: "專家模式的槍手護甲"
+			title: "專家模式的槍手(Gunner)護甲"
 			x: 4.5d
 			y: 0.0d
 		}
@@ -200,7 +200,7 @@
 				}
 				type: "item"
 			}]
-			title: "大師模式的槍手護甲"
+			title: "大師模式的槍手(Gunner)護甲"
 			x: 7.5d
 			y: 0.0d
 		}
@@ -277,7 +277,7 @@
 		{
 			dependencies: ["51F86D6012A589B2"]
 			id: "3DF84C92FFA56628"
-			subtitle: "&6擊敗敲鐘人後&r"
+			subtitle: "&6擊敗敲鐘人(Bellringer)後&r"
 			tasks: [{
 				id: "6AF4A927FDDD790F"
 				item: {
@@ -312,7 +312,7 @@
 		{
 			dependencies: ["51F86D6012A589B2"]
 			id: "41898A9BD45DF796"
-			subtitle: "&6擊敗敲鐘人後&r"
+			subtitle: "&6擊敗敲鐘人(Bellringer)後&r"
 			tasks: [{
 				id: "3F4FA4011CE9B223"
 				item: {
@@ -330,7 +330,7 @@
 		{
 			dependencies: ["51F86D6012A589B2"]
 			id: "7E4D9D68F2446EE8"
-			subtitle: "&6擊敗敲鐘人後&r"
+			subtitle: "&6擊敗敲鐘人(Bellringer)後&r"
 			tasks: [{
 				id: "24831296279555EA"
 				item: {
@@ -348,7 +348,7 @@
 		{
 			dependencies: ["51F86D6012A589B2"]
 			id: "5B9A558E09EA1F3A"
-			subtitle: "&6擊敗敲鐘人後&r"
+			subtitle: "&6擊敗敲鐘人(Bellringer)後&r"
 			tasks: [{
 				id: "1918205669433AA8"
 				item: {
@@ -366,7 +366,7 @@
 		{
 			dependencies: ["51F86D6012A589B2"]
 			id: "783A3D204743F1B4"
-			subtitle: "&6擊敗敲鐘人後&r"
+			subtitle: "&6擊敗敲鐘人(Bellringer)後&r"
 			tasks: [{
 				id: "2ACF904183749F6C"
 				item: {
@@ -384,7 +384,7 @@
 		{
 			dependencies: ["51F86D6012A589B2"]
 			id: "38DEB999B0523495"
-			subtitle: "&6擊敗敲鐘人後&r"
+			subtitle: "&6擊敗敲鐘人(Bellringer)後&r"
 			tasks: [{
 				id: "1C00F2E5139062A8"
 				item: {
@@ -439,7 +439,7 @@
 			dependencies: ["51F86D6012A589B2"]
 			id: "65C2D42C0E8FFB42"
 			shape: "octagon"
-			subtitle: "&6擊敗霜凍巨獸後&r"
+			subtitle: "&6擊敗霜凍巨獸(Frostmaw)後&r"
 			tasks: [{
 				id: "05374910B3CE544A"
 				item: "sweet_charm_o_mine:dunlop_pick"
@@ -488,7 +488,7 @@
 			dependencies: ["51F86D6012A589B2"]
 			id: "59952A5250441FD9"
 			shape: "octagon"
-			subtitle: "&6擊敗敲鐘人後&r"
+			subtitle: "&6擊敗敲鐘人(Bellringer)後&r"
 			tasks: [{
 				id: "0783B35048C6041B"
 				item: "sweet_charm_o_mine:gold_pocket"
@@ -646,7 +646,7 @@
 			hide_until_deps_complete: true
 			id: "10D4CB14A52B23D9"
 			shape: "octagon"
-			subtitle: "&6擊敗焰魔後&r"
+			subtitle: "&6擊敗焰魔(Ignis)後&r"
 			tasks: [{
 				id: "5A9ACE56B27BF292"
 				item: "gwrexpansions:ignitium_bullet"
@@ -779,7 +779,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "1893BB9F8DEE050B"
-			subtitle: "&6擊敗地獄之手後&r"
+			subtitle: "&6擊敗地獄(Nether)之手後&r"
 			tasks: [{
 				id: "2E4BB7453C97A9B5"
 				item: {
@@ -803,7 +803,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "7BFE0C16D3B3CC59"
-			subtitle: "&6擊敗虛空之花後&r"
+			subtitle: "&6擊敗虛空之花(Void Blossom)後&r"
 			tasks: [{
 				id: "1D9E5759EEBCCDF0"
 				item: {
@@ -827,7 +827,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "4DA2156B8EDE1831"
-			subtitle: "&6擊敗虛空之花後&r"
+			subtitle: "&6擊敗虛空之花(Void Blossom)後&r"
 			tasks: [{
 				id: "0ED5E621F75F4B5A"
 				item: {
@@ -923,7 +923,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "3CF68B6074182FA6"
-			subtitle: "&6擊敗焰魔後&r"
+			subtitle: "&6擊敗焰魔(Ignis)後&r"
 			tasks: [{
 				id: "4B905C192FF57D63"
 				item: {
@@ -947,7 +947,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "19626ECD745C90F5"
-			subtitle: "&6擊敗利維坦後&r"
+			subtitle: "&6擊敗利維坦(Leviathan)後&r"
 			tasks: [{
 				id: "667DF59940FDED5A"
 				item: {
@@ -972,7 +972,7 @@
 			hide_until_deps_complete: true
 			id: "4E316EDD0BD483B5"
 			shape: "octagon"
-			subtitle: "&6擊敗地獄之手後&r"
+			subtitle: "&6擊敗地獄(Nether)之手後&r"
 			tasks: [{
 				id: "3A2A0D359410FB15"
 				item: "sweet_charm_o_mine:bullet_shell_charm"
@@ -1000,5 +1000,5 @@
 			y: 8.0d
 		}
 	]
-	title: "槍手"
+	title: "槍手(Gunner)"
 }

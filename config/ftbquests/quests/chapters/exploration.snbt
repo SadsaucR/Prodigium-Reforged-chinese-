@@ -238,7 +238,7 @@
 				criterion: ""
 				icon: "minecraft:nether_bricks"
 				id: "58C5DD2A2386D6FA"
-				title: "進入地獄要塞"
+				title: "進入地獄(Nether)要塞"
 				type: "advancement"
 			}]
 			x: -0.5d
@@ -259,7 +259,7 @@
 				criterion: ""
 				icon: "minecraft:nether_gold_ore"
 				id: "23B94FF0A2227367"
-				title: "進入地獄堡壘遺蹟"
+				title: "進入地獄堡壘(Nether Fortress)遺蹟"
 				type: "advancement"
 			}]
 			x: 2.0d
@@ -281,7 +281,7 @@
 				criterion: ""
 				icon: "minecraft:netherrack"
 				id: "52EA2A28657B7423"
-				title: "探索所有地獄生態域"
+				title: "探索所有地獄(Nether)生態域"
 				type: "advancement"
 			}]
 			x: 0.75d
@@ -302,7 +302,7 @@
 				criterion: ""
 				icon: "minecraft:ender_pearl"
 				id: "3C67D1882D620555"
-				title: "進入末地城市"
+				title: "進入末地城(End City)市"
 				type: "advancement"
 			}]
 			x: 9.5d
@@ -405,7 +405,7 @@
 				id: "731C2059B19D0FCD"
 				type: "biome"
 			}]
-			title: "進入終界"
+			title: "進入終界(The End)"
 			x: 8.25d
 			y: 0.0d
 		}
@@ -470,7 +470,7 @@
 				id: "6F6E363F6EB7A42A"
 				type: "advancement"
 			}]
-			title: "探索終界結構"
+			title: "探索終界(The End)結構"
 			x: 7.0d
 			y: 0.0d
 		}
@@ -558,7 +558,7 @@
 				id: "7B7B3C2FC504186E"
 				type: "dimension"
 			}]
-			title: "進入地獄"
+			title: "進入地獄(Nether)"
 			x: 0.75d
 			y: 3.0d
 		}
@@ -735,7 +735,7 @@
 				dimension: "aether:the_aether"
 				icon: "aether:aether_portal_frame"
 				id: "3334EAE72120B7B1"
-				title: "進入天堂"
+				title: "進入天堂(Aether)"
 				type: "dimension"
 			}]
 			x: 3.0d
@@ -823,7 +823,7 @@
 				item: "aether:ambrosium_shard"
 				type: "item"
 			}]
-			title: "獲得一些天堂精華碎片"
+			title: "獲得一些天堂(Aether)精華碎片"
 			x: 2.0d
 			y: -4.5d
 		}

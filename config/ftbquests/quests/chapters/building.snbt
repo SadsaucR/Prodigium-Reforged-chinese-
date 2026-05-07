@@ -547,7 +547,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["由商人販售"]
+			description: ["由商人(Merchant)販售"]
 			id: "786BD0E102119A23"
 			rewards: [{
 				auto: "no_toast"

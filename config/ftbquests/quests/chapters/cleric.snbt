@@ -193,7 +193,7 @@
 							Damage: 0
 						}
 					}
-					title: "長袍牧師護甲"
+					title: "長袍牧師(Cleric)護甲"
 					type: "item"
 				}
 				{
@@ -202,7 +202,7 @@
 					type: "item"
 				}
 			]
-			title: "普通模式的牧師護甲"
+			title: "普通模式的牧師(Cleric)護甲"
 			x: 3.0d
 			y: 0.0d
 		}
@@ -250,7 +250,7 @@
 				title: "神聖學派護甲"
 				type: "item"
 			}]
-			title: "大師模式的牧師護甲"
+			title: "大師模式的牧師(Cleric)護甲"
 			x: 6.25d
 			y: 0.0d
 		}
@@ -277,7 +277,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6擊敗敲鐘人後&r"
+			subtitle: "&6擊敗敲鐘人(Bellringer)後&r"
 			tasks: [{
 				id: "4519CAC4D0393275"
 				item: {
@@ -360,7 +360,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6擊敗焰魔後&r"
+			subtitle: "&6擊敗焰魔(Ignis)後&r"
 			tasks: [{
 				id: "4E47A7FA2CD4D761"
 				item: {
@@ -477,11 +477,11 @@
 							Damage: 0
 						}
 					}
-					title: "地獄護甲"
+					title: "地獄(Nether)護甲"
 					type: "item"
 				}
 			]
-			title: "專家模式的牧師護甲"
+			title: "專家模式的牧師(Cleric)護甲"
 			x: 4.5d
 			y: 0.0d
 		}
@@ -520,7 +520,7 @@
 			dependencies: ["525D3BC989CF49D9"]
 			id: "00B41F898D348956"
 			shape: "octagon"
-			subtitle: "&6擊敗史萊姆王後&r"
+			subtitle: "&6擊敗史萊姆王(King Slime)後&r"
 			tasks: [{
 				id: "452E62FA642BD2C2"
 				item: "prodigium_reforged:slimy_scarf"
@@ -533,7 +533,7 @@
 			dependencies: ["525D3BC989CF49D9"]
 			id: "7531112E7F914689"
 			shape: "octagon"
-			subtitle: "&6擊敗太陽鳥後&r"
+			subtitle: "&6擊敗太陽鳥(Umvuthi)後&r"
 			tasks: [{
 				id: "5D27AA3B45BAB542"
 				item: "prodigium_reforged:feather_necklace"
@@ -555,5 +555,5 @@
 			y: 4.5d
 		}
 	]
-	title: "牧師"
+	title: "牧師(Cleric)"
 }

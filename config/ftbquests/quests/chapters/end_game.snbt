@@ -37,7 +37,7 @@
 	quests: [
 		{
 			dependencies: ["4CAE385F554764AE"]
-			description: ["&2廢墟城堡&r的最終Boss（建築物的下層）"]
+			description: ["&2廢墟城堡(Ruined Citadel)&r的最終Boss（建築物的下層）"]
 			hide_until_deps_visible: false
 			icon: "majruszsdifficulty:enderium_shard"
 			id: "499AD4E69B48B516"
@@ -135,7 +135,7 @@
 					entity: "cataclysm:ender_guardian"
 					icon: "majruszsdifficulty:enderium_shard"
 					id: "04D5EB5486245C39"
-					title: "擊殺 &4終界守衛者&r"
+					title: "擊殺 &4終界守衛者(Ender Guardian)&r"
 					type: "kill"
 					value: 1L
 				}
@@ -152,7 +152,7 @@
 		}
 		{
 			dependencies: ["69211BF1D6204C54"]
-			description: ["可以在終界的 &2廢墟城堡&r 中找到"]
+			description: ["可以在終界(The End)的 &2廢墟城堡(Ruined Citadel)&r 中找到"]
 			id: "4CAE385F554764AE"
 			rewards: [
 				{
@@ -246,7 +246,7 @@
 				entity: "cataclysm:ender_golem"
 				icon: "cataclysm:void_core"
 				id: "28CFCAC0B99706F3"
-				title: "擊殺 &4終界傀儡&r"
+				title: "擊殺 &4終界傀儡(Ender Golem)&r"
 				type: "kill"
 				value: 1L
 			}]
@@ -299,7 +299,7 @@
 		}
 		{
 			dependencies: ["20DC0659957F6560"]
-			description: ["製作一條 &9沙漠項鍊&r，然後在 &2詛咒金字塔&r 中尋找遠古化石"]
+			description: ["製作一條 &9沙漠項鍊&r，然後在 &2詛咒金字塔(Cursed Pyramid)&r 中尋找遠古化石"]
 			icon: "cataclysm:necklace_of_the_desert"
 			id: "69211BF1D6204C54"
 			min_required_tasks: 1
@@ -390,7 +390,7 @@
 					entity: "cataclysm:ancient_remnant"
 					icon: "cataclysm:necklace_of_the_desert"
 					id: "59330083685E8CCA"
-					title: "擊敗 &4遠古遺魂&r"
+					title: "擊敗 &4遠古遺魂(Ancient Remnant)&r"
 					type: "kill"
 					value: 1L
 				}
@@ -509,7 +509,7 @@
 					entity: "bosses_of_mass_destruction:obsidilith"
 					icon: "artifacts:obsidian_skull"
 					id: "4EF1F3E2E1EA7513"
-					title: "擊敗 &4黑曜巨石柱&r"
+					title: "擊敗 &4黑曜巨石柱(Obsidilith)&r"
 					type: "kill"
 					value: 1L
 				}
@@ -636,7 +636,7 @@
 					entity: "meetyourfight:rosalyne"
 					icon: "meetyourfight:dusk_key"
 					id: "7731EA48F2CD6DD2"
-					title: "擊殺 &4蘿莎琳&r"
+					title: "擊殺 &4蘿莎琳(Rosalyne)&r"
 					type: "kill"
 					value: 1L
 				}

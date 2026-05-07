@@ -374,7 +374,7 @@
 					entity: "terra_entity:king_slime"
 					icon: "prodigium_reforged:slime_crown"
 					id: "1D39AC7F95C73EA9"
-					title: "擊殺&3史萊姆王&r"
+					title: "擊殺&3史萊姆王(King Slime)&r"
 					type: "kill"
 					value: 1L
 				}
@@ -390,7 +390,7 @@
 			y: 2.0d
 		}
 		{
-			description: ["使用&9不死軍團戰旗&r或擊敗 125 個亡靈生物來召喚不死軍團。"]
+			description: ["使用&9不死軍團戰旗(Undead Battle Standard)&r或擊敗 125 個亡靈生物來召喚不死軍團。"]
 			id: "78DBF35A71CFAF36"
 			optional: true
 			rewards: [
@@ -521,7 +521,7 @@
 						}
 					}
 					id: "00A12CB227DDE76F"
-					title: "擊殺&3魔術師&r"
+					title: "擊殺&3魔術師(Conjurer)&r"
 					type: "kill"
 					value: 1L
 				}
@@ -546,7 +546,7 @@
 		}
 		{
 			dependencies: ["0B31131A12E42700"]
-			description: ["發現於&2霜凍巨獸洞穴&r"]
+			description: ["發現於&2霜凍巨獸(Frostmaw)洞穴&r"]
 			icon: {
 				Count: 1
 				id: "mowziesmobs:ice_crystal"
@@ -699,7 +699,7 @@
 						}
 					}
 					id: "2F7F6325F65627FB"
-					title: "擊殺&3霜凍巨獸&r"
+					title: "擊殺&3霜凍巨獸(Frostmaw)&r"
 					type: "kill"
 					value: 1L
 				}
@@ -1227,7 +1227,7 @@
 					entity: "irons_spellbooks:dead_king"
 					icon: "minecraft:skeleton_skull"
 					id: "650290681E34BC76"
-					title: "擊敗 &3死者之王&r"
+					title: "擊敗 &3死者之王(Dead King)&r"
 					type: "kill"
 					value: 1L
 				}
@@ -1396,7 +1396,7 @@
 						}
 					}
 					id: "0B529EF55A352EF6"
-					title: "擊敗 &3太陽鳥&r"
+					title: "擊敗 &3太陽鳥(Umvuthi)&r"
 					type: "kill"
 					value: 1L
 				}
@@ -1524,7 +1524,7 @@
 					entity: "meetyourfight:bellringer"
 					icon: "meetyourfight:haunted_bell"
 					id: "3AB84AEFA28459AB"
-					title: "擊敗 &3敲鐘人&r"
+					title: "擊敗 &3敲鐘人(Bellringer)&r"
 					type: "kill"
 					value: 1L
 				}
@@ -1589,7 +1589,7 @@
 					entity: "meetyourfight:swampjaw"
 					icon: "meetyourfight:swampjaw_head"
 					id: "68529F45A5B5E184"
-					title: "擊敗 &3沼澤巨顎怪&r"
+					title: "擊敗 &3沼澤巨顎怪(Swampjaw)&r"
 					type: "kill"
 					value: 1L
 				}
@@ -1640,7 +1640,7 @@
 				entity: "mowziesmobs:ferrous_wroughtnaut"
 				icon: "mowziesmobs:wrought_helmet"
 				id: "275266D212C679D3"
-				title: "擊敗 &3鋼鐵守護者&r"
+				title: "擊敗 &3鋼鐵守護者(Ferrous Wroughtnaut)&r"
 				type: "kill"
 				value: 1L
 			}]
@@ -1750,7 +1750,7 @@
 				entity: "block_factorys_bosses:infernal_dragon"
 				icon: "block_factorys_bosses:dragon_skull"
 				id: "0E798C00DCB02783"
-				title: "擊敗 &3地獄巨龍&r"
+				title: "擊敗 &3地獄巨龍(Infernal Dragon)&r"
 				type: "kill"
 				value: 1L
 			}]
@@ -1792,7 +1792,7 @@
 				entity: "terra_entity:eater_of_worlds"
 				icon: "terra_entity:eater_of_world_spawn_egg"
 				id: "6D98D52CF46CA484"
-				title: "擊敗 &3世界吞噬者&r"
+				title: "擊敗 &3世界吞噬者(Eater of Worlds)&r"
 				type: "kill"
 				value: 1L
 			}]
@@ -1834,7 +1834,7 @@
 				entity: "terra_entity:brain_of_cthulhu"
 				icon: "terra_entity:brain_of_cthulhu_spawn_egg"
 				id: "156A51C915CCBDFC"
-				title: "擊敗 &3克蘇魯之腦&r"
+				title: "擊敗 &3克蘇魯之腦(Brain of Cthulhu)&r"
 				type: "kill"
 				value: 1L
 			}]
@@ -1887,7 +1887,7 @@
 				entity: "terra_entity:eye_of_cthulhu"
 				icon: "prodigium_reforged:suspicious_looking_eye"
 				id: "32F6F8D28EA9586B"
-				title: "擊敗 &3克蘇魯之眼&r"
+				title: "擊敗 &3克蘇魯之眼(Eye of Cthulhu)&r"
 				type: "kill"
 				value: 1L
 			}]
@@ -1932,7 +1932,7 @@
 				entity: "terra_entity:queen_bee"
 				icon: "terra_entity:queen_bee_spawn_egg"
 				id: "799EB97DED8C5E95"
-				title: "擊敗 &3蜂后&r"
+				title: "擊敗 &3蜂后(Queen Bee)&r"
 				type: "kill"
 				value: 1L
 			}]
@@ -1941,7 +1941,7 @@
 		}
 		{
 			dependencies: ["53EAB8D1FE264583"]
-			description: ["發現於 &2沙蟲巢穴 (Sandworm Nest)&r。"]
+			description: ["發現於 &2沙蟲(Sandworm)巢穴 (Sandworm Nest)&r。"]
 			id: "480F0F0E710E9095"
 			rewards: [
 				{
@@ -1995,7 +1995,7 @@
 					}
 				}
 				id: "5BBA0C345C2D9F5C"
-				title: "擊敗 &3沙蟲&r"
+				title: "擊敗 &3沙蟲(Sandworm)&r"
 				type: "kill"
 				value: 1L
 			}]

@@ -111,7 +111,7 @@
 							Damage: 0
 						}
 					}
-					title: "精鋼護甲"
+					title: "精鋼(Corinthium)護甲"
 					type: "item"
 				}
 				{
@@ -127,7 +127,7 @@
 					type: "item"
 				}
 			]
-			title: "普通模式的狂戰士護甲"
+			title: "普通模式的狂戰士(Berserker)護甲"
 			x: 0.5d
 			y: 0.0d
 		}
@@ -168,7 +168,7 @@
 							Damage: 0
 						}
 					}
-					title: "鎢鋼護甲"
+					title: "鎢(Tungsten)鋼護甲"
 					type: "item"
 				}
 				{
@@ -208,7 +208,7 @@
 					type: "item"
 				}
 			]
-			title: "專家模式的狂戰士護甲"
+			title: "專家模式的狂戰士(Berserker)護甲"
 			x: 4.25d
 			y: 0.0d
 		}
@@ -250,7 +250,7 @@
 				title: "科倫登護甲"
 				type: "item"
 			}]
-			title: "大師模式的狂戰士護甲"
+			title: "大師模式的狂戰士(Berserker)護甲"
 			x: 8.25d
 			y: 0.0d
 		}
@@ -440,7 +440,7 @@
 		{
 			dependencies: ["78DE64EE0773BEF4"]
 			id: "47F7955613205760"
-			subtitle: "&6擊敗敲鐘人後&r"
+			subtitle: "&6擊敗敲鐘人(Bellringer)後&r"
 			tasks: [{
 				id: "11A986B931AA9B14"
 				item: {
@@ -458,7 +458,7 @@
 		{
 			dependencies: ["78DE64EE0773BEF4"]
 			id: "58E2BA02D42D2095"
-			subtitle: "&6擊敗敲鐘人後&r"
+			subtitle: "&6擊敗敲鐘人(Bellringer)後&r"
 			tasks: [{
 				id: "0F88085DD3BED8D5"
 				item: {
@@ -476,7 +476,7 @@
 		{
 			dependencies: ["78DE64EE0773BEF4"]
 			id: "6AB3A45527F413D3"
-			subtitle: "&6擊敗敲鐘人後&r"
+			subtitle: "&6擊敗敲鐘人(Bellringer)後&r"
 			tasks: [{
 				id: "0F80FFC19463BE1D"
 				item: {
@@ -494,7 +494,7 @@
 		{
 			dependencies: ["78DE64EE0773BEF4"]
 			id: "6B4F65C96AA2BA90"
-			subtitle: "&6擊敗敲鐘人後&r"
+			subtitle: "&6擊敗敲鐘人(Bellringer)後&r"
 			tasks: [{
 				id: "7CF909D4EDF44CEF"
 				item: {
@@ -512,7 +512,7 @@
 		{
 			dependencies: ["78DE64EE0773BEF4"]
 			id: "128ED3CF9232A9EE"
-			subtitle: "&6擊敗敲鐘人後&r"
+			subtitle: "&6擊敗敲鐘人(Bellringer)後&r"
 			tasks: [{
 				id: "55C118FA32F2C572"
 				item: {
@@ -531,7 +531,7 @@
 			dependencies: ["78DE64EE0773BEF4"]
 			description: [""]
 			id: "028C5EA33E101CA8"
-			subtitle: "&6擊敗霜凍巨獸後&r"
+			subtitle: "&6擊敗霜凍巨獸(Frostmaw)後&r"
 			tasks: [{
 				id: "3060AFD9C974DAD1"
 				item: {
@@ -549,7 +549,7 @@
 		{
 			dependencies: ["78DE64EE0773BEF4"]
 			id: "2029A35204EF7B9D"
-			subtitle: "&6擊敗霜凍巨獸後&r"
+			subtitle: "&6擊敗霜凍巨獸(Frostmaw)後&r"
 			tasks: [{
 				id: "610B8EB48F391042"
 				item: {
@@ -567,7 +567,7 @@
 		{
 			dependencies: ["78DE64EE0773BEF4"]
 			id: "1CE967229D45D54B"
-			subtitle: "&6擊敗霜凍巨獸後&r"
+			subtitle: "&6擊敗霜凍巨獸(Frostmaw)後&r"
 			tasks: [{
 				id: "57D855498BD485A9"
 				item: {
@@ -585,7 +585,7 @@
 		{
 			dependencies: ["78DE64EE0773BEF4"]
 			id: "555DC7D96DA12C53"
-			subtitle: "&6擊敗霜凍巨獸後&r"
+			subtitle: "&6擊敗霜凍巨獸(Frostmaw)後&r"
 			tasks: [{
 				id: "6DC8A947BB472357"
 				item: {
@@ -603,7 +603,7 @@
 		{
 			dependencies: ["78DE64EE0773BEF4"]
 			id: "48BBC7D723707759"
-			subtitle: "&6擊敗霜凍巨獸後&r"
+			subtitle: "&6擊敗霜凍巨獸(Frostmaw)後&r"
 			tasks: [{
 				id: "65A39187AAA69AEA"
 				item: {
@@ -749,7 +749,7 @@
 			dependencies: ["78DE64EE0773BEF4"]
 			id: "5C65C2BA01D3CE84"
 			shape: "octagon"
-			subtitle: "&6擊敗太陽鳥後&r"
+			subtitle: "&6擊敗太陽鳥(Umvuthi)後&r"
 			tasks: [{
 				id: "25A83747CE9038DE"
 				item: "prodigium_reforged:sol_ring"
@@ -767,7 +767,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "20976EC909F6DB8C"
-			subtitle: "&6擊敗冥界騎士後&r"
+			subtitle: "&6擊敗冥界騎士(Underworld Knight)後&r"
 			tasks: [{
 				id: "6B978D51DF625B14"
 				item: {
@@ -791,7 +791,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "79EF594066875E50"
-			subtitle: "&6擊敗地獄之手後&r"
+			subtitle: "&6擊敗地獄(Nether)之手後&r"
 			tasks: [{
 				id: "713D6CCD4F2B5E95"
 				item: {
@@ -815,7 +815,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0691AF7DA1647C78"
-			subtitle: "&6擊敗地獄之手後&r"
+			subtitle: "&6擊敗地獄(Nether)之手後&r"
 			tasks: [{
 				id: "5604763A13597BE2"
 				item: {
@@ -839,7 +839,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "3E5E78163A15DC7E"
-			subtitle: "&6擊敗地獄之手後&r"
+			subtitle: "&6擊敗地獄(Nether)之手後&r"
 			tasks: [{
 				id: "409B79807A8A3C31"
 				item: {
@@ -863,7 +863,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "5A7DDA0782FA1882"
-			subtitle: "&6擊敗冥界騎士後&r"
+			subtitle: "&6擊敗冥界騎士(Underworld Knight)後&r"
 			tasks: [{
 				id: "4A2DC9101ED3E895"
 				item: {
@@ -887,7 +887,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "310B2D9B79089885"
-			subtitle: "&6擊敗冥界騎士後&r"
+			subtitle: "&6擊敗冥界騎士(Underworld Knight)後&r"
 			tasks: [{
 				id: "13538EB7BC25765B"
 				item: {
@@ -911,7 +911,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "758D5731F25C3937"
-			subtitle: "&6擊敗冥界騎士後&r"
+			subtitle: "&6擊敗冥界騎士(Underworld Knight)後&r"
 			tasks: [{
 				id: "1D82A6FAA86DB910"
 				item: {
@@ -935,7 +935,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "6C0A872B603DD416"
-			subtitle: "&6擊敗獄髓魔像後&r"
+			subtitle: "&6擊敗獄髓(Netherite)魔像後&r"
 			tasks: [{
 				id: "3BF690A7120489B6"
 				item: {
@@ -959,7 +959,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0E1B59FB76D59EF1"
-			subtitle: "&6擊敗滑行魔石後&r"
+			subtitle: "&6擊敗滑行魔石(Slider)後&r"
 			tasks: [{
 				id: "7B8F05EC16776DF0"
 				item: {
@@ -983,7 +983,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "57E0C7DFBCA4E767"
-			subtitle: "&6擊敗虛空之花後&r"
+			subtitle: "&6擊敗虛空之花(Void Blossom)後&r"
 			tasks: [{
 				id: "190457DB11D3A089"
 				item: {
@@ -1007,7 +1007,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "728B26633870CDDA"
-			subtitle: "&6擊敗利維坦後&r"
+			subtitle: "&6擊敗利維坦(Leviathan)後&r"
 			tasks: [{
 				id: "703856C7E16E92C5"
 				item: {
@@ -1055,7 +1055,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "4D3BBB3CBAF37499"
-			subtitle: "&6擊敗焰魔後&r"
+			subtitle: "&6擊敗焰魔(Ignis)後&r"
 			tasks: [{
 				id: "0D3CAB4B3C213947"
 				item: {
@@ -1079,7 +1079,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "75EDD937E66F586C"
-			subtitle: "&6擊敗焰魔後&r"
+			subtitle: "&6擊敗焰魔(Ignis)後&r"
 			tasks: [{
 				id: "1586B3133D303813"
 				item: {
@@ -1103,7 +1103,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "75EB4D5FC0838A3A"
-			subtitle: "&6擊敗焰魔後&r"
+			subtitle: "&6擊敗焰魔(Ignis)後&r"
 			tasks: [{
 				id: "7DB123213AA06141"
 				item: {
@@ -1127,7 +1127,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "496279C8210351DC"
-			subtitle: "&6擊敗焰魔後&r"
+			subtitle: "&6擊敗焰魔(Ignis)後&r"
 			tasks: [{
 				id: "4E037B7F78763F76"
 				item: "cataclysm:the_incinerator"
@@ -1145,7 +1145,7 @@
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "0CDCE666E532F26D"
-			subtitle: "&6擊敗焰魔後&r"
+			subtitle: "&6擊敗焰魔(Ignis)後&r"
 			tasks: [{
 				id: "264EFE9B16694942"
 				item: {
@@ -1304,7 +1304,7 @@
 			hide_until_deps_complete: true
 			id: "0059F5AC2D4E9D55"
 			shape: "octagon"
-			subtitle: "&6擊敗焰魔後&r"
+			subtitle: "&6擊敗焰魔(Ignis)後&r"
 			tasks: [{
 				id: "781D3042E09D77C9"
 				item: "cataclysm:blazing_grips"
@@ -1337,5 +1337,5 @@
 			y: 14.5d
 		}
 	]
-	title: "狂戰士"
+	title: "狂戰士(Berserker)"
 }

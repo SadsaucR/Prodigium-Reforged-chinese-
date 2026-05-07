@@ -170,7 +170,7 @@
 			tasks: [{
 				icon: "minecraft:barrel"
 				id: "7B2BFEEE8BC988B0"
-				title: "解鎖酒館老闆"
+				title: "解鎖酒館老闆(Tavernkeep)"
 				type: "custom"
 			}]
 			x: 1.5d
