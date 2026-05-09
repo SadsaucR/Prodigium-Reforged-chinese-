@@ -13,7 +13,7 @@ EntityEvents.hurt((event) => {
     entity.persistentData.phase4BuffGiven = true;
 
     entity.level.runCommand(
-      `tellraw @a [{"text":"I won't fail...","color":"gold"}]`
+      `tellraw @a [{"text":"我不會失敗的……","color":"gold"}]`
     );
 
     let valkPanacea = MobEffects.get(

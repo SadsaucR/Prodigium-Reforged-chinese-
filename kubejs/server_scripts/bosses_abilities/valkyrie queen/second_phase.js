@@ -13,7 +13,7 @@ EntityEvents.hurt((event) => {
     entity.persistentData.phase2BuffGiven = true;
 
     entity.level.runCommand(
-      `tellraw @a [{"text":"You dare challenge my divine might?!","color":"red","italic":true}]`
+      `tellraw @a [{"text":"你膽敢挑戰我的神力？！","color":"red","italic":true}]`
     );
 
     let valkEffect = MobEffects.get(

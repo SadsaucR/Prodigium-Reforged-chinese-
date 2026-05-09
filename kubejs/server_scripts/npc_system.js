@@ -805,10 +805,10 @@ let categoryBlocks = {
 };
 
 const MISSING_MESSAGES = {
-  doors: "Looks like it's missing a door.",
-  light: "Looks like it's missing a light source.",
-  tables: "Looks like it's missing a table.",
-  chairs: "Looks like it's missing a chair.",
+  doors: "這裡似乎少了一扇門。",
+  light: "這裡似乎少了光源。",
+  tables: "這裡似乎少了桌子。",
+  chairs: "這裡似乎少了椅子。",
 };
 
 console.info("[NPC System] categoryBlocks loaded - chairs: " + Object.keys(categoryBlocks.chairs).length + ", tables: " + Object.keys(categoryBlocks.tables).length + ", doors: " + Object.keys(categoryBlocks.doors).length + ", light: " + Object.keys(categoryBlocks.light).length);

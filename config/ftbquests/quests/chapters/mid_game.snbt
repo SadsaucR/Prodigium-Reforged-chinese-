@@ -566,7 +566,7 @@
 					entity: "minecraft:elder_guardian"
 					icon: "majruszsdifficulty:elder_guardian_treasure_bag"
 					id: "7E8040F0998CD20A"
-					title: "擊殺&5遠古守衛者&r"
+					title: "擊殺&5遠古守衛者(Elder Guardian)&r"
 					type: "kill"
 					value: 1L
 				}
@@ -713,7 +713,7 @@
 		{
 			dependencies: ["3FDEF8CE2822DEFB"]
 			description: [
-				"要找到&2要塞&r，你可以使用你所需的&e12個眼睛&r之一。"
+				"要找到&2要塞(Stronghold)&r，你可以使用你所需的&e12個眼睛&r之一。"
 				""
 				""
 				"只要你擁有12個不同的獨特眼睛，你就能打開通往&5終界&r的傳送門並與&4終界龍&r戰鬥。"
@@ -826,7 +826,7 @@
 					entity: "minecraft:ender_dragon"
 					icon: "minecraft:dragon_head"
 					id: "2F5E3A53F186F4F3"
-					title: "擊殺&5終界(The End)龍&r並解鎖&9大師模式&r"
+					title: "擊殺&5終界龍(Ender Dragon)&r並解鎖&9大師模式(Master Mode)&r"
 					type: "kill"
 					value: 1L
 				}
@@ -1025,7 +1025,7 @@
 				item: "simpleores:onyx_gem"
 				type: "item"
 			}]
-			title: "你現在已解鎖&8黑曜石(Obsidian)&r和&2鎢(Tungsten)&r"
+			title: "你現在已解鎖&8玄玉(Onyx)&r和&2鎢(Tungsten)&r"
 			x: 3.5d
 			y: 1.0d
 		}
@@ -1289,7 +1289,7 @@
 		{
 			dependencies: ["2E4E6F6B59046500"]
 			description: [
-				"在主世界深處的&2古代工廠&r中找到。"
+				"在主世界深處的&2古代工廠(Ancient Factory)&r中找到。"
 				""
 				"使用&9下界之星&r喚醒它"
 			]
@@ -1541,7 +1541,7 @@
 		{
 			dependencies: ["7C742369CC5C8B9E"]
 			description: [
-				"位於&2青銅地牢&r中。"
+				"位於&2青銅地牢(Bronze Dungeon)&r中。"
 				""
 				"&7（天堂Boss的數值尚未平衡）&r"
 			]
@@ -1696,7 +1696,7 @@
 		{
 			dependencies: ["3C652834876CF66B"]
 			description: [
-				"位於&2白銀地牢&r中。"
+				"位於&2白銀地牢(Silver Dungeon)&r中。"
 				""
 				"&7（天堂Boss的數值尚未平衡）&r"
 			]
@@ -1828,7 +1828,7 @@
 		{
 			dependencies: ["6AC131C918D30C93"]
 			description: [
-				"位於&2黃金地牢&r中。"
+				"位於&2黃金地牢(Gold Dungeon)&r中。"
 				""
 				"&7（天堂Boss的數值尚未平衡）&r"
 			]
@@ -2189,7 +2189,7 @@
 					entity: "bosses_of_mass_destruction:gauntlet"
 					icon: "bosses_of_mass_destruction:blazing_eye"
 					id: "461CA47E0065DD97"
-					title: "擊敗&5地獄鐵掌(Gauntlet)&r"
+					title: "擊敗&5地獄鐵掌(Nether Gauntlet)&r"
 					type: "kill"
 					value: 1L
 				}
@@ -2533,7 +2533,7 @@
 		}
 		{
 			dependencies: ["777E4D10DDDACAD7"]
-			description: ["使用&9魔鬼賭注&r召喚它。"]
+			description: ["使用&9魔鬼賭注(Devil's Ante)&r召喚它。"]
 			icon: "meetyourfight:devils_ante"
 			id: "113BABA4C72BAEBD"
 			min_required_tasks: 1
@@ -2642,7 +2642,7 @@
 		{
 			dependencies: ["6AC131C918D30C93"]
 			description: [
-				"在&2白金地牢&r中找到。"
+				"在&2白金地牢(Platinium Dungeon)&r中找到。"
 				""
 				"右鍵點擊音石來開始戰鬥。"
 			]
@@ -2846,7 +2846,7 @@
 				title: "完成他的挑戰"
 				type: "advancement"
 			}]
-			title: "完成&5雕塑師&r的挑戰"
+			title: "完成&5雕塑師(The Sculptor)&r的挑戰"
 			x: 16.875d
 			y: -7.5d
 		}
@@ -3014,7 +3014,7 @@
 				entity: "bosses_of_mass_destruction:lich"
 				icon: "prodigium:night_lich_treasure_bag"
 				id: "09F7ACD5E19F8A86"
-				title: "擊敗&3巫妖(Lich)&r"
+				title: "擊敗&3巫妖(Night Lich)&r"
 				type: "kill"
 				value: 1L
 			}]
@@ -3026,7 +3026,7 @@
 			description: [
 				"你可以用它移除武器上的附魔，然後將其放入書中。"
 				""
-				"&8&o（你需要透過擊敗滑行魔石來解鎖翠綠礦石）&r&r"
+				"&8&o（你需要透過擊敗滑行魔石來解鎖輝綠礦）&r&r"
 			]
 			hide_until_deps_visible: true
 			id: "2851394B90D1E773"
@@ -3185,7 +3185,7 @@
 				item: "aether_redux:veridium_ingot"
 				type: "item"
 			}]
-			title: "你已解鎖&9翠綠礦石&r"
+			title: "你已解鎖&9輝綠礦(Veridium)&r"
 			x: 5.5d
 			y: -6.0d
 		}

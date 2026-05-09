@@ -238,7 +238,7 @@
 				criterion: ""
 				icon: "minecraft:nether_bricks"
 				id: "58C5DD2A2386D6FA"
-				title: "進入地獄(Nether)要塞"
+				title: "進入地獄要塞(Nether Fortress)"
 				type: "advancement"
 			}]
 			x: -0.5d

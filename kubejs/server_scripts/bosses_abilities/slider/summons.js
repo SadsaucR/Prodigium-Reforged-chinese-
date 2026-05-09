@@ -10,7 +10,7 @@ EntityEvents.hurt((event) => {
     cooldown = true;
 
     if (event.player) {
-      event.player.tell("Minions incoming!");
+      event.player.tell("爪牙來襲！");
     }
 
     let dimension = entity.level.dimension.toString();

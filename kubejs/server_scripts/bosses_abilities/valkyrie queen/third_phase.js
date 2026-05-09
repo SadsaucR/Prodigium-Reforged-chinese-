@@ -13,7 +13,7 @@ EntityEvents.hurt((event) => {
     entity.persistentData.phase3BuffGiven = true;
 
     entity.level.runCommand(
-      `tellraw @a [{"text":"You won't survive this battle!","color":"gold"}]`
+      `tellraw @a [{"text":"你活不過這場戰鬥的！","color":"gold"}]`
     );
 
     let valkBerserking = MobEffects.get(
