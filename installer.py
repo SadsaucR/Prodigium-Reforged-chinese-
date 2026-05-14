@@ -381,6 +381,13 @@ class App(tk.Tk):
         self.title("Prodigium Reforged 漢化安裝器")
         self.resizable(False, False)
         self.configure(bg="#1e1e2e")
+        try:
+            _base = Path(getattr(sys, "_MEIPASS", Path(__file__).parent))
+            _ico = _base / "icon.ico"
+            if _ico.exists():
+                self.iconbitmap(str(_ico))
+        except Exception:
+            pass
 
         self.config_data = Config()
         self.config_data.load()

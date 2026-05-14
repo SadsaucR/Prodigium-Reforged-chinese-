@@ -53,7 +53,7 @@ Write-Host "Packaging..." -ForegroundColor Yellow
 
 $srcFile = Join-Path $ScriptDir "installer.py"
 $iconFile = Join-Path $ScriptDir "icon.ico"
-$outName  = "SadsaucEsInstaller"
+$outName  = "Installer"
 
 $pyiArgs = @(
     "-m", "PyInstaller",
@@ -99,6 +99,8 @@ if (Test-Path $iconFile) {
     Write-Host "Using icon: $iconFile" -ForegroundColor Yellow
     $pyiArgs += "--icon"
     $pyiArgs += $iconFile
+    $pyiArgs += "--add-data"
+    $pyiArgs += "${iconFile};."
 }
 $pyiArgs += $srcFile
 
@@ -108,7 +110,7 @@ if ($LASTEXITCODE -eq 0) {
     $exePath = Join-Path $ScriptDir "dist\$outName.exe"
     Write-Host ""
     Write-Host "Done! Output: $exePath" -ForegroundColor Green
-    Write-Host "Distribute: dist\SadsaucEsInstaller.exe" -ForegroundColor Cyan
+    Write-Host "Distribute: dist\$outName.exe" -ForegroundColor Cyan
 } else {
     Write-Host "Build failed." -ForegroundColor Red
 }
